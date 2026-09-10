@@ -30,7 +30,7 @@ values
   '[
     {"kriterium":"Home office","stav":"horsi","srazka":8,"poznamka":"1 den týdně"},
     {"kriterium":"Pružná doba","stav":"horsi","srazka":14,"poznamka":"v inzerátu nezmíněna"},
-    {"kriterium":"Plat","stav":"stejne","srazka":1,"poznamka":"70–82 tis."},
+    {"kriterium":"Plat","stav":"lepsi","srazka":0,"poznamka":"70–82 tis. (současný plat 55 tis.)"},
     {"kriterium":"Náplň práce","stav":"stejne","srazka":0,"poznamka":"reporting, analýza odchylek"},
     {"kriterium":"Seniorita a tým","stav":"stejne","srazka":0,"poznamka":""},
     {"kriterium":"Dojezd","stav":"stejne","srazka":0,"poznamka":"Modřany"}
@@ -62,7 +62,7 @@ values
   '[
     {"kriterium":"Home office","stav":"horsi","srazka":8,"poznamka":"1 den týdně"},
     {"kriterium":"Pružná doba","stav":"horsi","srazka":14,"poznamka":"pevná pracovní doba 8:30–17:00"},
-    {"kriterium":"Plat","stav":"horsi","srazka":2,"poznamka":"60–68 tis."},
+    {"kriterium":"Plat","stav":"lepsi","srazka":0,"poznamka":"60–68 tis. (současný plat 55 tis.)"},
     {"kriterium":"Náplň práce","stav":"horsi","srazka":10,"poznamka":"analytická role bez vedení rozpočtu"},
     {"kriterium":"Seniorita a tým","stav":"stejne","srazka":0,"poznamka":"bez vedení týmu"},
     {"kriterium":"Dojezd","stav":"stejne","srazka":0,"poznamka":"Michle"}
@@ -110,7 +110,7 @@ values
   '[
     {"kriterium":"Home office","stav":"lepsi","srazka":0,"poznamka":"3 dny týdně"},
     {"kriterium":"Pružná doba","stav":"horsi","srazka":14,"poznamka":"nezmíněna"},
-    {"kriterium":"Plat","stav":"stejne","srazka":1,"poznamka":"68–78 tis."},
+    {"kriterium":"Plat","stav":"lepsi","srazka":0,"poznamka":"68–78 tis. (současný plat 55 tis.)"},
     {"kriterium":"Náplň práce","stav":"stejne","srazka":0,"poznamka":"controlling telco divize"},
     {"kriterium":"Seniorita a tým","stav":"stejne","srazka":0,"poznamka":""},
     {"kriterium":"Dojezd","stav":"stejne","srazka":0,"poznamka":"Chodov"}
