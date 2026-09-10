@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  /* horší / stejné / lepší, a skórovací pásma (85+ a <50 sdílí barvu s lepší/horší) */
+  --color-horsi: #b3453d;
+  --color-stejne: #5b6472;
+  --color-lepsi: #3a7a5c;
+
+  --color-pasmo-vysoke: #3a7a5c;
+  --color-pasmo-dobre: #a3721c;
+  --color-pasmo-stredni: #55627e;
+  --color-pasmo-nizke: #b3453d;
+}
+
+body {
+  background-color: var(--color-white);
+  color: var(--color-gray-900);
+}
