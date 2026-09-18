@@ -3,8 +3,8 @@
 > Tento dokument je celý agent. Naplánovaná úloha si ho každý den načte a řídí se jím.
 > Veškerá inteligence je tady, prompt úlohy má pár řádků.
 >
-> **Verze 2.0 · 10. 9. 2026** · Jazyk výstupů: čeština
-> Verze 2.0 mění váhy podle Michalových vlastních odpovědí. Verze 1.0 je neplatná.
+> **Verze 2.1 · 10. 9. 2026** · Jazyk výstupů: čeština
+> Verze 2.1 mění sekci 5.2 — kariérní stránky firem už nejsou statický seznam, ale živá tabulka `public.firmy` se schvalovacím workflow. Verze 2.0 měnila váhy podle Michalových vlastních odpovědí. Verze 1.0 je neplatná.
 
 ---
 
