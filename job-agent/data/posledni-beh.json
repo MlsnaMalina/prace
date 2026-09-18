@@ -1,0 +1,350 @@
+{
+  "kdy": "2026-09-18T08:41:27.977Z",
+  "firem": 64,
+  "novych": 0,
+  "firmy": [
+    {
+      "firma": "Agentura pro podnikání a inovace",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "Air Bank a.s.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "Albatros Media a.s.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "Albert Česká republika, s.r.o.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "Allianz pojišťovna, a.s.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "Alza.cz a.s.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "ASEKOL a.s.",
+      "stav": "prvni_snapshot",
+      "pocet": 0,
+      "pribylo": 0,
+      "ats_platforma": "Alma Career",
+      "nacitani_funguje": false
+    },
+    {
+      "firma": "ČEPS, a.s.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "Česká spořitelna, a.s.",
+      "stav": "prvni_snapshot",
+      "pocet": 0,
+      "pribylo": 0,
+      "ats_platforma": "Alma Career",
+      "nacitani_funguje": false
+    },
+    {
+      "firma": "Česká správa sociálního zabezpečení",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "Československá obchodní banka, a.s.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "ČEZ, a.s.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "Coca-Cola HBC Česko a Slovensko, s.r.o.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "ČSOB Pojišťovna, a.s.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "Danone a.s.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "Deloitte Česká republika",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "Dopravní podnik hl. m. Prahy, a.s.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "ELECTROLUX, s.r.o.",
+      "stav": "prvni_snapshot",
+      "pocet": 0,
+      "pribylo": 0,
+      "ats_platforma": "Alma Career",
+      "nacitani_funguje": false
+    },
+    {
+      "firma": "Ernst & Young, s.r.o.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "Generali Česká pojišťovna a.s.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "Globus ČR, a.s.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "Hilti ČR spol. s r.o.",
+      "stav": "prvni_snapshot",
+      "pocet": 0,
+      "pribylo": 0,
+      "ats_platforma": "Alma Career",
+      "nacitani_funguje": false
+    },
+    {
+      "firma": "Honeywell, spol. s r.o.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "IBM Česká republika, spol. s r.o.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "JABLOTRON ALARMS a.s.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "Kaufland Česká republika v.o.s.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "Komerční banka, a.s.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "Kooperativa pojišťovna, a.s.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "KPMG Česká republika, s.r.o.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "Lidl Česká republika s.r.o.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "Mattoni 1873 a.s.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "Microsoft s.r.o.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "Ministerstvo práce a sociálních věcí",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "Mondelez Czech Republic s.r.o.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "MONETA Money Bank, a.s.",
+      "stav": "prvni_snapshot",
+      "pocet": 0,
+      "pribylo": 0,
+      "ats_platforma": "Alma Career",
+      "nacitani_funguje": false
+    },
+    {
+      "firma": "Národní agentura pro komunikační a informační technologie, s.p.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "Národní rozvojová banka, a.s.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "Nestlé Česko s.r.o.",
+      "stav": "nenacteno",
+      "http": 403,
+      "chyba": null,
+      "nacitani_funguje": false
+    },
+    {
+      "firma": "NN Životní pojišťovna N.V.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "O2 Czech Republic a.s.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "Oracle Czech s.r.o.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "Penny Market s.r.o.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "Plzeňský Prazdroj, a.s.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "Pražská energetika, a.s.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "Pražská plynárenská, a.s.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "PricewaterhouseCoopers Česká republika, s.r.o.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "Raiffeisenbank a.s.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "Ředitelství silnic a dálnic ČR",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "SAP ČR, spol. s r.o.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "SAZKA a.s. (Allwyn)",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "Schneider Electric CZ, s.r.o.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "Siemens, s.r.o.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "Správa železnic, státní organizace",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "Státní fond dopravní infrastruktury",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "Strojmetal Aluminium Forging a.s.",
+      "stav": "prvni_snapshot",
+      "pocet": 0,
+      "pribylo": 0,
+      "ats_platforma": null,
+      "nacitani_funguje": false
+    },
+    {
+      "firma": "T-Mobile Czech Republic a.s.",
+      "stav": "prvni_snapshot",
+      "pocet": 0,
+      "pribylo": 0,
+      "ats_platforma": "Alma Career",
+      "nacitani_funguje": false
+    },
+    {
+      "firma": "Technologická agentura ČR",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "Tesco Stores ČR a.s.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "UniCredit Bank Czech Republic and Slovakia, a.s.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "UNIQA pojišťovna, a.s.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "Velká Pecka s.r.o. (Rohlik.cz)",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "Veolia Česká republika, a.s.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "Wolters Kluwer ČR, a.s.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    },
+    {
+      "firma": "Zentiva, k.s.",
+      "stav": "chybi_url",
+      "nacitani_funguje": null
+    }
+  ]
+}
