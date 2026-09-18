@@ -1,0 +1,82 @@
+[
+  {
+    "firma": "ASEKOL a.s.",
+    "url": "https://asekol.jobs.cz/",
+    "http": 200,
+    "velikost_kb": 41,
+    "platforma": "Alma Career",
+    "nalezeno_odkazu": 0,
+    "podezreni_na_js": false,
+    "ukazka": []
+  },
+  {
+    "firma": "Česká spořitelna, a.s.",
+    "url": "https://kariera.csas.cz/",
+    "http": 200,
+    "velikost_kb": 499,
+    "platforma": "Alma Career",
+    "nalezeno_odkazu": 0,
+    "podezreni_na_js": true,
+    "ukazka": []
+  },
+  {
+    "firma": "ELECTROLUX, s.r.o.",
+    "url": "https://electrolux.jobs.cz/",
+    "http": 200,
+    "velikost_kb": 36,
+    "platforma": "Alma Career",
+    "nalezeno_odkazu": 0,
+    "podezreni_na_js": false,
+    "ukazka": []
+  },
+  {
+    "firma": "Hilti ČR spol. s r.o.",
+    "url": "https://hilti.jobs.cz/",
+    "http": 200,
+    "velikost_kb": 31,
+    "platforma": "Alma Career",
+    "nalezeno_odkazu": 0,
+    "podezreni_na_js": false,
+    "ukazka": []
+  },
+  {
+    "firma": "MONETA Money Bank, a.s.",
+    "url": "https://kariera.moneta.cz/",
+    "http": 200,
+    "velikost_kb": 170,
+    "platforma": "Alma Career",
+    "nalezeno_odkazu": 0,
+    "podezreni_na_js": true,
+    "ukazka": []
+  },
+  {
+    "firma": "Nestlé Česko s.r.o.",
+    "url": "https://www.nestle.cz/cs/kariera",
+    "http": 403,
+    "velikost_kb": 40,
+    "platforma": null,
+    "nalezeno_odkazu": 0,
+    "podezreni_na_js": false,
+    "ukazka": []
+  },
+  {
+    "firma": "Strojmetal Aluminium Forging a.s.",
+    "url": "https://www.mtxcareer.cz/spolecnost/strojmetal-aluminium-forging/",
+    "http": 200,
+    "velikost_kb": 35,
+    "platforma": null,
+    "nalezeno_odkazu": 0,
+    "podezreni_na_js": false,
+    "ukazka": []
+  },
+  {
+    "firma": "T-Mobile Czech Republic a.s.",
+    "url": "https://t-mobile.jobs.cz/",
+    "http": 200,
+    "velikost_kb": 35,
+    "platforma": "Alma Career",
+    "nalezeno_odkazu": 0,
+    "podezreni_na_js": false,
+    "ukazka": []
+  }
+]
