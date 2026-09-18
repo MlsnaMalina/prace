@@ -1,0 +1,139 @@
+{
+  "_o_souboru": "Zkompilované sekce 6, 7 a 8 briefingu do strojové podoby. Zdroj pravdy zůstává briefing-job-agent.md; tenhle soubor se z něj ručně aktualizuje při změně verze.",
+  "briefing_verze": "2.1",
+
+  "brany": {
+    "_zdroj": "sekce 6",
+    "plat_minimum": 55000,
+    "_pozn_plat": "Vyřazuje jen UVEDENÝ plat pod limitem. Neuvedený plat není důvod k vyřazení.",
+    "_pozn_pozice": "Druhá brána (není to finanční/controllingová/ekonomická pozice) je jediné rozhodnutí, které nejde spočítat. Přichází z pole je_financni_pozice.",
+    "_pozn_cesty": "Pracovní cesty s přespáním NEJSOU brána."
+  },
+
+  "start": 100,
+
+  "home_office": {
+    "_zdroj": "sekce 7",
+    "stupnice": { "0": -24, "1": -12, "2": 0, "3": 4, "4": 6 },
+    "neuvedeno": -20,
+    "_OTEVRENA_OTAZKA": "Hodnotu pro neuvedený home office briefing neuvádí. -20 je odvozeno analogií s platem (neuvedeno je o něco lepší než nejhorší uvedená varianta: -10 vs -12). Potvrdit nebo změnit."
+  },
+
+  "pruzna_doba": {
+    "_zdroj": "sekce 7",
+    "zminena": 0,
+    "nezminena": -21
+  },
+
+  "plat": {
+    "_zdroj": "sekce 7",
+    "pasma": [
+      { "od": 75000, "srazka": 0 },
+      { "od": 65000, "srazka": -6 },
+      { "od": 55000, "srazka": -12 }
+    ],
+    "neuveden": -10,
+    "ktera_hodnota": "plat_od",
+    "_OTEVRENA_OTAZKA": "Když inzerát uvádí rozpětí (např. 60-80k), briefing neříká, která hodnota rozhoduje. Nastaveno konzervativně na spodní hranici. Potvrdit."
+  },
+
+  "naplne_prace": {
+    "_zdroj": "sekce 7",
+    "jadro": 0,
+    "pribuzna": -7,
+    "vzdalena": -15,
+    "_pozn": "Jediné bodované kritérium, které vyžaduje úsudek modelu."
+  },
+
+  "seniorita": {
+    "_zdroj": "sekce 7",
+    "seniorni": 0,
+    "medior": -6,
+    "juniorni": -12,
+    "_pozn": "Nepřítomnost vedení týmu se netrestá."
+  },
+
+  "dojezd": {
+    "_zdroj": "sekce 7",
+    "zaklad_podle_casu": [
+      { "do_minut": 30, "srazka": 0 },
+      { "do_minut": 45, "srazka": -4 },
+      { "do_minut": 60, "srazka": -7 },
+      { "do_minut": null, "srazka": -10 }
+    ],
+    "koeficient_podle_dnu_v_kancelari": { "5": 1.0, "4": 0.8, "3": 0.6, "2": 0.4, "1": 0.2, "0": 0.0 },
+    "cas_ve_spicce_kdyz": "neni_pruzna_doba",
+    "neznamy_dojezd": 0,
+    "_pozn_neznamy": "Neznámý dojezd nesráží nic, jen dostane štítek. Firma se podle sídla nikdy nevyřazuje — rozhoduje adresa u konkrétní pozice.",
+    "bydliste": "Průhonice"
+  },
+
+  "kombinacni_pravidlo": {
+    "_zdroj": "sekce 7",
+    "srazka": -20,
+    "stitek": "⚠ kolona ráno i večer",
+    "podminky": {
+      "pevna_doba_pres_rani_spicku": true,
+      "dojezd_nad_minut": 30,
+      "home_office_dny_pod": 2
+    },
+    "_pozn": "Musí platit všechny tři současně. Dvě samy o sobě nespouštějí nic."
+  },
+
+  "prirazky": {
+    "_zdroj": "sekce 7",
+    "procesy_automatizace_bi": 8,
+    "firma_ze_vzorku_nebo_vzorce": 5
+  },
+
+  "srazky_navic": {
+    "_zdroj": "sekce 7",
+    "prevazne_administrativa": -10,
+    "cesty_bez_prespani": -10,
+    "cesty_s_prespanim": -15,
+    "cesty_opakovane": -15
+  },
+
+  "pasma": {
+    "_zdroj": "sekce 7",
+    "reagovat": 85,
+    "zvazit": 70,
+    "prehled_trhu": 50
+  },
+
+  "clamp": {
+    "min": 0,
+    "max": 100,
+    "_OTEVRENA_OTAZKA": "Součet přirážek může vynést inzerát nad 100 (max 119). Pásma končí na 100, takže skóre se ořezává na 100 a hrubá hodnota se ukládá zvlášť do hodnoceni.raw. Potvrdit, nebo nechat přesah viditelný."
+  },
+
+  "stitky": {
+    "_zdroj": "sekce 8",
+    "_pozn": "Štítky neovlivňují skóre. Jsou to varování pro lidské rozhodnutí.",
+    "pocitane": {
+      "plat_neuveden": "⚠ plat neuveden",
+      "dojezd_neoveren": "⚠ dojezd neověřen",
+      "cesty_neuvedeny": "⚠ pracovní cesty neuvedeny",
+      "kolona": "⚠ kolona ráno i večer",
+      "inzerat_stary": "⚠ inzerát visí déle než 60 dní",
+      "bez_vedeni_tymu": "ℹ pozice bez vedení týmu"
+    },
+    "z_textu": {
+      "ho_az_po_zapracovani": "⚠ home office až po zapracování",
+      "vypsano_agenturou": "⚠ vypsáno agenturou, ne firmou",
+      "rozpor_benefity_popis": "⚠ rozpor mezi benefity a popisem",
+      "teambuilding": "ℹ firemní akce a teambuilding v benefitech"
+    },
+    "stari_inzeratu_dny": 60
+  },
+
+  "kandidat": {
+    "_zdroj": "sekce 2 a 3 — jen to, co denní běh skutečně potřebuje",
+    "bydliste": "Průhonice",
+    "vychozi_stav": {
+      "home_office_dny": 2,
+      "dojezd_minut": 30,
+      "pracovni_cesty": "zadne"
+    }
+  }
+}

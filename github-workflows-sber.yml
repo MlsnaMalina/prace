@@ -1,0 +1,84 @@
+# Uložit jako .github/workflows/sber.yml v kořeni repozitáře.
+#
+# Denní sběr kariérních stránek. Žádné závislosti, žádná instalace, žádné tokeny.
+# Veřejný repozitář = minuty Actions zdarma, takže denní běh nic nestojí.
+
+name: Denní sběr kariérních stránek
+
+on:
+  schedule:
+    # 5:40 UTC = 7:40 v létě / 6:40 v zimě. Doběhne před denním shrnutím v 8:30.
+    - cron: '40 5 * * *'
+  workflow_dispatch:
+    inputs:
+      probe:
+        description: 'Spustit místo sběru diagnostiku kariérních stránek'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sber
+  cancel-in-progress: false
+
+jobs:
+  sber:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Testy bodovacího modelu
+        working-directory: job-agent
+        run: npm test
+
+      - name: Diagnostika kariérních stránek
+        if: ${{ inputs.probe }}
+        working-directory: job-agent
+        run: npm run probe
+
+      - name: Sběr
+        if: ${{ !inputs.probe }}
+        working-directory: job-agent
+        run: npm run sber
+
+      - name: Commit změn
+        run: |
+          git config user.name  'job-agent'
+          git config user.email 'job-agent@users.noreply.github.com'
+          git add job-agent/data
+          if git diff --staged --quiet; then
+            echo 'Beze změn — nic ke commitu.'
+          else
+            git commit -m "sber: $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Shrnutí do běhu
+        if: always()
+        working-directory: job-agent
+        run: |
+          if [ -f data/nove.json ]; then
+            POCET=$(node -e "console.log(JSON.parse(require('fs').readFileSync('data/nove.json')).pocet)")
+            echo "### Nových inzerátů: $POCET" >> $GITHUB_STEP_SUMMARY
+            node -e "
+              const d=JSON.parse(require('fs').readFileSync('data/nove.json'));
+              for (const i of d.inzeraty) console.log('- **'+i.firma+'** — '+i.nazev);
+            " >> $GITHUB_STEP_SUMMARY
+          fi
+          if [ -f data/posledni-beh.json ]; then
+            echo '### Problémy' >> $GITHUB_STEP_SUMMARY
+            node -e "
+              const d=JSON.parse(require('fs').readFileSync('data/posledni-beh.json'));
+              const p=d.firmy.filter(f=>f.stav!=='ok'&&f.stav!=='prvni_snapshot');
+              if(!p.length) console.log('Žádné.');
+              for (const f of p) console.log('- '+f.firma+': '+f.stav);
+            " >> $GITHUB_STEP_SUMMARY
+          fi
