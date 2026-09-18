@@ -1,62 +1,79 @@
-# Nabídky práce
+# job-agent — sběrná a bodovací část
 
-Webová appka, která zobrazuje pracovní nabídky nalezené automatem (běží mimo tuhle appku,
-zapisuje nové nabídky do Supabase jednou denně) a nechá Kateřinu u nich měnit stav a poznámku.
-Appka nabídky nezapisuje, nescrapuje, neimportuje — jen čte a edituje `stav`/`poznamka`.
+Všechno, co jde spočítat, se počítá tady. Model dostane jen to, co spočítat nejde.
 
-## Databáze
+## Proč to existuje
 
-**Důležité:** tabulka `nabidky` nemá vlastní Supabase projekt. Kvůli limitu 2 aktivních
-projektů zdarma žije uvnitř projektu **„Recepty"** (`mjeqymqobpijsskcyjor`), vedle jeho
-vlastních tabulek (`recipes`, `shopping_items`, …). Je to úplně izolovaná tabulka s vlastními
-právy přístupu (viz `supabase/migrations/`) — appka Recepty ji nevidí a naopak. Když se místo
-uvolní (zruší/upgraduje se jiný projekt), dá se `nabidky` kdykoli přesunout do vlastního
-projektu migrací `pg_dump`/`pg_restore` na stejné schéma.
+Denní běh agenta spotřebovával příliš mnoho tokenů. Důvod nebyl v délce briefingu,
+ale v tom, že **v agentní smyčce se s každým voláním nástroje posílá znovu celý
+dosavadní kontext**. Třicet volání znamená třicet kopií rostoucího kontextu.
 
-Přístupový model: Row Level Security zapnuté, appka čte přes veřejný (anon/publishable) klíč.
-Zapisovat smí **jen** do sloupců `stav` a `poznamka` — vynuceno na úrovni databáze (column-level
-grant + REVOKE širších práv), ne jen v kódu appky. Automat, který nabídky zapisuje, používá jiný
-(service_role) klíč, který tahle omezení obchází.
+Tenhle balík ta volání odstraňuje:
 
-## Nastavení proměnných prostředí
+| | dřív | teď |
+|---|---|---|
+| kdo stahuje kariérní stránky | agent, jedno volání na firmu | GitHub Action, zdarma |
+| kdo bodo­vá­vá | model | `src/scoring.mjs`, zdarma |
+| co agent čte | briefing + všechny stránky + všechny inzeráty | jen `data/nove.json` |
+| volání nástrojů denně | ~30 | ~3 |
+| prázdný den | plný běh | agent skončí po prvním volání |
 
-1. Zkopírujte `.env.example` jako `.env.local`.
-2. V Supabase dashboardu otevřete projekt **Recepty** → Project Settings → Data API — zkopírujte
-   URL do `SUPABASE_URL`.
-3. Tamtéž → API Keys — zkopírujte klíč označený **anon / public / publishable** (nikdy ne
-   `service_role`/`secret`) do `SUPABASE_ANON_KEY`.
+## Rozdělení území
 
-Appka tyhle proměnné čte jen na serveru (Server Components, Server Actions) — žádný klíč se
-nedostane do prohlížeče, proto nejsou s předponou `NEXT_PUBLIC_`.
+Tři zapisovatelé, žádný překryv:
 
-## Spuštění lokálně
+- **Action** píše jen do `job-agent/data/` v repozitáři. Nemá přístup k databázi, takže
+  na sloupce `stav` a `poznamka` nemůže ani omylem.
+- **Agent** píše jen do Supabase, do tabulek `nabidky` a `firmy`.
+- **Kateřina** vlastní `stav` a `poznamka`. Nikdo jiný je nezapisuje.
+
+## Co je hotové
+
+- `config.json` — sekce 6, 7 a 8 briefingu ve strojové podobě
+- `src/scoring.mjs` — brány a bodovací model, čistá funkce bez závislostí
+- `test/scoring.test.mjs` — 28 testů odvozených přímo z briefingu, včetně kombinačního pravidla
+- `src/extract.mjs` — obecné vytažení odkazů na inzeráty z HTML
+- `src/collect.mjs` — denní sběr, snapshoty, diff → `data/nove.json`
+- `src/probe.mjs` — diagnostika: co která kariérní stránka skutečně vrací
+
+## Co hotové není
+
+**Adaptéry na konkrétní ATS.** `src/extract.mjs` je záměrně hloupý — sbírá odkazy,
+které vypadají jako detail pozice. U stránek vykreslených JavaScriptem nenajde nic.
+Sekce 13 briefingu tohle vede jako otevřenou položku a bez reálných dat se to
+poctivě napsat nedá.
+
+Proto se nejdřív spustí `npm run probe`. Ten pro každou firmu řekne, jestli se
+stránka načte, kolik odkazů z ní vypadne a jestli je podezření na JavaScript.
+Teprve podle toho má smysl psát adaptéry — a jen pro platformy, kterých je v seznamu
+dost na to, aby se to vyplatilo.
+
+## Spuštění
 
 ```bash
-npm install
-npm run dev
+cd job-agent
+npm test          # 28 testů bodovacího modelu, nepotřebuje síť
+npm run probe     # diagnostika kariérních stránek
+npm run sber      # denní sběr
 ```
 
-Aplikace poběží na `http://localhost:3000`.
+Workflow: soubor `.github-workflows-sber.yml` přesunout do `.github/workflows/sber.yml`.
 
-## Nasazení na Vercel
+## Seznam firem
 
-1. Repozitář je propojený s [github.com/MlsnaMalina/prace](https://github.com/MlsnaMalina/prace).
-2. Ve Vercelu naimportujte tenhle GitHub repozitář jako nový projekt.
-3. V Project Settings → Environment Variables nastavte `SUPABASE_URL` a `SUPABASE_ANON_KEY`
-   (stejné hodnoty jako v `.env.local`).
-4. Každý push do `main` se nasadí automaticky.
+`data/firmy.json` je zatím ruční export z tabulky `public.firmy`. Až bude potřeba,
+nahradí ho čtení přes Supabase REST s **anon** klíčem a read-only politikou na
+tabulce `firmy` — anon klíč nesmí umět zapisovat, jinak padá rozdělení území výš.
 
-## Testovací data
+## Kde briefing nedává jednoznačnou odpověď
 
-`supabase/seed.sql` obsahuje 8 ukázkových nabídek pro vyzkoušení rozhraní — nejde o skutečné
-nabídky. Poznáte je podle `url` (`https://example.com/seed/...`). Smazat je jde kdykoli:
+V `config.json` jsou tři klíče `_OTEVRENA_OTAZKA`. Nejsou to chyby, jsou to místa,
+kde se muselo něco zvolit:
 
-```sql
-delete from public.nabidky where url like 'https://example.com/seed/%';
-```
-
-## Soukromí appky
-
-Appka běží na neveřejné, nikde nesdílené URL a v první verzi nemá přihlašování — `robots.ts`
-jen brání indexaci vyhledávači, **není to skutečná ochrana přístupu**. Kdokoli se znalostí URL
-by se dostal dovnitř. Autentizace se přidá v další verzi.
+1. **Neuvedený home office.** Stupnice v sekci 7 jde od 0 dnů, ale nemluví o tom, když
+   inzerát home office nezmíní vůbec. Zvoleno −20 analogií s platem (neuvedeno je
+   o něco lepší než nejhorší uvedená varianta).
+2. **Platové rozpětí.** Když inzerát uvádí 60–80k, briefing neříká, která hranice
+   rozhoduje. Zvolena spodní.
+3. **Skóre nad 100.** Přirážky mohou vynést inzerát až na 119, ale pásma končí na 100.
+   Skóre se ořezává na 100, hrubá hodnota zůstává v `hodnoceni.raw`.

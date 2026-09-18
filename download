@@ -1,0 +1,5 @@
+# Syrové HTML z diagnostiky. Slouží k dopsání adaptérů, do repozitáře nepatří —
+# je to několik MB a mění se při každém běhu.
+data/probe/
+
+node_modules/
