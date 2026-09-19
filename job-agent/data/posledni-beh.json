@@ -1,5 +1,5 @@
 {
-  "kdy": "2026-09-18T08:41:27.977Z",
+  "kdy": "2026-09-19T09:42:59.466Z",
   "firem": 64,
   "novych": 0,
   "firmy": [
@@ -35,7 +35,7 @@
     },
     {
       "firma": "ASEKOL a.s.",
-      "stav": "prvni_snapshot",
+      "stav": "ok",
       "pocet": 0,
       "pribylo": 0,
       "ats_platforma": "Alma Career",
@@ -48,7 +48,7 @@
     },
     {
       "firma": "Česká spořitelna, a.s.",
-      "stav": "prvni_snapshot",
+      "stav": "ok",
       "pocet": 0,
       "pribylo": 0,
       "ats_platforma": "Alma Career",
@@ -96,7 +96,7 @@
     },
     {
       "firma": "ELECTROLUX, s.r.o.",
-      "stav": "prvni_snapshot",
+      "stav": "ok",
       "pocet": 0,
       "pribylo": 0,
       "ats_platforma": "Alma Career",
@@ -119,7 +119,7 @@
     },
     {
       "firma": "Hilti ČR spol. s r.o.",
-      "stav": "prvni_snapshot",
+      "stav": "ok",
       "pocet": 0,
       "pribylo": 0,
       "ats_platforma": "Alma Career",
@@ -187,7 +187,7 @@
     },
     {
       "firma": "MONETA Money Bank, a.s.",
-      "stav": "prvni_snapshot",
+      "stav": "ok",
       "pocet": 0,
       "pribylo": 0,
       "ats_platforma": "Alma Career",
@@ -292,7 +292,7 @@
     },
     {
       "firma": "Strojmetal Aluminium Forging a.s.",
-      "stav": "prvni_snapshot",
+      "stav": "ok",
       "pocet": 0,
       "pribylo": 0,
       "ats_platforma": null,
@@ -300,7 +300,7 @@
     },
     {
       "firma": "T-Mobile Czech Republic a.s.",
-      "stav": "prvni_snapshot",
+      "stav": "ok",
       "pocet": 0,
       "pribylo": 0,
       "ats_platforma": "Alma Career",
