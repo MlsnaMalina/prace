@@ -35,6 +35,31 @@ Tři zapisovatelé, žádný překryv:
 - `src/extract.mjs` — obecné vytažení odkazů na inzeráty z HTML
 - `src/collect.mjs` — denní sběr, snapshoty, diff → `data/nove.json`
 - `src/probe.mjs` — diagnostika: co která kariérní stránka skutečně vrací
+- `src/parse-alert.mjs` — rozparsování e-mailových alertů z jobs.cz/prace.cz na jednotlivé
+  nabídky (titul, firma, lokalita, plat), 11 testů proti skutečným e-mailům
+
+## Alerty: co je zdarma a co ne
+
+Probe na kariérní stránky (viz níž) ukázal, že u firem, které mají mikrostránku
+na `*.jobs.cz` (ASEKOL, Electrolux, Hilti, T-Mobile), scrapování kariérní stránky
+nepřidává nic navíc — je to bílá etiketa nad stejnou databází jako jobs.cz samotný.
+Skutečná hodnota kariérních stránek je jen u firem s vlastním ATS mimo portály.
+
+Proto se druhé kolo soustředilo na e-mailový kanál (sekce 5.1), který funguje
+spolehlivě, ale posílá hodně objemu — a tady je jasná hranice, co jde zlevnit a co ne:
+
+**Jde zlevnit zdarma:** rozparsování digest e-mailu na jednotlivé nabídky
+(`parse-alert.mjs`), gate 1 (plat) a hrubé third gate 2 podle klíčových slov v titulu.
+Nic z toho nepotřebuje model.
+
+**Nejde zlevnit:** e-mail obsahuje jen sledovací odkaz (`track.jobs.cz/...`), ne
+skutečnou URL nabídky. Automatizované rozlouskání tohoto odkazu (curl) vrací
+HTTP 403 — je to ochrana proti botům. Sekce 5.3 briefingu zakazuje ochrany portálů
+obcházet, takže dál se nešlo. Důsledek: skutečnou URL (nutnou pro dedup podle
+sekce 9.1 a pro číst plné znění inzerátu kvůli sekci 10.2) lze dohledat jen přes
+`WebSearch` + `WebFetch` na title+firma — to je krok, který stojí tokeny, a proto
+se dělá **jen pro nabídky, které už prošly oběma branami**, nikdy pro celý denní
+objem. Tak se to dělalo ručně u ASEKOLu (první zapsaný řádek v `nabidky`).
 
 ## Co hotové není
 
