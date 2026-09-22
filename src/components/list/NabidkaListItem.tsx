@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Badge, SkoreBadge } from "../ui/Badge";
+import { QuickStavActions } from "./QuickStavActions";
 import { STAV_LABELS } from "@/lib/types";
 import { dnesVPraze, dnyMezi, formatDatum } from "@/lib/format";
 import type { Nabidka } from "@/lib/types";
@@ -27,11 +28,8 @@ export function NabidkaListItem({ nabidka }: { nabidka: Radek }) {
     dnyMezi(nabidka.nalezeno_dne, dnesVPraze()) >= DNI_BEZ_REAKCE_PRAH;
 
   return (
-    <li>
-      <Link
-        href={`/nabidky/${nabidka.id}`}
-        className="block border border-gray-200 px-4 py-3 hover:border-gray-400"
-      >
+    <li className="border border-gray-200 px-4 py-3 hover:border-gray-400">
+      <Link href={`/nabidky/${nabidka.id}`} className="block">
         <div className="flex items-start justify-between gap-3">
           <div className="flex min-w-0 items-start gap-3">
             <SkoreBadge skore={nabidka.skore} />
@@ -65,6 +63,9 @@ export function NabidkaListItem({ nabidka }: { nabidka: Radek }) {
           ))}
         </div>
       </Link>
+      <div className="mt-2 flex items-center border-t border-gray-100 pt-2">
+        <QuickStavActions id={nabidka.id} />
+      </div>
     </li>
   );
 }

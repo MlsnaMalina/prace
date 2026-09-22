@@ -59,6 +59,18 @@ Průběžný zápisník rozhodnutí, ať budoucí session nezačínají od nuly.
   položky v seznamu (`components/list/NabidkaListItem.tsx`). Datum „dnes" se počítá podle
   pražského kalendářního dne (`lib/format.ts` `dnesVPraze`), ne podle časové zóny serveru.
 
+- **Rychlé akce „Zamítnout"/„Archivovat" přímo v seznamu** (22. 9. 2026) — appka nikdy nemazala
+  a mazat nebude (nemá na to DB práva, viz výš); místo mazání jde nabídku v jednom kliku poslat
+  do stavu, který výchozí filtr skrývá. `components/list/QuickStavActions.tsx`, volá stejnou
+  `updateStav` akci jako detail, po uložení `router.refresh()`. Vědomě jen tyhle dva stavy (ne
+  celé menu) — přesně ty dva, co dělají seznam nepřehledným.
+- **PWA manifest + ikona** (22. 9. 2026) — `app/manifest.ts` + `app/icon.tsx` (favicon, 32×32) +
+  `app/icon-512/route.tsx` (ikona pro manifest, 512×512, přes `ImageResponse` z `next/og`).
+  Ikona: `#1f2937` pozadí, bílé „N". Umožňuje na Androidu „Přidat na plochu" s vlastním
+  názvem/ikonou místo obecné záložky. Cesta `/icon-512` je vlastní Route Handler (ne speciální
+  `icon.*` konvence) — potřebovala jsem stabilní URL, kterou můžu ručně odkázat z manifestu,
+  zatímco `icon.tsx`/`icon` konvence generuje URL s hashem, který nejde dopředu znát.
+
 ## Nasazení
 
 - Git identita nastavena globálně (`zlatenkak@gmail.com`) na tomhle počítači — dřív nebyla
