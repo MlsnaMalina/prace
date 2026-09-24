@@ -1,0 +1,25 @@
+{
+  "firma": "Technologická agentura ČR",
+  "karierni_url": "https://tacr.gov.cz/kariera/",
+  "ats_platforma": "Recruitis",
+  "porizeno": "2026-09-24T20:16:18.780Z",
+  "pocet": 4,
+  "inzeraty": [
+    {
+      "url": "https://tacr.gov.cz/kariera/analytik-analyticka-procesu-hodnoceni-verejnych-soutezi/",
+      "nazev": "Analytik / Analytička procesů hodnocení veřejných soutěží plný úvazek"
+    },
+    {
+      "url": "https://tacr.gov.cz/kariera/interni-auditor-auditorka/",
+      "nazev": "Interní auditor / auditorka poloviční úvazek"
+    },
+    {
+      "url": "https://tacr.gov.cz/kariera/posila-do-ict-tymu-ta-cr/",
+      "nazev": "Posila do ICT týmu TA ČR více úvazků"
+    },
+    {
+      "url": "https://tacr.gov.cz/kariera/projektovy-manazer-sista/",
+      "nazev": "Projektový manažer / Projektová manažerka SISTA plný úvazek"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "firma": "Elektroline a.s.",
+  "karierni_url": "https://www.elektroline.cz/career.php",
+  "ats_platforma": "vlastní",
+  "porizeno": "2026-09-24T20:14:03.713Z",
+  "pocet": 5,
+  "inzeraty": [
+    {
+      "url": "https://www.elektroline.cz/career_category.php?id=1",
+      "nazev": "Pro manuálně zručné Pro ty, kteří se nebojí vyhrnout si rukávy a rádi za sebou vidí kus práce 6"
+    },
+    {
+      "url": "https://www.elektroline.cz/career_category.php?id=2",
+      "nazev": "Studenti a absolventi Pro studující SŠ/VŠ a pro všechny ještě s mokrým diplomem 9"
+    },
+    {
+      "url": "https://www.elektroline.cz/career_category.php?id=3",
+      "nazev": "Výzkum, vývoj a IT Pro zapálené fandy SW, HW i IT 4"
+    },
+    {
+      "url": "https://www.elektroline.cz/career_category.php?id=4",
+      "nazev": "Administrativa Pro ty, kteří se nebojí PC a tabulek 3"
+    },
+    {
+      "url": "https://www.elektroline.cz/career_category.php?id=5",
+      "nazev": "Technické pozice Pro ty, kteří chtějí tvořit technické inovace zítřka 10"
+    }
+  ]
+}

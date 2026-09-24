@@ -1,0 +1,29 @@
+{
+  "firma": "Kooperativa pojišťovna, a.s.",
+  "karierni_url": "https://kooperativa.jobs.cz/",
+  "ats_platforma": "Alma Career",
+  "porizeno": "2026-09-24T20:14:31.931Z",
+  "pocet": 5,
+  "inzeraty": [
+    {
+      "url": "https://www.koop.cz/pojistovna-kooperativa/kariera/kariera-v-obchodni-siti",
+      "nazev": "Kariéra v obchodní síti"
+    },
+    {
+      "url": "https://www.koop.cz/pojistovna-kooperativa/kariera/my-a-nase-hodnoty",
+      "nazev": "My a naše hodnoty"
+    },
+    {
+      "url": "https://www.koop.cz/pojistovna-kooperativa/kariera/prace-v-it",
+      "nazev": "Práce v IT"
+    },
+    {
+      "url": "https://www.koop.cz/pojistovna-kooperativa/kariera/stante-se-klientskym-poradcem",
+      "nazev": "Staňte se klientským poradcem"
+    },
+    {
+      "url": "https://www.koop.cz/pojistovna-kooperativa/kariera/studenti-a-absolventi",
+      "nazev": "Studenti a absolventi"
+    }
+  ]
+}

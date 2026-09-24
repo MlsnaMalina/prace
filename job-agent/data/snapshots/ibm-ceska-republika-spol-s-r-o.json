@@ -1,0 +1,21 @@
+{
+  "firma": "IBM Česká republika, spol. s r.o.",
+  "karierni_url": "https://www.ibm.com/careers/search",
+  "ats_platforma": "neznámo",
+  "porizeno": "2026-09-24T20:14:18.700Z",
+  "pocet": 3,
+  "inzeraty": [
+    {
+      "url": "https://careers.ibm.com/en_US/careers/JobAlerts?source=WEB_Search_NA",
+      "nazev": "Turn on Job Alerts"
+    },
+    {
+      "url": "https://www.ibm.com/careers/locations",
+      "nazev": "Explore our Locations"
+    },
+    {
+      "url": "https://www.ibm.com/careers/search",
+      "nazev": "Search jobs"
+    }
+  ]
+}

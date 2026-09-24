@@ -1,0 +1,37 @@
+{
+  "firma": "Deloitte Česká republika",
+  "karierni_url": "https://apply.deloittece.com/cs_CZ/careers/SearchJobs",
+  "ats_platforma": "Avature",
+  "porizeno": "2026-09-24T20:13:56.410Z",
+  "pocet": 7,
+  "inzeraty": [
+    {
+      "url": "https://apply.deloittece.com/cs_CZ/careers/SearchJobs",
+      "nazev": "Přejít na obsah"
+    },
+    {
+      "url": "https://apply.deloittece.com/en_US/careers/SearchJobs",
+      "nazev": "English - US"
+    },
+    {
+      "url": "https://apply.deloittece.com/hu_HU/careers/SearchJobs",
+      "nazev": "Magyar"
+    },
+    {
+      "url": "https://apply.deloittece.com/pl_PL/careers/SearchJobs",
+      "nazev": "Polski"
+    },
+    {
+      "url": "https://apply.deloittece.com/sk_SK/careers/SearchJobs",
+      "nazev": "Slovenčina, Slovenský Jazyk"
+    },
+    {
+      "url": "https://www2.deloitte.com/ce/en/careers/privacy-notice.html",
+      "nazev": "Ochrana osobních údajů"
+    },
+    {
+      "url": "https://www2.deloitte.com/ce/en/careers/terms-of-use.html",
+      "nazev": "Pravidla používání"
+    }
+  ]
+}

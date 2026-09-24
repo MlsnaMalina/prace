@@ -1,0 +1,21 @@
+{
+  "firma": "JABLOTRON ALARMS a.s.",
+  "karierni_url": "https://jablotron.jobs.cz/",
+  "ats_platforma": "Alma Career",
+  "porizeno": "2026-09-24T20:14:24.084Z",
+  "pocet": 3,
+  "inzeraty": [
+    {
+      "url": "https://www.jablotron.com/kariera/kde-muzete-pracovat",
+      "nazev": "Kde můžete pracovat"
+    },
+    {
+      "url": "https://www.jablotron.com/kariera/o-nas",
+      "nazev": "O nás"
+    },
+    {
+      "url": "https://www.jablotron.com/kariera/pro-studenty",
+      "nazev": "Pro studenty"
+    }
+  ]
+}
