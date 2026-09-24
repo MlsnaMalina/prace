@@ -6,16 +6,19 @@ import { FilterPanel } from "@/components/filters/FilterPanel";
 import { SortToggle } from "@/components/list/SortToggle";
 import { ResultCount } from "@/components/list/ResultCount";
 import { NabidkaListItem } from "@/components/list/NabidkaListItem";
+import { HledejPraci } from "@/components/list/HledejPraci";
+import { posledniBeh } from "@/lib/actions/hledani";
 
 export default async function Page({ searchParams }: PageProps<"/">) {
   const resolvedSearchParams = await searchParams;
   const filters = parseFilters(resolvedSearchParams);
   const supabase = createSupabaseClient();
 
-  const [filteredResult, totalResult, tagsResult] = await Promise.all([
+  const [filteredResult, totalResult, tagsResult, beh] = await Promise.all([
     nabidkyQuery(supabase, filters),
     supabase.from("nabidky").select("*", { count: "exact", head: true }),
     supabase.from("nabidky").select("stitky"),
+    posledniBeh(),
   ]);
 
   if (filteredResult.error) {
@@ -43,6 +46,8 @@ export default async function Page({ searchParams }: PageProps<"/">) {
           Přehled
         </Link>
       </div>
+
+      <HledejPraci beh={beh} />
 
       <FilterPanel
         filters={filters}

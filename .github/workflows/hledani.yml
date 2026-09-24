@@ -1,0 +1,98 @@
+# Hledání práce. Nahrazuje původní sber.yml.
+#
+# Dva režimy:
+#   plny — spouští tlačítko HLEDEJ PRÁCI v appce (přes workflow_dispatch z
+#          Vercelu). Posbírá, vyhodnotí a zapíše do databáze. Jediný režim,
+#          který volá model, a tedy jediný, který stojí peníze.
+#   sber — běží každé ráno sám. Jen posbírá, co je nového, a uloží do fronty.
+#          Nevolá model, nezapisuje nabídky. Je tu proto, aby neutekl inzerát,
+#          který vyjde a stáhnou ho dřív, než uživatelka stiskne tlačítko.
+#
+# Nic z toho nespotřebovává tokeny z předplatného Clauda.
+
+name: Hledání práce
+
+on:
+  workflow_dispatch:
+    inputs:
+      rezim:
+        description: 'plny = posbírat a vyhodnotit | sber = jen posbírat do fronty'
+        type: choice
+        options: [plny, sber]
+        default: plny
+  schedule:
+    # 5:40 UTC = 7:40 v létě, 6:40 v zimě.
+    - cron: '40 5 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hledani
+  cancel-in-progress: false
+
+jobs:
+  hledani:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    env:
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: job-agent/package-lock.json
+
+      - name: Instalace
+        working-directory: job-agent
+        run: npm ci
+
+      - name: Testy
+        working-directory: job-agent
+        run: npm test
+
+      # Polovina inzerátů na jobs.cz sedí na firemních mikrostránkách, které
+      # obsah vykreslují JavaScriptem. Bez prohlížeče by se z nich text nedal
+      # přečíst a nabídka by dostala skóre jen z toho mála, co je ve výpisu.
+      - name: Prohlížeč pro vykreslení stránek
+        run: |
+          if command -v google-chrome >/dev/null 2>&1; then
+            echo "CHROME_PATH=$(command -v google-chrome)" >> $GITHUB_ENV
+            google-chrome --version
+          elif command -v chromium-browser >/dev/null 2>&1; then
+            echo "CHROME_PATH=$(command -v chromium-browser)" >> $GITHUB_ENV
+            chromium-browser --version
+          else
+            sudo apt-get update -qq && sudo apt-get install -y -qq chromium-browser
+            echo "CHROME_PATH=$(command -v chromium-browser)" >> $GITHUB_ENV
+          fi
+
+      - name: Hledání
+        working-directory: job-agent
+        run: |
+          if [ "${{ inputs.rezim || 'sber' }}" = "sber" ]; then
+            npm run sber
+          else
+            npm run hledej
+          fi
+
+      - name: Uložit frontu a snapshoty
+        if: always()
+        run: |
+          git config user.name  'job-agent'
+          git config user.email 'job-agent@users.noreply.github.com'
+          git add job-agent/data
+          if git diff --staged --quiet; then
+            echo 'Beze změn — nic ke commitu.'
+          else
+            git commit -m "hledani: $(date -u +%Y-%m-%d)"
+            git pull --rebase=false --no-edit origin main || true
+            git push
+          fi

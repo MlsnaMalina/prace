@@ -29,6 +29,57 @@ export type Database = {
         }
         Relationships: []
       }
+      behy: {
+        Row: {
+          chyba: string | null
+          dokonceno: string | null
+          github_run_id: string | null
+          id: string
+          k_reakci: number
+          nalezeno: number
+          novych: number
+          poznamka: string | null
+          spusteno: string
+          stav: string
+          vyhodnoceno: number
+          zapsano: number
+          zdroj: string
+          zbyva: number
+        }
+        Insert: {
+          chyba?: string | null
+          dokonceno?: string | null
+          github_run_id?: string | null
+          id?: string
+          k_reakci?: number
+          nalezeno?: number
+          novych?: number
+          poznamka?: string | null
+          spusteno?: string
+          stav?: string
+          vyhodnoceno?: number
+          zapsano?: number
+          zdroj: string
+          zbyva?: number
+        }
+        Update: {
+          chyba?: string | null
+          dokonceno?: string | null
+          github_run_id?: string | null
+          id?: string
+          k_reakci?: number
+          nalezeno?: number
+          novych?: number
+          poznamka?: string | null
+          spusteno?: string
+          stav?: string
+          vyhodnoceno?: number
+          zapsano?: number
+          zdroj?: string
+          zbyva?: number
+        }
+        Relationships: []
+      }
       cook_events: {
         Row: {
           cooked_on: string

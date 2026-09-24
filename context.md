@@ -77,3 +77,57 @@ Průběžný zápisník rozhodnutí, ať budoucí session nezačínají od nuly.
   nastavená vůbec (ani jméno, ani e-mail).
 - GitHub repozitář [github.com/MlsnaMalina/prace](https://github.com/MlsnaMalina/prace) založila
   uživatelka ručně (nemá nainstalované `gh` CLI).
+
+## Hledání na tlačítko místo denního automatu (24. 9. 2026)
+
+- **Denní automatický běh agenta zrušen, nahradilo ho tlačítko „HLEDEJ PRÁCI"** nahoře v seznamu
+  (`components/list/HledejPraci.tsx`). Appka sama nic nestahuje ani nezapisuje — server action
+  `lib/actions/hledani.ts` jen přes GitHub API nastartuje workflow `.github/workflows/hledani.yml`.
+  Důvod je dvojí: funkce na Vercelu má limit řádově desítek sekund (slušné projití 80 firem trvá
+  minuty) a appka zásadně nepracuje se `service_role` klíčem, který je k zápisu nabídek potřeba.
+- **Tokeny z předplatného Clauda se nespotřebovávají vůbec.** Model se volá jedním dotazem na
+  jeden inzerát přes Anthropic API (`claude-haiku-4-5`, klíč v GitHub Secrets), ne agentní
+  smyčkou. Drahé na staré verzi nebyl briefing, ale to, že se ve smyčce s každým voláním nástroje
+  posílal znovu celý rostoucí kontext.
+- **E-mailové alerty se přestaly číst.** Alert obsahuje jen sledovací odkaz `track.jobs.cz`,
+  který na stažení vrací 403, takže skutečnou URL bylo nutné dohledávat modelem — to byl ten
+  drahý krok. Výpis `jobs.cz/prace/<lokalita>/?q[]=<slovo>` vrací tytéž nabídky jako obyčejné
+  HTML včetně skutečné a stabilní URL `jobs.cz/rpd/<id>/`. `robots.txt` jobs.cz tuhle cestu
+  nezakazuje (zakazuje `/api/`, `/iapi/`, `/muj/`), takže se nic neobchází. Alerty ať chodí dál
+  jako lidská pojistka — nabídka, která přijde e-mailem a v appce není, znamená chybějící
+  klíčové slovo v `job-agent/zdroje.json`.
+- **Nová tabulka `public.behy`** — záznam o jednom běhu (kdy, odkud, kolik nalezeno / nových /
+  zapsáno / k reakci / zbývá ve frontě). Stejný bezpečnostní model jako `nabidky`: `REVOKE` +
+  `GRANT SELECT` pro `anon`/`authenticated`, zápis jen přes `service_role`. Appka z ní čte, aby
+  uměla ukázat „Hledám…" a výsledek.
+- **Nová hodnota `zdroj = 'portal'`** v `nabidky` (= výpis jobs.cz). Staré hodnoty zůstaly
+  povolené kvůli už zapsaným řádkům. V appce přibyly i chybějící popisky `rucni_hledani` a
+  `opakovane` (u `pracovni_cesty`) — DB je povolovala, appka pro ně neměla text.
+- **Opraven tvar sloupce `hodnoceni`.** Appka přes zod validuje šest položek
+  `{kriterium, stav, srazka, poznamka}`, ale dosavadní automat tam zapisoval vlastní tvar
+  (`{polozky:[{nazev, body}]}`), takže detail nabídky rozpad hodnocení **nikdy nezobrazil** a u
+  všech 50 řádků spadl na náhradní text. Nový zápis tvar dodržuje
+  (`job-agent/src/hodnoceni-app.mjs`). Přirážky a srážky navíc se přičítají ke kritériu, kam
+  věcně patří (procesy/BI, administrativa a „firma ze vzorku" k Náplni práce; kombinační
+  pravidlo a pracovní cesty k Dojezdu), aby součet šesti řádků dával skóre. **Starých 50 řádků
+  se to netýká — ty se rozpadu nedočkají, dokud se nepřepočítají.**
+- **Fronta `job-agent/data/fronta.json`** — co se nestihlo vyhodnotit, zůstává ve frontě na
+  příště. Jeden běh zpracuje nejvýš 100 inzerátů (`zdroje.json`), aby překlep v klíčovém slově
+  neprotočil kredit. Denní `sber` frontu jen plní, nevyhodnocuje.
+- **Rate limit tlačítka**: minimálně 10 min mezi běhy, max 12 běhů za 24 h, běh starší 45 min se
+  přestane tvářit jako běžící. Appka běží na veřejné adrese bez přihlášení, takže tohle je
+  jediná pojistka proti protočení kreditu klikáním.
+- **Headless Chrome pro JS stránky.** Půlka inzerátů sedí na firemních mikrostránkách
+  (`siemens.jobs.cz` a spol.), které obsah vykreslují JavaScriptem — obyčejný fetch z nich vrátí
+  jen patičku. `stahni.mjs` proto při podezřele krátkém textu nechá stránku vykreslit Chromem
+  (`--headless --dump-dom`); runner ho má předinstalovaný, takže to nepřidalo žádnou npm
+  závislost. Doloženo: Siemens měl kvůli tomu v databázi skóre 40 s poznámkou „NENAČTENO",
+  po vykreslení vychází 87 (inzerát nabízí 3 dny home officu).
+- **Opravena chyba v `job-agent/package.json`**, kterou `DO_NOT_CHANGE.md` vedlo jako vědomě
+  neopravenou: `"test": "node --test 'test/*.test.mjs'"` spouštěl 0 testů. Opraveno na
+  `node --test`. Bez toho by krok „Testy" ve workflow byl jen naoko.
+- **`data/firmy.json` se přestalo používat.** Rozešlo se s databází (64 firem a 8 kariérních URL
+  proti 80 a 79), takže denní sběr reálně kontroloval osminu toho, co měl. Seznam firem se teď
+  čte z tabulky `firmy`.
+- **Dojezd se nepočítá** a zůstává u štítku „⚠ dojezd neověřen". Spočítat by ho šlo jen přes
+  placené mapové API; briefing ho v sekci 4 uvádí jako nejméně důležité z šesti kritérií.

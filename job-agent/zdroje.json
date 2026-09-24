@@ -1,0 +1,31 @@
+{
+  "_o_souboru": "Kde se hledá. Odděleno od config.json schválně — config.json drží váhy bodovacího modelu, které se nemění bez domluvy, kdežto klíčová slova a lokality jsou provozní nastavení a doplňují se podle toho, co se ukáže.",
+
+  "jobscz": {
+    "_zdroj": "sekce 5.1 briefingu — tytéž parametry, jaké mají nastavené e-mailové alerty",
+    "lokality": ["praha", "stredocesky-kraj"],
+    "klicova_slova": ["controlling", "controller", "finanční analytik", "ekonom", "finanční manažer"],
+    "max_stranek": 5,
+    "_pozn_max_stranek": "30 nabídek na stránku. Pět stránek na kombinaci bohatě pokryje i nejširší klíčové slovo (nejvíc mělo 'controlling' se 108 výsledky)."
+  },
+
+  "titulni_filtr": {
+    "_pozn": "Používá se JEN na kariérní stránky firem, kde se sbírají všechny pozice včetně skladníků a řidičů. Výsledky z jobs.cz tímhle neprochází — ty už jsou vyfiltrované klíčovým slovem v dotazu. Filtr je schválně široký: radši inzerát navíc než chybějící.",
+    "klicova_slova": [
+      "controll", "kontroling", "finanč", "financ", "ekonom", "účetn", "ucetn",
+      "rozpoč", "rozpoc", "reporting", "analytik", "analyst", "treasury",
+      "finance", "cfo", "audit", "dotac", "fakturac", "mzdov"
+    ]
+  },
+
+  "cesty": {
+    "_pozn": "Slušnost k cizím serverům. Pauza mezi dvěma dotazy na stejný server.",
+    "pauza_ms": 1500,
+    "pauza_detail_ms": 1200
+  },
+
+  "limity": {
+    "_pozn": "Strop na jeden běh. Chrání před tím, aby překlep v klíčovém slově prohnal modelem stovky inzerátů.",
+    "max_posudku_na_beh": 100
+  }
+}

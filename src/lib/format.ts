@@ -48,3 +48,21 @@ export function formatPruznaDoba(hodnota: boolean | null): string {
   if (hodnota === null) return "neuvedeno";
   return hodnota ? "ano" : "ne";
 }
+
+// Časová značka z databáze (timestamptz) v pražském čase. Používá se u běhů
+// hledání, kde je potřeba vidět i hodinu, ne jen den.
+export function formatCasVPraze(iso: string): string {
+  const d = new Date(iso);
+  const den = new Intl.DateTimeFormat("cs-CZ", {
+    timeZone: "Europe/Prague",
+    day: "numeric",
+    month: "numeric",
+    year: "numeric",
+  }).format(d);
+  const cas = new Intl.DateTimeFormat("cs-CZ", {
+    timeZone: "Europe/Prague",
+    hour: "2-digit",
+    minute: "2-digit",
+  }).format(d);
+  return `${den} v ${cas}`;
+}

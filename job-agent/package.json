@@ -1,13 +1,17 @@
 {
   "name": "job-agent",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "type": "module",
   "description": "Sběr a bodování pracovních nabídek. Vše, co jde spočítat, se počítá tady zadarmo — model dostane jen to, co spočítat nejde.",
   "scripts": {
-    "sber": "node src/collect.mjs",
+    "hledej": "node src/hledej.mjs",
+    "sber": "node src/hledej.mjs --sber",
     "probe": "node src/probe.mjs",
-    "test": "node --test 'test/*.test.mjs'"
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.128.0"
   },
   "engines": { "node": ">=20" }
 }

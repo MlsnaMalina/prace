@@ -30,13 +30,22 @@ export const STAV_NABIDKY = [
 ] as const;
 export type StavNabidky = (typeof STAV_NABIDKY)[number];
 
-export const ZDROJ = ["alert", "karierni_stranka"] as const;
+// "portal" = výpis nabídek na jobs.cz. Nahradil kanál "alert" (e-mailové alerty),
+// ze kterého nešlo získat skutečnou URL nabídky bez modelu — hodnota ale zůstává,
+// protože řádky zapsané do 24. 9. 2026 ji mají.
+export const ZDROJ = [
+  "portal",
+  "karierni_stranka",
+  "alert",
+  "rucni_hledani",
+] as const;
 export type Zdroj = (typeof ZDROJ)[number];
 
 export const PRACOVNI_CESTY = [
   "zadne",
   "bez_prespani",
   "s_prespanim",
+  "opakovane",
   "neuvedeno",
 ] as const;
 export type PracovniCesty = (typeof PRACOVNI_CESTY)[number];
@@ -59,13 +68,21 @@ export const PRACOVNI_CESTY_LABELS: Record<PracovniCesty, string> = {
   zadne: "žádné",
   bez_prespani: "bez přespání",
   s_prespanim: "s přespáním",
+  opakovane: "opakované",
   neuvedeno: "neuvedeno",
 };
 
 export const ZDROJ_LABELS: Record<Zdroj, string> = {
-  alert: "e-mailový alert",
+  portal: "jobs.cz",
   karierni_stranka: "kariérní stránka",
+  alert: "e-mailový alert",
+  rucni_hledani: "ruční hledání",
 };
+
+export const BEH_STAV = ["bezi", "hotovo", "chyba"] as const;
+export type BehStav = (typeof BEH_STAV)[number];
+
+export type Beh = Omit<Tables<"behy">, "stav"> & { stav: BehStav };
 
 // Řádek z DB s hodnoceni/stav/pracovni_cesty/zdroj zúženými z obecných DB typů
 // na přesné výčty appky (ověřuje se přes zod při čtení, viz validation.ts).
