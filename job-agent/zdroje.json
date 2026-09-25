@@ -26,6 +26,8 @@
 
   "limity": {
     "_pozn": "Strop na jeden běh. Chrání před tím, aby překlep v klíčovém slově prohnal modelem stovky inzerátů.",
-    "max_posudku_na_beh": 100
+    "max_posudku_na_beh": 100,
+    "max_pokusu_stazeni": 3,
+    "_pozn_pokusu": "Doloženo na ostrém běhu 24. 9. 2026: některé firemní mikrostránky vrací z GitHub Actions HTTP 403, ze stejného kódu odjinud HTTP 200 — vypadá to na blokování datacentrových IP adres. Pár pokusů napříč různými běhy (jiný běh = jiná IP) dá šanci, že to jednou projde; po vyčerpání se stránka zapíše jako nedostupná (sekce 10.3), ať nezůstává navěky ve frontě."
   }
 }

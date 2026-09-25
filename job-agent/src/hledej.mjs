@@ -36,6 +36,11 @@ import * as db from './supabase.mjs';
 const KOREN = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const VYCHOZI_DATA = path.join(KOREN, 'data');
 
+// Kolikrát se zkusí stáhnout/posoudit nabídka, než se vzdá a zapíše jako
+// nedostupná (viz vyhodnotChybuStazeni níž). Různé běhy dostanou od GitHub
+// Actions jinou IP adresu, takže i domnělé trvalé selhání stojí za pár pokusů.
+const MAX_POKUSU_STAZENI = 3;
+
 const nactiJson = async (p, vychozi) => (existsSync(p) ? JSON.parse(await readFile(p, 'utf8')) : vychozi);
 const ulozJson = (p, data) => writeFile(p, JSON.stringify(data, null, 2) + '\n');
 const slug = (s) => bezDiakritiky(s).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 60);
@@ -252,8 +257,18 @@ export async function vyhodnotJednu(polozka, cfg, { klient, znameFirmy = new Set
   };
 }
 
+/** Šest nebodovaných položek se stejnou poznámkou — základ obou „prázdných" řádků níž. */
+function prazdneHodnoceni(poznamka) {
+  return KRITERIA_HODNOCENI.map((kriterium) => ({ kriterium, stav: 'stejne', srazka: 0, poznamka }));
+}
+
+const KRITERIA_HODNOCENI = ['Home office', 'Pružná doba', 'Plat', 'Náplň práce', 'Seniorita a tým', 'Dojezd'];
+
 /** Vyřazený inzerát se zapisuje se zdůvodněním, nemizí beze stopy (sekce 6). */
 function radekVyrazeny(polozka, duvod, pole = {}, citace = null) {
+  const hodnoceni = prazdneHodnoceni('Nebodováno — inzerát vyřazen branou.');
+  hodnoceni[2].poznamka = hodnoceni[3].poznamka = `Vyřazeno: ${duvod}`; // Plat, Náplň práce
+
   return {
     url: polozka.url,
     nalezeno_dne: dnesISO(),
@@ -263,14 +278,7 @@ function radekVyrazeny(polozka, duvod, pole = {}, citace = null) {
     lokalita: polozka.lokalita ?? null,
     adresa: pole.adresa ?? null,
     skore: 0,
-    hodnoceni: [
-      { kriterium: 'Home office', stav: 'stejne', srazka: 0, poznamka: 'Nebodováno — inzerát vyřazen branou.' },
-      { kriterium: 'Pružná doba', stav: 'stejne', srazka: 0, poznamka: 'Nebodováno — inzerát vyřazen branou.' },
-      { kriterium: 'Plat', stav: 'stejne', srazka: 0, poznamka: `Vyřazeno: ${duvod}` },
-      { kriterium: 'Náplň práce', stav: 'stejne', srazka: 0, poznamka: `Vyřazeno: ${duvod}` },
-      { kriterium: 'Seniorita a tým', stav: 'stejne', srazka: 0, poznamka: 'Nebodováno — inzerát vyřazen branou.' },
-      { kriterium: 'Dojezd', stav: 'stejne', srazka: 0, poznamka: 'Nebodováno — inzerát vyřazen branou.' },
-    ],
+    hodnoceni,
     stitky: ['⚠ vyřazeno branou'],
     plat_od: pole.plat_od ?? null,
     plat_do: pole.plat_do ?? null,
@@ -280,6 +288,55 @@ function radekVyrazeny(polozka, duvod, pole = {}, citace = null) {
     pracovni_cesty: pole.pracovni_cesty ?? 'neuvedeno',
     inzerat_uryvek: citace ? slozUryvek({ ...citace, 'DŮVOD VYŘAZENÍ': [duvod] }).slice(0, 4000) : `DŮVOD VYŘAZENÍ: ${duvod}`,
   };
+}
+
+/**
+ * Trvale nedostupná stránka se zapisuje jako nedostupná, nemizí beze stopy
+ * (sekce 10.3: „Nedostupná stránka se zapíše jako nedostupná. Obsah se
+ * nedohaduje.") — bez tohohle by inzerát jen navěky ležel ve frontě a při
+ * každém běhu znovu selhal, aniž by ho Kateřina kdy uviděla.
+ */
+export function radekNedostupny(polozka, chyba, pokusu) {
+  return {
+    url: polozka.url,
+    nalezeno_dne: dnesISO(),
+    zdroj: polozka.zdroj === 'portal' ? 'portal' : polozka.zdroj,
+    pozice: polozka.pozice,
+    firma: polozka.firma,
+    lokalita: polozka.lokalita ?? null,
+    adresa: null,
+    skore: 0,
+    hodnoceni: prazdneHodnoceni(`Nebodováno — stránku se nepodařilo načíst po ${pokusu} pokusech.`),
+    stitky: ['⚠ nenačteno'],
+    plat_od: null,
+    plat_do: null,
+    plat_uveden: false,
+    home_office_dny: null,
+    pruzna_doba: null,
+    pracovni_cesty: 'neuvedeno',
+    inzerat_uryvek: `NENAČTENO po ${pokusu} pokusech: ${chyba}`,
+  };
+}
+
+/**
+ * Co s inzerátem, který se nepodařilo stáhnout nebo posoudit. Čistá funkce
+ * (žádná síť), ať se rozhodovací pravidlo dá otestovat bez závislosti na tom,
+ * jestli zrovna nějaký server vrací 403.
+ *
+ * Časté selhání je u konkrétních domén trvalé, ne přechodné — potvrzeno na
+ * ostrém běhu 24. 9. 2026: firemní mikrostránky (např. *.jobs.cz některých
+ * firem) vrací z GitHub Actions HTTP 403, ale ze stejného kódu spuštěného
+ * odjinud HTTP 200. Vypadá to na blokování datacentrových IP adres, ne na
+ * ochranu konkrétně proti automatu — obcházet se to nebude (sekce 5.3), ale
+ * ani se to nesmí donekonečna vracet do fronty. Pár pokusů (různé běhy mají
+ * jinou IP adresu) dá blokované stránce šanci, pak se zapíše jako nedostupná.
+ */
+export function vyhodnotChybuStazeni(polozka, chyba, maxPokusu = MAX_POKUSU_STAZENI) {
+  const pokusu = (polozka.pokusu ?? 0) + 1;
+  if (pokusu >= maxPokusu) {
+    return { vzdano: true, radek: radekNedostupny(polozka, chyba, pokusu) };
+  }
+  return { vzdano: false, polozka: { ...polozka, pokusu, posledni_chyba: chyba } };
 }
 
 // ---------------------------------------------------------------- celý běh
@@ -360,9 +417,15 @@ export async function hledej({
       await pauza(zdroje.cesty.pauza_detail_ms);
 
       if (v.chyba) {
-        // Nepovedlo se — zůstává ve frontě na příště. Radši znovu než ztratit.
-        neuspesne.push({ ...polozka, posledni_chyba: v.chyba });
         problemy.push({ kde: polozka.url, chyba: v.chyba });
+        const rozhodnuti = vyhodnotChybuStazeni(polozka, v.chyba, zdroje.limity.max_pokusu_stazeni);
+        if (rozhodnuti.vzdano) {
+          // Vyčerpáno — zapsat jako nedostupné, ať to nezůstane napořád ve frontě.
+          radky.push(rozhodnuti.radek);
+        } else {
+          // Ještě má smysl to zkusit znovu (jiný běh, jiná IP adresa).
+          neuspesne.push(rozhodnuti.polozka);
+        }
         continue;
       }
 
