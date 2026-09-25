@@ -131,3 +131,26 @@ Průběžný zápisník rozhodnutí, ať budoucí session nezačínají od nuly.
   čte z tabulky `firmy`.
 - **Dojezd se nepočítá** a zůstává u štítku „⚠ dojezd neověřen". Spočítat by ho šlo jen přes
   placené mapové API; briefing ho v sekci 4 uvádí jako nejméně důležité z šesti kritérií.
+
+## Ověření prvního ostrého běhu a oprava (24.–25. 9. 2026)
+
+- **Tlačítko ověřeno end-to-end na produkci**: klik → server action → GitHub workflow → zápis do
+  `behy` a `nabidky`. Testy (105/105) prošly, appka správně ukazovala „Hledám…" a pak výsledek.
+- **Zjištěno za běhu**: 34 ze 100 zpracovaných inzerátů selhalo s HTTP 403 — firemní mikrostránky
+  (`valeo.jobs.cz`, `skoda-auto.jobs.cz` aj.) vrací z GitHub Actions 403, ze stejné adresy
+  spuštěné odjinud (ověřeno ručně) 200. Vypadá to na blokování datacentrových IP adres, ne na
+  cílenou ochranu proti tomuhle automatu — nezkoušelo se to obcházet.
+- **Oprava**: dosavadní kód bral takové selhání jako přechodné a vracel položku do fronty
+  navěky — reálně by se nikdy nezapsala a nikdo by o ní nevěděl. Teď se počítají pokusy
+  (`polozka.pokusu`, `zdroje.json` → `limity.max_pokusu_stazeni`, výchozí 3) a po vyčerpání se
+  stránka zapíše do `nabidky` se skóre 0 a štítkem „⚠ nenačteno" (sekce 10.3 briefingu:
+  nedostupná stránka se zapíše jako nedostupná, nemizí). `job-agent/src/hledej.mjs`
+  (`vyhodnotChybuStazeni`, `radekNedostupny`), 8 nových testů.
+- **Výsledky prvního běhu**: nalezeno 769, ve frontě k vyhodnocení 735, zpracováno 100
+  (limit na běh), zapsáno 66 nových nabídek, z toho 5 v pásmu „reagovat" (85+ bodů). Cena podle
+  `usage` v `behy.poznamka`: 321 798 vstupních + 25 885 výstupních tokenů na Haiku 4.5 ≈ 0,45 USD
+  za tenhle běh (mnohem méně, než původní odhad počítal — model se volal jen u 58 inzerátů,
+  zbytek vyřadily zdarma brány). Ve frontě zbývá 669 položek, spotřebují se dalšími stisky
+  tlačítka (100 na běh).
+- **Ověřen i opravený tvar `hodnoceni`**: všech 66 nově zapsaných řádků má správný rozpad na
+  6 kritérií (dřív žádný z 50 starých řádků neměl).
