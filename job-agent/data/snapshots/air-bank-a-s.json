@@ -2,7 +2,7 @@
   "firma": "Air Bank a.s.",
   "karierni_url": "https://kariera.airbank.cz/",
   "ats_platforma": "vlastní",
-  "porizeno": "2026-09-24T20:13:12.707Z",
+  "porizeno": "2026-09-25T07:07:48.068Z",
   "pocet": 20,
   "inzeraty": [
     {
@@ -46,10 +46,6 @@
       "nazev": "HLAVNÍ MĚSTO PRAHA JIHOMORAVSKÝ KRAJ IT a vývoj Java vývojář/ka Hybrid Plný úvazek 90 až 110 000 Kč"
     },
     {
-      "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/manazer-ka-pobocky-v-kladne",
-      "nazev": "STŘEDOČESKÝ KRAJ Pobočky Manažer/ka pobočky v Kladně Na pobočce Plný úvazek 67 až 77 000 Kč"
-    },
-    {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/produktovy-manazer-ka-ucty-a-platby",
       "nazev": "HLAVNÍ MĚSTO PRAHA Produktový management Produktový manažer/ka - účty a platby Hybrid Plný úvazek"
     },
@@ -76,6 +72,10 @@
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/specialista-automatizace-ai-procesy",
       "nazev": "JIHOMORAVSKÝ KRAJ Analýza a data Specialista/ka automatizace (AI & procesy) Hybrid Plný úvazek 45 až 55 000 Kč Roční bonus 10 %"
+    },
+    {
+      "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/specialista-ka-automatizovaneho-testovani",
+      "nazev": "HLAVNÍ MĚSTO PRAHA JIHOMORAVSKÝ KRAJ IT a vývoj Specialista/ka automatizovaného testování Hybrid Plný úvazek"
     },
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/specialista-tka-klientskeho-centra",

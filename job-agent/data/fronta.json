@@ -1,45 +1,5 @@
 [
   {
-    "id": "2001427704",
-    "url": "https://www.jobs.cz/rpd/2001427704/",
-    "pozice": "Finance Trainee Program: Controlling & Treasury (Rakovník) - vhodná pro čerstvé absolventy",
-    "firma": "VALEO RAKOVNÍK 1",
-    "lokalita": "Rakovník – Rakovník II + 1 další lokalita",
-    "vypsano": "2026-09-15",
-    "stitky_portalu": [
-      "Možnost občasné práce z domova"
-    ],
-    "atmoskop": "38 hodnocení na Atmoskopu",
-    "zdroj": "portal",
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
-  },
-  {
-    "id": "2001424645",
-    "url": "https://www.jobs.cz/rpd/2001424645/",
-    "pozice": "Finanční specialista/ka (controlling/reporting)",
-    "firma": "TV Nova s.r.o.",
-    "lokalita": "Praha – Hlubočepy",
-    "vypsano": "2026-09-14",
-    "stitky_portalu": [],
-    "atmoskop": "60 hodnocení na Atmoskopu",
-    "zdroj": "portal",
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
-  },
-  {
-    "id": "2001421397",
-    "url": "https://www.jobs.cz/rpd/2001421397/",
-    "pozice": "HR Controlling & Rewards Analytik – SAP | Excel (m/ž)",
-    "firma": "Grafton Recruitment s.r.o.",
-    "lokalita": "Praha",
-    "vypsano": "2026-09-11",
-    "stitky_portalu": [
-      "60 000 – 70 000 Kč"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal",
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
-  },
-  {
     "id": "2001316454",
     "url": "https://www.jobs.cz/rpd/2001316454/",
     "pozice": "AMS IT Konzultant Finance a Controlling - Product team Finance & Škoda subs. (m/ž)",
@@ -49,7 +9,8 @@
     "stitky_portalu": [],
     "atmoskop": "528 hodnocení na Atmoskopu",
     "zdroj": "portal",
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka",
+    "pokusu": 1
   },
   {
     "id": "2001253630",
@@ -61,7 +22,8 @@
     "stitky_portalu": [],
     "atmoskop": "528 hodnocení na Atmoskopu",
     "zdroj": "portal",
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka",
+    "pokusu": 1
   },
   {
     "id": "2001417048",
@@ -75,7 +37,8 @@
     ],
     "atmoskop": "1076 hodnocení na Atmoskopu",
     "zdroj": "portal",
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka",
+    "pokusu": 1
   },
   {
     "id": "2000790239",
@@ -89,7 +52,8 @@
     ],
     "atmoskop": null,
     "zdroj": "portal",
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka",
+    "pokusu": 1
   },
   {
     "id": "2001392092",
@@ -101,7 +65,8 @@
     "stitky_portalu": [],
     "atmoskop": "390 hodnocení na Atmoskopu",
     "zdroj": "portal",
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka",
+    "pokusu": 1
   },
   {
     "id": "2001401667",
@@ -116,7 +81,8 @@
     ],
     "atmoskop": "171 hodnocení na Atmoskopu",
     "zdroj": "portal",
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka",
+    "pokusu": 1
   },
   {
     "id": "2001352093",
@@ -128,7 +94,8 @@
     "stitky_portalu": [],
     "atmoskop": "444 hodnocení na Atmoskopu",
     "zdroj": "portal",
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka",
+    "pokusu": 1
   },
   {
     "id": "2001431499",
@@ -140,7 +107,8 @@
     "stitky_portalu": [],
     "atmoskop": null,
     "zdroj": "portal",
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka",
+    "pokusu": 1
   },
   {
     "id": "2001367860",
@@ -152,7 +120,8 @@
     "stitky_portalu": [],
     "atmoskop": "18 hodnocení na Atmoskopu",
     "zdroj": "portal",
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka",
+    "pokusu": 1
   },
   {
     "id": "2001426327",
@@ -167,7 +136,8 @@
     ],
     "atmoskop": null,
     "zdroj": "portal",
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka",
+    "pokusu": 1
   },
   {
     "id": "2001424968",
@@ -182,7 +152,8 @@
     ],
     "atmoskop": "138 hodnocení na Atmoskopu",
     "zdroj": "portal",
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka",
+    "pokusu": 1
   },
   {
     "id": "2001424384",
@@ -197,7 +168,8 @@
     ],
     "atmoskop": "822 hodnocení na Atmoskopu",
     "zdroj": "portal",
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka",
+    "pokusu": 1
   },
   {
     "id": "2001418730",
@@ -211,7 +183,8 @@
     ],
     "atmoskop": null,
     "zdroj": "portal",
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka",
+    "pokusu": 1
   },
   {
     "id": "2001417779",
@@ -226,7 +199,8 @@
     ],
     "atmoskop": "122 hodnocení na Atmoskopu",
     "zdroj": "portal",
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka",
+    "pokusu": 1
   },
   {
     "id": "2001417587",
@@ -240,7 +214,8 @@
     ],
     "atmoskop": null,
     "zdroj": "portal",
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka",
+    "pokusu": 1
   },
   {
     "id": "2001416724",
@@ -254,7 +229,8 @@
     ],
     "atmoskop": "508 hodnocení na Atmoskopu",
     "zdroj": "portal",
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka",
+    "pokusu": 1
   },
   {
     "id": "2001414590",
@@ -268,7 +244,8 @@
     ],
     "atmoskop": "1096 hodnocení na Atmoskopu",
     "zdroj": "portal",
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka",
+    "pokusu": 1
   },
   {
     "id": "2001414452",
@@ -282,7 +259,8 @@
     ],
     "atmoskop": null,
     "zdroj": "portal",
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka",
+    "pokusu": 1
   },
   {
     "id": "2001413091",
@@ -296,7 +274,8 @@
     ],
     "atmoskop": "1076 hodnocení na Atmoskopu",
     "zdroj": "portal",
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka",
+    "pokusu": 1
   },
   {
     "id": "2001410341",
@@ -308,7 +287,8 @@
     "stitky_portalu": [],
     "atmoskop": null,
     "zdroj": "portal",
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka",
+    "pokusu": 1
   },
   {
     "id": "2000757652",
@@ -323,7 +303,8 @@
     ],
     "atmoskop": "122 hodnocení na Atmoskopu",
     "zdroj": "portal",
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka",
+    "pokusu": 1
   },
   {
     "id": "2001398701",
@@ -335,7 +316,8 @@
     "stitky_portalu": [],
     "atmoskop": "376 hodnocení na Atmoskopu",
     "zdroj": "portal",
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka",
+    "pokusu": 1
   },
   {
     "id": "2001109108",
@@ -349,7 +331,8 @@
     ],
     "atmoskop": "197 hodnocení na Atmoskopu",
     "zdroj": "portal",
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka",
+    "pokusu": 1
   },
   {
     "id": "2001352165",
@@ -363,7 +346,8 @@
     ],
     "atmoskop": "105 hodnocení na Atmoskopu",
     "zdroj": "portal",
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka",
+    "pokusu": 1
   },
   {
     "id": "2001398530",
@@ -377,7 +361,8 @@
     ],
     "atmoskop": null,
     "zdroj": "portal",
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka",
+    "pokusu": 1
   },
   {
     "id": "2001398474",
@@ -391,7 +376,8 @@
     ],
     "atmoskop": null,
     "zdroj": "portal",
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka",
+    "pokusu": 1
   },
   {
     "id": "2001398295",
@@ -405,7 +391,8 @@
     ],
     "atmoskop": null,
     "zdroj": "portal",
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka",
+    "pokusu": 1
   },
   {
     "id": "2001398255",
@@ -417,7 +404,8 @@
     "stitky_portalu": [],
     "atmoskop": "2277 hodnocení na Atmoskopu",
     "zdroj": "portal",
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka",
+    "pokusu": 1
   },
   {
     "id": "2001396755",
@@ -431,7 +419,8 @@
     ],
     "atmoskop": "34 hodnocení na Atmoskopu",
     "zdroj": "portal",
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka",
+    "pokusu": 1
   },
   {
     "id": "2001394522",
@@ -445,7 +434,8 @@
     ],
     "atmoskop": null,
     "zdroj": "portal",
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka",
+    "pokusu": 1
   },
   {
     "id": "2001335657",
@@ -459,7 +449,8 @@
     ],
     "atmoskop": "56 hodnocení na Atmoskopu",
     "zdroj": "portal",
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka",
+    "pokusu": 1
   },
   {
     "id": "2001427728",
@@ -472,31 +463,9 @@
       "Možnost občasné práce z domova"
     ],
     "atmoskop": "161 hodnocení na Atmoskopu",
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001419128",
-    "url": "https://www.jobs.cz/rpd/2001419128/",
-    "pozice": "Elektrikář I Mzda až 90 tis. | Náb. bonus až 90 tis. | Služební auto I Významné projekty",
-    "firma": "MC Systems & Services s.r.o.",
-    "lokalita": "Praha – Hostivař",
-    "vypsano": null,
-    "stitky_portalu": [
-      "55 000 – 90 000 Kč"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001425570",
-    "url": "https://www.jobs.cz/rpd/2001425570/",
-    "pozice": "OBCHODNÍ ZÁSTUPCE",
-    "firma": "VEIDEC s.r.o.",
-    "lokalita": "Hlavní město Praha + 1 další lokalita",
-    "vypsano": null,
-    "stitky_portalu": [],
-    "atmoskop": null,
-    "zdroj": "portal"
+    "zdroj": "portal",
+    "pokusu": 1,
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
     "id": "2001438393",
@@ -510,7 +479,9 @@
       "Odpověď do 2 týdnů"
     ],
     "atmoskop": "142 hodnocení na Atmoskopu",
-    "zdroj": "portal"
+    "zdroj": "portal",
+    "pokusu": 1,
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
     "id": "2001437959",
@@ -523,20 +494,9 @@
       "Možnost občasné práce z domova"
     ],
     "atmoskop": "338 hodnocení na Atmoskopu",
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001431269",
-    "url": "https://www.jobs.cz/rpd/2001431269/",
-    "pozice": "Seniorní Java vývojář pro celoevropský digitalizační projekt",
-    "firma": "Profinit EU, s.r.o.",
-    "lokalita": "Praha – Karlín",
-    "vypsano": null,
-    "stitky_portalu": [
-      "Odpověď do 2 týdnů"
-    ],
-    "atmoskop": "53 hodnocení na Atmoskopu",
-    "zdroj": "portal"
+    "zdroj": "portal",
+    "pokusu": 1,
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
     "id": "2001319403",
@@ -549,7 +509,9 @@
       "Odpověď do 2 týdnů"
     ],
     "atmoskop": "822 hodnocení na Atmoskopu",
-    "zdroj": "portal"
+    "zdroj": "portal",
+    "pokusu": 1,
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
     "id": "2001441404",
@@ -562,7 +524,9 @@
       "Práce převážně z domova"
     ],
     "atmoskop": "568 hodnocení na Atmoskopu",
-    "zdroj": "portal"
+    "zdroj": "portal",
+    "pokusu": 1,
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
     "id": "2001415080",
@@ -575,7 +539,9 @@
       "Odpověď do 2 týdnů"
     ],
     "atmoskop": "18 hodnocení na Atmoskopu",
-    "zdroj": "portal"
+    "zdroj": "portal",
+    "pokusu": 1,
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
     "id": "2001438381",
@@ -588,20 +554,9 @@
       "Odpověď do 2 týdnů"
     ],
     "atmoskop": "142 hodnocení na Atmoskopu",
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001419581",
-    "url": "https://www.jobs.cz/rpd/2001419581/",
-    "pozice": "Skladník elektromateriálu / Logistik I Mzda až 60 tis. | Náborový příspěvek až 60 tis. |",
-    "firma": "MC Systems & Services s.r.o.",
-    "lokalita": "Praha – Hostivař",
-    "vypsano": null,
-    "stitky_portalu": [
-      "50 000 – 60 000 Kč"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
+    "zdroj": "portal",
+    "pokusu": 1,
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
     "id": "2001404529",
@@ -612,7 +567,9 @@
     "vypsano": null,
     "stitky_portalu": [],
     "atmoskop": "385 hodnocení na Atmoskopu",
-    "zdroj": "portal"
+    "zdroj": "portal",
+    "pokusu": 1,
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
     "id": "2001330990",
@@ -623,92 +580,9 @@
     "vypsano": null,
     "stitky_portalu": [],
     "atmoskop": "215 hodnocení na Atmoskopu",
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001433991",
-    "url": "https://www.jobs.cz/rpd/2001433991/",
-    "pozice": "Zadavatel/ka farmakovigilančních hlášení",
-    "firma": "Státní ústav pro kontrolu léčiv",
-    "lokalita": "Praha – Vinohrady",
-    "vypsano": "2026-09-18",
-    "stitky_portalu": [],
-    "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001254503",
-    "url": "https://www.jobs.cz/rpd/2001254503/",
-    "pozice": "Posuzovatel/ka Oddělení farmakovigilančního hodnocení",
-    "firma": "Státní ústav pro kontrolu léčiv",
-    "lokalita": "Praha – Vinohrady",
-    "vypsano": "2026-09-21",
-    "stitky_portalu": [],
-    "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001433989",
-    "url": "https://www.jobs.cz/rpd/2001433989/",
-    "pozice": "Posuzovatel/ka farmaceutické dokumentace",
-    "firma": "Státní ústav pro kontrolu léčiv",
-    "lokalita": "Praha – Vinohrady",
-    "vypsano": "2026-09-18",
-    "stitky_portalu": [],
-    "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001338216",
-    "url": "https://www.jobs.cz/rpd/2001338216/",
-    "pozice": "Analytik/Analytička ICT – Oddělení podpory řízení IT",
-    "firma": "Státní ústav pro kontrolu léčiv",
-    "lokalita": "Praha – Vinohrady",
-    "vypsano": "2026-09-08",
-    "stitky_portalu": [],
-    "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001392208",
-    "url": "https://www.jobs.cz/rpd/2001392208/",
-    "pozice": "KONTROLOR KVALITY VÝROBY M/Ž",
-    "firma": "MORIS design s.r.o.",
-    "lokalita": "Černíky",
-    "vypsano": null,
-    "stitky_portalu": [
-      "45 000 – 50 000 Kč",
-      "Odpověď do 2 týdnů"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001415842",
-    "url": "https://www.jobs.cz/rpd/2001415842/",
-    "pozice": "Senior Specialista/tka kvality (Potravinářství)",
-    "firma": "Vitalogy a.s.",
-    "lokalita": "Praha – Čakovice",
-    "vypsano": "2026-09-18",
-    "stitky_portalu": [
-      "40 000 – 50 000 Kč"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001400488",
-    "url": "https://www.jobs.cz/rpd/2001400488/",
-    "pozice": "Manažer kvality - potravinářství",
-    "firma": "PŘEDVÝBĚR.CZ a.s.",
-    "lokalita": "okres Praha-západ",
-    "vypsano": "2026-08-31",
-    "stitky_portalu": [
-      "70 000 – 75 000 Kč",
-      "Odpověď do 2 týdnů"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
+    "zdroj": "portal",
+    "pokusu": 1,
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
     "id": "2001428788",
@@ -721,35 +595,9 @@
       "Odpověď do 2 týdnů"
     ],
     "atmoskop": "120 hodnocení na Atmoskopu",
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001173646",
-    "url": "https://www.jobs.cz/rpd/2001173646/",
-    "pozice": "Kontrolor kvality realizací staveb (Lead Electrician)",
-    "firma": "2JCP a.s.",
-    "lokalita": "Příbram",
-    "vypsano": "2026-09-21",
-    "stitky_portalu": [
-      "50 000 – 70 000 Kč",
-      "Odpověď do 2 týdnů",
-      "Možnost občasné práce z domova"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001417680",
-    "url": "https://www.jobs.cz/rpd/2001417680/",
-    "pozice": "QC kontrolor",
-    "firma": "ELTODO, a.s.",
-    "lokalita": "Praha – Lhotka",
-    "vypsano": "2026-09-18",
-    "stitky_portalu": [
-      "Možnost občasné práce z domova"
-    ],
-    "atmoskop": "74 hodnocení na Atmoskopu",
-    "zdroj": "portal"
+    "zdroj": "portal",
+    "pokusu": 1,
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
     "id": "2001384451",
@@ -762,61 +610,9 @@
       "Odpověď do 2 týdnů"
     ],
     "atmoskop": "448 hodnocení na Atmoskopu",
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001413016",
-    "url": "https://www.jobs.cz/rpd/2001413016/",
-    "pozice": "Manažer/ka kvality",
-    "firma": "PŘEDVÝBĚR.CZ a.s.",
-    "lokalita": "Středočeský kraj",
-    "vypsano": "2026-09-07",
-    "stitky_portalu": [
-      "Odpověď do 2 týdnů",
-      "Možnost občasné práce z domova"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001445116",
-    "url": "https://www.jobs.cz/rpd/2001445116/",
-    "pozice": "Manažer/ka kvality - výroba nábytku",
-    "firma": "Recrutech s.r.o.",
-    "lokalita": "Lysá nad Labem",
-    "vypsano": null,
-    "stitky_portalu": [
-      "Možnost občasné práce z domova",
-      "Odpovězte teď a budete mezi prvními"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001415681",
-    "url": "https://www.jobs.cz/rpd/2001415681/",
-    "pozice": "Vedoucí zákaznické kvality - Greenfield projekt v automotive",
-    "firma": "Kienbaum und Partner GmbH",
-    "lokalita": "Ústecký kraj",
-    "vypsano": "2026-09-22",
-    "stitky_portalu": [
-      "Odpověď do 2 týdnů"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001386694",
-    "url": "https://www.jobs.cz/rpd/2001386694/",
-    "pozice": "Referent / Referentka kvality",
-    "firma": "O-PAC s.r.o.",
-    "lokalita": "Lichoceves",
-    "vypsano": "2026-09-21",
-    "stitky_portalu": [
-      "35 000 – 50 000 Kč"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
+    "zdroj": "portal",
+    "pokusu": 1,
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
     "id": "2001416562",
@@ -829,20 +625,9 @@
       "Odpověď do 2 týdnů"
     ],
     "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001415714",
-    "url": "https://www.jobs.cz/rpd/2001415714/",
-    "pozice": "Manažer interní kvality - Greenfield projekt v automotive",
-    "firma": "Kienbaum und Partner GmbH",
-    "lokalita": "Ústecký kraj",
-    "vypsano": "2026-09-22",
-    "stitky_portalu": [
-      "Odpověď do 2 týdnů"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
+    "zdroj": "portal",
+    "pokusu": 1,
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
     "id": "2001415683",
@@ -856,7 +641,9 @@
       "Práce převážně z domova"
     ],
     "atmoskop": null,
-    "zdroj": "portal"
+    "zdroj": "portal",
+    "pokusu": 1,
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
     "id": "2001316458",
@@ -869,33 +656,9 @@
       "Odpověď do 2 týdnů"
     ],
     "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001261117",
-    "url": "https://www.jobs.cz/rpd/2001261117/",
-    "pozice": "Inženýr/ka kvality - náborový příspěvek 40.000 Kč",
-    "firma": "ZF Passive Safety Czech s.r.o.",
-    "lokalita": "Hlavenec + 1 další lokalita",
-    "vypsano": "2026-09-21",
-    "stitky_portalu": [],
-    "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001359963",
-    "url": "https://www.jobs.cz/rpd/2001359963/",
-    "pozice": "Specialista kvality 🍩(pekárna Kladno)",
-    "firma": "La Lorraine, a.s.",
-    "lokalita": "Kladno – Kročehlavy",
-    "vypsano": "2026-09-19",
-    "stitky_portalu": [
-      "40 000 – 45 000 Kč",
-      "Odpověď do 2 týdnů",
-      "Možnost občasné práce z domova"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
+    "zdroj": "portal",
+    "pokusu": 1,
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
     "id": "2000896440",
@@ -908,22 +671,9 @@
       "Odpověď do 2 týdnů"
     ],
     "atmoskop": "79 hodnocení na Atmoskopu",
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001419751",
-    "url": "https://www.jobs.cz/rpd/2001419751/",
-    "pozice": "SPECIALISTA KVALITY VE VÝROBNÍ SPOLEČNOSTI (70 - 75 000 Kč)",
-    "firma": "TresJob s.r.o.",
-    "lokalita": "Mochov",
-    "vypsano": null,
-    "stitky_portalu": [
-      "70 000 – 75 000 Kč",
-      "Odpověď do 2 týdnů",
-      "Možnost občasné práce z domova"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
+    "zdroj": "portal",
+    "pokusu": 1,
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
     "id": "2001366985",
@@ -936,21 +686,9 @@
       "Možnost občasné práce z domova"
     ],
     "atmoskop": "108 hodnocení na Atmoskopu",
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001409698",
-    "url": "https://www.jobs.cz/rpd/2001409698/",
-    "pozice": "Specialista rozměrové kvality",
-    "firma": "LINDE + WIEMANN CZ, s.r.o.",
-    "lokalita": "Nymburk",
-    "vypsano": "2026-09-18",
-    "stitky_portalu": [
-      "Odpověď do 2 týdnů",
-      "Odpovězte teď a budete mezi prvními"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
+    "zdroj": "portal",
+    "pokusu": 1,
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
     "id": "2001389754",
@@ -963,74 +701,9 @@
       "Odpověď do 2 týdnů"
     ],
     "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001402740",
-    "url": "https://www.jobs.cz/rpd/2001402740/",
-    "pozice": "REZIDENT KVALITY – ŠKODA AUTO | MLADÁ BOLESLAV",
-    "firma": "Exact Forestall s.r.o.",
-    "lokalita": "Mladá Boleslav",
-    "vypsano": "2026-09-22",
-    "stitky_portalu": [
-      "Odpověď do 2 týdnů"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001325752",
-    "url": "https://www.jobs.cz/rpd/2001325752/",
-    "pozice": "Inženýr kvality/vhodné i pro absolventy (M/Ž)",
-    "firma": "Foxconn Czech Republic",
-    "lokalita": "okres Kutná Hora",
-    "vypsano": "2026-09-17",
-    "stitky_portalu": [
-      "Odpověď do 2 týdnů"
-    ],
-    "atmoskop": "240 hodnocení na Atmoskopu",
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001414970",
-    "url": "https://www.jobs.cz/rpd/2001414970/",
-    "pozice": "INŽENÝR KVALITY VE VÝVOJI (PLASTOVÉ DÍLY PRO LUXUSNÍ AUTA)",
-    "firma": "DRILL Business Services",
-    "lokalita": "okres Hlavní město Praha",
-    "vypsano": "2026-09-08",
-    "stitky_portalu": [
-      "Odpověď do 2 týdnů",
-      "Možnost občasné práce z domova"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001325099",
-    "url": "https://www.jobs.cz/rpd/2001325099/",
-    "pozice": "Kontrolor ve výrobě",
-    "firma": "JaP - Jacina, s.r.o.",
-    "lokalita": "Mnichovo Hradiště",
-    "vypsano": "2026-09-08",
-    "stitky_portalu": [
-      "Odpověď do 2 týdnů",
-      "Odpovězte teď a budete mezi prvními"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001336707",
-    "url": "https://www.jobs.cz/rpd/2001336707/",
-    "pozice": "Kontrolor kvality ovoce a zeleniny",
-    "firma": "Globus ČR, v.o.s.",
-    "lokalita": "Jirny",
-    "vypsano": null,
-    "stitky_portalu": [
-      "Odpovězte teď a budete mezi prvními"
-    ],
-    "atmoskop": "390 hodnocení na Atmoskopu",
-    "zdroj": "portal"
+    "zdroj": "portal",
+    "pokusu": 1,
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
     "id": "2000906021",
@@ -1043,112 +716,9 @@
       "Odpověď do 2 týdnů"
     ],
     "atmoskop": "88 hodnocení na Atmoskopu",
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001328698",
-    "url": "https://www.jobs.cz/rpd/2001328698/",
-    "pozice": "Specialista kvality | Externí a dodavatelská kvalita",
-    "firma": "Aoyama Automotive Fasteners Czech, s.r.o.",
-    "lokalita": "Lovosice",
-    "vypsano": "2026-09-21",
-    "stitky_portalu": [
-      "45 000 – 60 000 Kč",
-      "Odpověď do 2 týdnů",
-      "Možnost občasné práce z domova"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001400121",
-    "url": "https://www.jobs.cz/rpd/2001400121/",
-    "pozice": "KONTROLOR KVALITY - UVÍTÁME ABSOLVENTY I ZKUŠENÉ KONTROLORY KVALITY!",
-    "firma": "2JCP a.s.",
-    "lokalita": "Račice",
-    "vypsano": "2026-09-21",
-    "stitky_portalu": [
-      "Odpověď do 2 týdnů"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001413848",
-    "url": "https://www.jobs.cz/rpd/2001413848/",
-    "pozice": "Kontrolor kvality ve skladě ovoce/zelenina (M/Ž) | Praha",
-    "firma": "JIP východočeská, a.s.",
-    "lokalita": "okres Praha",
-    "vypsano": "2026-09-07",
-    "stitky_portalu": [],
-    "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001356195",
-    "url": "https://www.jobs.cz/rpd/2001356195/",
-    "pozice": "Vstupní a výstupní kontrola",
-    "firma": "SEKO Aerospace, a.s.",
-    "lokalita": "Louny",
-    "vypsano": null,
-    "stitky_portalu": [],
-    "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001251388",
-    "url": "https://www.jobs.cz/rpd/2001251388/",
-    "pozice": "Senior kontrolor/ka kvality - Mladá Boleslav",
-    "firma": "Formel D Česká republika s.r.o.",
-    "lokalita": "Mladá Boleslav",
-    "vypsano": "2026-09-22",
-    "stitky_portalu": [],
-    "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001441076",
-    "url": "https://www.jobs.cz/rpd/2001441076/",
-    "pozice": "VEDOUCÍ ODDĚLENÍ KVALITY | 50.000 Kč",
-    "firma": "ANEX personální agentura",
-    "lokalita": "Mělník",
-    "vypsano": "2026-09-22",
-    "stitky_portalu": [
-      "50 000 Kč",
-      "Odpověď do 2 týdnů",
-      "Odpovězte teď a budete mezi prvními"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001441064",
-    "url": "https://www.jobs.cz/rpd/2001441064/",
-    "pozice": "VEDOUCÍ ODDĚLENÍ KVALITY | 50.000 Kč",
-    "firma": "ANEX personální agentura",
-    "lokalita": "Velvary",
-    "vypsano": "2026-09-22",
-    "stitky_portalu": [
-      "50 000 Kč",
-      "Odpověď do 2 týdnů",
-      "Odpovězte teď a budete mezi prvními"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001385138",
-    "url": "https://www.jobs.cz/rpd/2001385138/",
-    "pozice": "Inspektor kvality kategorie (Ovoce-Zelenina, Maso, Ryby)",
-    "firma": "MAKRO Cash & Carry ČR s.r.o.",
-    "lokalita": "Kozomín",
-    "vypsano": "2026-09-20",
-    "stitky_portalu": [
-      "38 000 – 43 000 Kč",
-      "Odpověď do 2 týdnů"
-    ],
-    "atmoskop": "448 hodnocení na Atmoskopu",
-    "zdroj": "portal"
+    "zdroj": "portal",
+    "pokusu": 1,
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
     "id": "2001427462",
@@ -1161,20 +731,9 @@
       "Odpověď do 2 týdnů"
     ],
     "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001412625",
-    "url": "https://www.jobs.cz/rpd/2001412625/",
-    "pozice": "Senior kontrolor/ka kvality - Mladá Boleslav",
-    "firma": "Formel D Česká republika s.r.o.",
-    "lokalita": "Kosmonosy",
-    "vypsano": "2026-09-07",
-    "stitky_portalu": [
-      "Odpovězte teď a budete mezi prvními"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
+    "zdroj": "portal",
+    "pokusu": 1,
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
     "id": "2001409941",
@@ -1187,7 +746,9 @@
       "Odpověď do 2 týdnů"
     ],
     "atmoskop": null,
-    "zdroj": "portal"
+    "zdroj": "portal",
+    "pokusu": 1,
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
     "id": "2001360603",
@@ -1200,124 +761,9 @@
       "Odpověď do 2 týdnů"
     ],
     "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001418781",
-    "url": "https://www.jobs.cz/rpd/2001418781/",
-    "pozice": "Retail auditor / Kontrolo Kvality prodeje",
-    "firma": "YK YourKush s.r.o.",
-    "lokalita": "Praha – Staré Město",
-    "vypsano": null,
-    "stitky_portalu": [],
-    "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001406554",
-    "url": "https://www.jobs.cz/rpd/2001406554/",
-    "pozice": "Quality Engineer | výrobní kvalita & automotive",
-    "firma": "HOFMANN WIZARD s.r.o.",
-    "lokalita": "Brandýs nad Labem-Stará Boleslav – Stará Boleslav",
-    "vypsano": "2026-09-02",
-    "stitky_portalu": [
-      "55 000 – 75 000 Kč",
-      "Odpověď do 2 týdnů"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001418669",
-    "url": "https://www.jobs.cz/rpd/2001418669/",
-    "pozice": "Vedoucí zákaznické kvality | Pomozte nám vytvářet interiéry budoucnosti!",
-    "firma": "Yanfeng International Automotive Technology Czechia s.r.o.",
-    "lokalita": "Bitozeves – Bitozeves-Průmyslová zóna Triangle",
-    "vypsano": "2026-09-10",
-    "stitky_portalu": [
-      "Odpověď do 2 týdnů",
-      "Možnost občasné práce z domova"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001123604",
-    "url": "https://www.jobs.cz/rpd/2001123604/",
-    "pozice": "Specialista kvality staveb - 1/12 Běchovice - Úvaly",
-    "firma": "Skanska",
-    "lokalita": "okres Praha",
-    "vypsano": "2026-09-15",
-    "stitky_portalu": [
-      "Odpověď do 2 týdnů"
-    ],
-    "atmoskop": "299 hodnocení na Atmoskopu",
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001343151",
-    "url": "https://www.jobs.cz/rpd/2001343151/",
-    "pozice": "Vedoucí techniků kvality | Automotive (m/ž/j)",
-    "firma": "Yanfeng International Automotive Technology Czechia s.r.o.",
-    "lokalita": "Bitozeves – Bitozeves-Průmyslová zóna Triangle",
-    "vypsano": null,
-    "stitky_portalu": [
-      "Odpověď do 2 týdnů",
-      "Odpovězte teď a budete mezi prvními"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2000961017",
-    "url": "https://www.jobs.cz/rpd/2000961017/",
-    "pozice": "Kontrolor kvality",
-    "firma": "CONTEG, spol. s r.o.",
-    "lokalita": "Příbram – Příbram VI-Březové Hory",
-    "vypsano": "2026-09-07",
-    "stitky_portalu": [],
-    "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001396092",
-    "url": "https://www.jobs.cz/rpd/2001396092/",
-    "pozice": "Specialista/specialistka kvality - potravinářství",
-    "firma": "PAC Hořovice s.r.o.",
-    "lokalita": "Příbram – Příbram I",
-    "vypsano": null,
-    "stitky_portalu": [
-      "Odpověď do 2 týdnů"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001394837",
-    "url": "https://www.jobs.cz/rpd/2001394837/",
-    "pozice": "INŽENÝR KVALITY (Horšovský Týn)",
-    "firma": "MAHLE",
-    "lokalita": "Mnichovo Hradiště",
-    "vypsano": null,
-    "stitky_portalu": [
-      "Odpověď do 2 týdnů"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001202897",
-    "url": "https://www.jobs.cz/rpd/2001202897/",
-    "pozice": "Technik kontroly jakosti",
-    "firma": "Skanska",
-    "lokalita": "okres Praha",
-    "vypsano": "2026-08-29",
-    "stitky_portalu": [
-      "Odpověď do 2 týdnů",
-      "Možnost občasné práce z domova"
-    ],
-    "atmoskop": "299 hodnocení na Atmoskopu",
-    "zdroj": "portal"
+    "zdroj": "portal",
+    "pokusu": 1,
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
     "id": "2001396221",
@@ -8791,6 +8237,308 @@
     "vypsano": null,
     "stitky_portalu": [
       "48 000 – 70 000 Kč"
+    ],
+    "atmoskop": null,
+    "zdroj": "portal"
+  },
+  {
+    "id": "2001445728",
+    "url": "https://www.jobs.cz/rpd/2001445728/",
+    "pozice": "Finance Controller pro Direct Auto!",
+    "firma": "Direct",
+    "lokalita": "Praha – Holešovice",
+    "vypsano": null,
+    "stitky_portalu": [
+      "Odpovězte teď a budete mezi prvními"
+    ],
+    "atmoskop": null,
+    "zdroj": "portal"
+  },
+  {
+    "id": "2001348556",
+    "url": "https://www.jobs.cz/rpd/2001348556/",
+    "pozice": "PROJECT CONTROLLER - ROZPOČTÁŘ (80 - 100.000 CZK)",
+    "firma": "Ing. Jakub Mladonický",
+    "lokalita": "Hlavní město Praha + 1 další lokalita",
+    "vypsano": null,
+    "stitky_portalu": [
+      "80 000 – 100 000 Kč"
+    ],
+    "atmoskop": null,
+    "zdroj": "portal"
+  },
+  {
+    "id": "2001400296",
+    "url": "https://www.jobs.cz/rpd/2001400296/",
+    "pozice": "Specialista/Specialistka kontroly informační a kybernetické bezpečnosti senior",
+    "firma": "Skupina ČEZ",
+    "lokalita": "Ostrava – Mariánské Hory + 2 další lokality",
+    "vypsano": "2026-08-31",
+    "stitky_portalu": [
+      "Odpověď do 2 týdnů"
+    ],
+    "atmoskop": "1076 hodnocení na Atmoskopu",
+    "zdroj": "portal"
+  },
+  {
+    "id": "2001341525",
+    "url": "https://www.jobs.cz/rpd/2001341525/",
+    "pozice": "QA Automation Engineer",
+    "firma": "Daktela s.r.o.",
+    "lokalita": "Praha – Žižkov",
+    "vypsano": null,
+    "stitky_portalu": [
+      "Odpověď do 2 týdnů",
+      "Možnost občasné práce z domova"
+    ],
+    "atmoskop": null,
+    "zdroj": "portal"
+  },
+  {
+    "id": "2001320679",
+    "url": "https://www.jobs.cz/rpd/2001320679/",
+    "pozice": "Specialista/ka kvality pro automotive projekty| Hybrid",
+    "firma": "Grafton Recruitment s.r.o.",
+    "lokalita": "Praha",
+    "vypsano": "2026-09-23",
+    "stitky_portalu": [
+      "Možnost občasné práce z domova"
+    ],
+    "atmoskop": null,
+    "zdroj": "portal"
+  },
+  {
+    "id": "2001354150",
+    "url": "https://www.jobs.cz/rpd/2001354150/",
+    "pozice": "Junior Business Controller",
+    "firma": "Azelis Czech Republic s.r.o.",
+    "lokalita": "Praha – Dejvice",
+    "vypsano": "2026-09-14",
+    "stitky_portalu": [
+      "Možnost občasné práce z domova"
+    ],
+    "atmoskop": null,
+    "zdroj": "portal"
+  },
+  {
+    "id": "2001065077",
+    "url": "https://www.jobs.cz/rpd/2001065077/",
+    "pozice": "Finanční analytik/čka - Praha",
+    "firma": "MONETA Money Bank, a.s.",
+    "lokalita": "Praha – Michle",
+    "vypsano": null,
+    "stitky_portalu": [],
+    "atmoskop": "634 hodnocení na Atmoskopu",
+    "zdroj": "portal"
+  },
+  {
+    "id": "2001445953",
+    "url": "https://www.jobs.cz/rpd/2001445953/",
+    "pozice": "Senior specialista/ka finančního reportingu - Praha",
+    "firma": "MONETA Money Bank, a.s.",
+    "lokalita": "Praha – Michle",
+    "vypsano": null,
+    "stitky_portalu": [],
+    "atmoskop": "634 hodnocení na Atmoskopu",
+    "zdroj": "portal"
+  },
+  {
+    "id": "2001304680",
+    "url": "https://www.jobs.cz/rpd/2001304680/",
+    "pozice": "IT Business Analyst",
+    "firma": "MND Energie a.s.",
+    "lokalita": "Praha – Vokovice",
+    "vypsano": "2026-08-31",
+    "stitky_portalu": [
+      "Odpověď do 2 týdnů",
+      "Možnost občasné práce z domova"
+    ],
+    "atmoskop": "28 hodnocení na Atmoskopu",
+    "zdroj": "portal"
+  },
+  {
+    "id": "2001446059",
+    "url": "https://www.jobs.cz/rpd/2001446059/",
+    "pozice": "FINANČNÍ ÚČETNÍ - spolupráce s externí účetní společností",
+    "firma": "BARENTZ spol. s r.o.",
+    "lokalita": "Praha – Stodůlky",
+    "vypsano": null,
+    "stitky_portalu": [
+      "Odpovězte teď a budete mezi prvními"
+    ],
+    "atmoskop": null,
+    "zdroj": "portal"
+  },
+  {
+    "id": "2001401337",
+    "url": "https://www.jobs.cz/rpd/2001401337/",
+    "pozice": "Asset Manager",
+    "firma": "INVESTIKA, investiční společnost, a.s.",
+    "lokalita": "Praha",
+    "vypsano": "2026-09-21",
+    "stitky_portalu": [
+      "Odpověď do 2 týdnů",
+      "Možnost občasné práce z domova"
+    ],
+    "atmoskop": null,
+    "zdroj": "portal"
+  },
+  {
+    "id": "2001418603",
+    "url": "https://www.jobs.cz/rpd/2001418603/",
+    "pozice": "Cost Manager/Stavebnictví",
+    "firma": "GLEEDS ČESKÁ REPUBLIKA, s.r.o.",
+    "lokalita": "Praha – Staré Město",
+    "vypsano": null,
+    "stitky_portalu": [
+      "Možnost občasné práce z domova",
+      "Odpovězte teď a budete mezi prvními"
+    ],
+    "atmoskop": null,
+    "zdroj": "portal"
+  },
+  {
+    "id": "2001263766",
+    "url": "https://www.jobs.cz/rpd/2001263766/",
+    "pozice": "Manager Transfer Pricing",
+    "firma": "BDO Group s.r.o.",
+    "lokalita": "Praha – Chodov",
+    "vypsano": null,
+    "stitky_portalu": [
+      "Odpověď do 2 týdnů",
+      "Možnost občasné práce z domova"
+    ],
+    "atmoskop": "71 hodnocení na Atmoskopu",
+    "zdroj": "portal"
+  },
+  {
+    "id": "2001419287",
+    "url": "https://www.jobs.cz/rpd/2001419287/",
+    "pozice": "PROJEKTOVÝ/Á MANAŽER/KA – HOSPODÁŘ/KA (úvazek 1,0) - 560",
+    "firma": "Vysoká škola chemicko-technologická v Praze",
+    "lokalita": "Praha – Dejvice",
+    "vypsano": null,
+    "stitky_portalu": [
+      "Odpověď do 2 týdnů"
+    ],
+    "atmoskop": null,
+    "zdroj": "portal"
+  },
+  {
+    "id": "2001328915",
+    "url": "https://www.jobs.cz/rpd/2001328915/",
+    "pozice": "Acquisition Sales Manager",
+    "firma": "Worldline Czech Republic s.r.o.",
+    "lokalita": "okres Praha",
+    "vypsano": "2026-09-22",
+    "stitky_portalu": [],
+    "atmoskop": null,
+    "zdroj": "portal"
+  },
+  {
+    "id": "2001330948",
+    "url": "https://www.jobs.cz/rpd/2001330948/",
+    "pozice": "Area Sales Manager v oblasti Telematiky- Praha/stredočeský kraj",
+    "firma": "W.A.G. payment solutions, a.s.",
+    "lokalita": "Praha – Nusle",
+    "vypsano": "2026-09-20",
+    "stitky_portalu": [
+      "Odpověď do 2 týdnů"
+    ],
+    "atmoskop": null,
+    "zdroj": "portal"
+  },
+  {
+    "id": "2001417636",
+    "url": "https://www.jobs.cz/rpd/2001417636/",
+    "pozice": "INTERNATIONAL TAX MANAGER|BIG4 EXPERIENCE WELCOME|CZ+ENG",
+    "firma": "Prušák Group s.r.o.",
+    "lokalita": "Hlavní město Praha",
+    "vypsano": "2026-09-09",
+    "stitky_portalu": [
+      "Odpověď do 2 týdnů",
+      "Odpovězte teď a budete mezi prvními"
+    ],
+    "atmoskop": null,
+    "zdroj": "portal"
+  },
+  {
+    "id": "2001393630",
+    "url": "https://www.jobs.cz/rpd/2001393630/",
+    "pozice": "Dispečer / Dispečer junior (Chrášťany)",
+    "firma": "Rhenus Logistics s.r.o.",
+    "lokalita": "Chrášťany",
+    "vypsano": "2026-09-23",
+    "stitky_portalu": [
+      "36 000 – 42 000 Kč",
+      "Odpověď do 2 týdnů"
+    ],
+    "atmoskop": "35 hodnocení na Atmoskopu",
+    "zdroj": "portal"
+  },
+  {
+    "id": "2001415374",
+    "url": "https://www.jobs.cz/rpd/2001415374/",
+    "pozice": "Dispečer mezinárodní a vnitrostátní dopravy",
+    "firma": "Luděk Volšička - Volšatrans",
+    "lokalita": "Zeleneč – Mstětice",
+    "vypsano": "2026-09-22",
+    "stitky_portalu": [
+      "35 000 – 60 000 Kč",
+      "Odpověď do 2 týdnů"
+    ],
+    "atmoskop": null,
+    "zdroj": "portal"
+  },
+  {
+    "id": "2001440515",
+    "url": "https://www.jobs.cz/rpd/2001440515/",
+    "pozice": "Dispečer/ka vnitrostátní dopravy",
+    "firma": "Recrutech s.r.o.",
+    "lokalita": "Kralupy nad Vltavou",
+    "vypsano": "2026-09-22",
+    "stitky_portalu": [
+      "40 000 – 55 000 Kč",
+      "Odpovězte teď a budete mezi prvními"
+    ],
+    "atmoskop": null,
+    "zdroj": "portal"
+  },
+  {
+    "id": "2000561003",
+    "url": "https://www.jobs.cz/rpd/2000561003/",
+    "pozice": "🔧 Parťák/čka do provozu i kanceláře, možnost i vedoucího směny – depo Chrášťany",
+    "firma": "FedEx Express Czech Republic s.r.o.",
+    "lokalita": "Chrášťany",
+    "vypsano": "2026-09-21",
+    "stitky_portalu": [
+      "Odpověď do 2 týdnů"
+    ],
+    "atmoskop": null,
+    "zdroj": "portal"
+  },
+  {
+    "id": "2001367181",
+    "url": "https://www.jobs.cz/rpd/2001367181/",
+    "pozice": "🔧 Pracovník/ce skladu – depo Chrášťany",
+    "firma": "FedEx Express Czech Republic s.r.o.",
+    "lokalita": "Chrášťany",
+    "vypsano": "2026-09-21",
+    "stitky_portalu": [
+      "Odpověď do 2 týdnů"
+    ],
+    "atmoskop": null,
+    "zdroj": "portal"
+  },
+  {
+    "id": "1636022314",
+    "url": "https://www.jobs.cz/rpd/1636022314/",
+    "pozice": "🔧 Pracovník/ce skladu – depo Chrášťany (ranní a odpolední směna)",
+    "firma": "FedEx Express Czech Republic s.r.o.",
+    "lokalita": "Chrášťany",
+    "vypsano": "2026-09-21",
+    "stitky_portalu": [
+      "Odpověď do 2 týdnů"
     ],
     "atmoskop": null,
     "zdroj": "portal"
