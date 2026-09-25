@@ -2,7 +2,7 @@
   "firma": "Notino, s.r.o.",
   "karierni_url": "https://career.notino.cz/",
   "ats_platforma": "Alma Career (notino.jobs.cz) + vlastní",
-  "porizeno": "2026-09-25T10:28:41.266Z",
+  "porizeno": "2026-09-25T15:51:13.603Z",
   "pocet": 6,
   "inzeraty": [
     {
@@ -18,16 +18,16 @@
       "nazev": "Nová pozice Senior AI Process Builder Brno , CZ"
     },
     {
-      "url": "https://career.notino.cz/job/498200-beauty-consultant-vienna-20h30h-per-week-wien-wagramer-strasse-81",
-      "nazev": "Nová pozice Prodejny Beauty Consultant - Vienna (20h/30h per week) Wien , AT"
-    },
-    {
       "url": "https://career.notino.cz/job/498229-supply-chain-excellence-specialist-brno-londynske-namesti-881",
       "nazev": "Nová pozice Doprava Supply Chain Excellence Specialist Brno , CZ"
     },
     {
       "url": "https://career.notino.cz/job/498345-product-cx-specialist-clync-brno-londynske-namesti-881",
       "nazev": "Nová pozice Product CX Specialist – CLYNC Brno , CZ"
+    },
+    {
+      "url": "https://career.notino.cz/job/498372-beauty-consultant-katowicka-katowice-3-maja-30",
+      "nazev": "Nová pozice Prodejny Beauty Consultant Katowicka Katowice , PL"
     }
   ]
 }
