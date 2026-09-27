@@ -1,482 +1,5 @@
 [
   {
-    "id": "2001433794",
-    "url": "https://www.jobs.cz/rpd/2001433794/",
-    "pozice": "Test Analytik/čka",
-    "firma": "MONETA Money Bank, a.s.",
-    "lokalita": "Praha – Michle",
-    "vypsano": "2026-09-18",
-    "stitky_portalu": [],
-    "atmoskop": "631 hodnocení na Atmoskopu",
-    "zdroj": "portal",
-    "pokusu": 2,
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
-  },
-  {
-    "id": "2001393545",
-    "url": "https://www.jobs.cz/rpd/2001393545/",
-    "pozice": "Performance management analyst",
-    "firma": "Skupina ČEZ",
-    "lokalita": "Praha – Michle",
-    "vypsano": "2026-08-26",
-    "stitky_portalu": [
-      "Odpověď do 2 týdnů",
-      "Možnost občasné práce z domova"
-    ],
-    "atmoskop": "1076 hodnocení na Atmoskopu",
-    "zdroj": "portal",
-    "pokusu": 2,
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
-  },
-  {
-    "id": "2001298967",
-    "url": "https://www.jobs.cz/rpd/2001298967/",
-    "pozice": "Financial Data Analyst (m/f)",
-    "firma": "Randstad HR Solutions s.r.o.",
-    "lokalita": "Praha",
-    "vypsano": null,
-    "stitky_portalu": [
-      "Možnost občasné práce z domova"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal",
-    "pokusu": 2,
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
-  },
-  {
-    "id": "2001385285",
-    "url": "https://www.jobs.cz/rpd/2001385285/",
-    "pozice": "Sales Data Analyst (Route-to-Market Planner)",
-    "firma": "Coca-Cola",
-    "lokalita": "Praha – Kyje",
-    "vypsano": "2026-09-21",
-    "stitky_portalu": [
-      "Odpověď do 2 týdnů"
-    ],
-    "atmoskop": "120 hodnocení na Atmoskopu",
-    "zdroj": "portal",
-    "pokusu": 2,
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
-  },
-  {
-    "id": "2001274007",
-    "url": "https://www.jobs.cz/rpd/2001274007/",
-    "pozice": "BI Business Analyst",
-    "firma": "Škoda Transportation",
-    "lokalita": "Praha – Stodůlky",
-    "vypsano": "2026-09-09",
-    "stitky_portalu": [
-      "Možnost občasné práce z domova"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal",
-    "pokusu": 2,
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
-  },
-  {
-    "id": "2001424566",
-    "url": "https://www.jobs.cz/rpd/2001424566/",
-    "pozice": "SENIOR ANALYTIK/ČKA OCEŇOVÁNÍ",
-    "firma": "J&T BANKA",
-    "lokalita": "Praha – Karlín",
-    "vypsano": "2026-09-14",
-    "stitky_portalu": [
-      "Odpověď do 2 týdnů",
-      "Možnost občasné práce z domova"
-    ],
-    "atmoskop": "56 hodnocení na Atmoskopu",
-    "zdroj": "portal",
-    "pokusu": 2,
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
-  },
-  {
-    "id": "2001304647",
-    "url": "https://www.jobs.cz/rpd/2001304647/",
-    "pozice": "EQUITY ANALYST",
-    "firma": "J&T BANKA",
-    "lokalita": "Praha – Karlín",
-    "vypsano": "2026-09-02",
-    "stitky_portalu": [
-      "Odpověď do 2 týdnů",
-      "Možnost občasné práce z domova"
-    ],
-    "atmoskop": "56 hodnocení na Atmoskopu",
-    "zdroj": "portal",
-    "pokusu": 2,
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
-  },
-  {
-    "id": "2001418723",
-    "url": "https://www.jobs.cz/rpd/2001418723/",
-    "pozice": "Middle Office Analyst - Prague",
-    "firma": "EP Commodities, a.s.",
-    "lokalita": "Praha – Nové Město",
-    "vypsano": "2026-09-10",
-    "stitky_portalu": [
-      "Možnost občasné práce z domova"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal",
-    "pokusu": 2,
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
-  },
-  {
-    "id": "2001415785",
-    "url": "https://www.jobs.cz/rpd/2001415785/",
-    "pozice": "Senior Sales Analyst – CEE Sales Analytics",
-    "firma": "Invia.cz, a.s.",
-    "lokalita": "Praha",
-    "vypsano": "2026-09-22",
-    "stitky_portalu": [
-      "Odpověď do 2 týdnů"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal",
-    "pokusu": 2,
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
-  },
-  {
-    "id": "2001418978",
-    "url": "https://www.jobs.cz/rpd/2001418978/",
-    "pozice": "Depozitář fondů - analytik (m/ž)",
-    "firma": "ČSOB Československá obchodní banka, a. s.",
-    "lokalita": "Hlavní město Praha",
-    "vypsano": "2026-09-14",
-    "stitky_portalu": [
-      "Možnost občasné práce z domova"
-    ],
-    "atmoskop": "436 hodnocení na Atmoskopu",
-    "zdroj": "portal",
-    "pokusu": 2,
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
-  },
-  {
-    "id": "2001288310",
-    "url": "https://www.jobs.cz/rpd/2001288310/",
-    "pozice": "ALM Model Analyst",
-    "firma": "Komerční banka, a.s.",
-    "lokalita": "Praha – Stodůlky",
-    "vypsano": "2026-09-15",
-    "stitky_portalu": [
-      "Odpověď do 2 týdnů",
-      "Možnost občasné práce z domova"
-    ],
-    "atmoskop": "655 hodnocení na Atmoskopu",
-    "zdroj": "portal",
-    "pokusu": 2,
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
-  },
-  {
-    "id": "2001396641",
-    "url": "https://www.jobs.cz/rpd/2001396641/",
-    "pozice": "Business Analytik (m/ž)",
-    "firma": "Ayvens s.r.o.",
-    "lokalita": "Praha – Malešice",
-    "vypsano": "2026-08-28",
-    "stitky_portalu": [
-      "Odpověď do 2 týdnů"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal",
-    "pokusu": 2,
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
-  },
-  {
-    "id": "2001441195",
-    "url": "https://www.jobs.cz/rpd/2001441195/",
-    "pozice": "Datový analytik pro správu zásob (ž/m)",
-    "firma": "ROSSMANN,spol.s r.o.",
-    "lokalita": "Praha – Nusle",
-    "vypsano": "2026-09-22",
-    "stitky_portalu": [
-      "Odpověď do 2 týdnů",
-      "Možnost občasné práce z domova"
-    ],
-    "atmoskop": "256 hodnocení na Atmoskopu",
-    "zdroj": "portal",
-    "pokusu": 2,
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
-  },
-  {
-    "id": "2001353746",
-    "url": "https://www.jobs.cz/rpd/2001353746/",
-    "pozice": "Investor Relations Analyst",
-    "firma": "CSG",
-    "lokalita": "Praha",
-    "vypsano": "2026-09-04",
-    "stitky_portalu": [],
-    "atmoskop": null,
-    "zdroj": "portal",
-    "pokusu": 2,
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
-  },
-  {
-    "id": "2001240742",
-    "url": "https://www.jobs.cz/rpd/2001240742/",
-    "pozice": "Senior Functional Analyst in Credit Risk (Prague or Brno)",
-    "firma": "KBC Global Services NV",
-    "lokalita": "Praha – Radlice + 1 další lokalita",
-    "vypsano": "2026-09-08",
-    "stitky_portalu": [],
-    "atmoskop": "131 hodnocení na Atmoskopu",
-    "zdroj": "portal",
-    "pokusu": 2,
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
-  },
-  {
-    "id": "2001193496",
-    "url": "https://www.jobs.cz/rpd/2001193496/",
-    "pozice": "Data Analyst Products",
-    "firma": "MONETA Money Bank, a.s.",
-    "lokalita": "Praha",
-    "vypsano": "2026-09-15",
-    "stitky_portalu": [],
-    "atmoskop": "631 hodnocení na Atmoskopu",
-    "zdroj": "portal",
-    "pokusu": 2,
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
-  },
-  {
-    "id": "2001418854",
-    "url": "https://www.jobs.cz/rpd/2001418854/",
-    "pozice": "IT Analytik/čka pro klíčové bankovní aplikace",
-    "firma": "MONETA Money Bank, a.s.",
-    "lokalita": "Praha – Michle",
-    "vypsano": "2026-09-10",
-    "stitky_portalu": [
-      "Možnost občasné práce z domova"
-    ],
-    "atmoskop": "631 hodnocení na Atmoskopu",
-    "zdroj": "portal",
-    "pokusu": 2,
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
-  },
-  {
-    "id": "2001237361",
-    "url": "https://www.jobs.cz/rpd/2001237361/",
-    "pozice": "Senior Business Analyst",
-    "firma": "MONETA Money Bank, a.s.",
-    "lokalita": "Praha – Michle",
-    "vypsano": "2026-09-15",
-    "stitky_portalu": [
-      "Možnost občasné práce z domova"
-    ],
-    "atmoskop": "631 hodnocení na Atmoskopu",
-    "zdroj": "portal",
-    "pokusu": 2,
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
-  },
-  {
-    "id": "2001396093",
-    "url": "https://www.jobs.cz/rpd/2001396093/",
-    "pozice": "Datový analytik - Retailová obchodní podpora (m/ž)",
-    "firma": "ČSOB Československá obchodní banka, a. s.",
-    "lokalita": "Praha – Radlice",
-    "vypsano": null,
-    "stitky_portalu": [
-      "Možnost občasné práce z domova"
-    ],
-    "atmoskop": "436 hodnocení na Atmoskopu",
-    "zdroj": "portal",
-    "pokusu": 2,
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
-  },
-  {
-    "id": "2001210635",
-    "url": "https://www.jobs.cz/rpd/2001210635/",
-    "pozice": "BI datový analytik (Oracle, MSSQL, BI) -Praha",
-    "firma": "Banka CREDITAS a.s.",
-    "lokalita": "Praha – Karlín",
-    "vypsano": "2026-09-21",
-    "stitky_portalu": [
-      "Odpověď do 2 týdnů",
-      "Možnost občasné práce z domova"
-    ],
-    "atmoskop": "84 hodnocení na Atmoskopu",
-    "zdroj": "portal",
-    "pokusu": 2,
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
-  },
-  {
-    "id": "2001396526",
-    "url": "https://www.jobs.cz/rpd/2001396526/",
-    "pozice": "IT analytik/čka – API integrace",
-    "firma": "MONETA Money Bank, a.s.",
-    "lokalita": "Praha – Michle",
-    "vypsano": null,
-    "stitky_portalu": [
-      "Možnost občasné práce z domova"
-    ],
-    "atmoskop": "631 hodnocení na Atmoskopu",
-    "zdroj": "portal",
-    "pokusu": 2,
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
-  },
-  {
-    "id": "2001355171",
-    "url": "https://www.jobs.cz/rpd/2001355171/",
-    "pozice": "Business analytik P&L (m/ž)",
-    "firma": "Komerční banka, a.s.",
-    "lokalita": "Praha – Stodůlky",
-    "vypsano": "2026-09-03",
-    "stitky_portalu": [
-      "Odpověď do 2 týdnů",
-      "Možnost občasné práce z domova"
-    ],
-    "atmoskop": "655 hodnocení na Atmoskopu",
-    "zdroj": "portal",
-    "pokusu": 2,
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
-  },
-  {
-    "id": "2001375769",
-    "url": "https://www.jobs.cz/rpd/2001375769/",
-    "pozice": "IT Analytik/čka v investiční společnosti",
-    "firma": "Generali Investments CEE",
-    "lokalita": "Praha – Michle",
-    "vypsano": "2026-09-21",
-    "stitky_portalu": [
-      "Odpověď do 2 týdnů"
-    ],
-    "atmoskop": "350 hodnocení na Atmoskopu",
-    "zdroj": "portal",
-    "pokusu": 2,
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
-  },
-  {
-    "id": "2001402290",
-    "url": "https://www.jobs.cz/rpd/2001402290/",
-    "pozice": "Business analytik/analytička pro agregaci flexibility",
-    "firma": "Skupina ČEZ",
-    "lokalita": "Praha – Smíchov",
-    "vypsano": "2026-09-01",
-    "stitky_portalu": [
-      "Odpověď do 2 týdnů"
-    ],
-    "atmoskop": "1076 hodnocení na Atmoskopu",
-    "zdroj": "portal",
-    "pokusu": 2,
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
-  },
-  {
-    "id": "2001392233",
-    "url": "https://www.jobs.cz/rpd/2001392233/",
-    "pozice": "Datový analytik (m/ž)",
-    "firma": "ČSOB Československá obchodní banka, a. s.",
-    "lokalita": "Praha – Radlice",
-    "vypsano": null,
-    "stitky_portalu": [
-      "Možnost občasné práce z domova"
-    ],
-    "atmoskop": "436 hodnocení na Atmoskopu",
-    "zdroj": "portal",
-    "pokusu": 2,
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
-  },
-  {
-    "id": "2001400943",
-    "url": "https://www.jobs.cz/rpd/2001400943/",
-    "pozice": "IT Analytik (m/ž)",
-    "firma": "ČSOB Československá obchodní banka, a. s.",
-    "lokalita": "Praha – Radlice",
-    "vypsano": "2026-08-31",
-    "stitky_portalu": [
-      "Možnost občasné práce z domova"
-    ],
-    "atmoskop": "436 hodnocení na Atmoskopu",
-    "zdroj": "portal",
-    "pokusu": 2,
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
-  },
-  {
-    "id": "2001238858",
-    "url": "https://www.jobs.cz/rpd/2001238858/",
-    "pozice": "IT Business Analytik - CRM",
-    "firma": "PPF banka a.s.",
-    "lokalita": "Praha – Dejvice",
-    "vypsano": "2026-09-19",
-    "stitky_portalu": [],
-    "atmoskop": null,
-    "zdroj": "portal",
-    "pokusu": 2,
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
-  },
-  {
-    "id": "2001163982",
-    "url": "https://www.jobs.cz/rpd/2001163982/",
-    "pozice": "IT Analytik/čka pro Digital Channels (Medior)",
-    "firma": "MONETA Money Bank, a.s.",
-    "lokalita": "Praha – Michle",
-    "vypsano": "2026-09-01",
-    "stitky_portalu": [
-      "Možnost občasné práce z domova"
-    ],
-    "atmoskop": "631 hodnocení na Atmoskopu",
-    "zdroj": "portal",
-    "pokusu": 2,
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
-  },
-  {
-    "id": "2001175063",
-    "url": "https://www.jobs.cz/rpd/2001175063/",
-    "pozice": "IT Analytik (m/ž)",
-    "firma": "Skupina E.ON",
-    "lokalita": "Praha + 2 další lokality",
-    "vypsano": "2026-09-08",
-    "stitky_portalu": [
-      "Odpověď do 2 týdnů"
-    ],
-    "atmoskop": "326 hodnocení na Atmoskopu",
-    "zdroj": "portal",
-    "pokusu": 2,
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
-  },
-  {
-    "id": "2001399843",
-    "url": "https://www.jobs.cz/rpd/2001399843/",
-    "pozice": "IT Analytik (m/ž)",
-    "firma": "ČSOB Československá obchodní banka, a. s.",
-    "lokalita": "Praha – Radlice",
-    "vypsano": "2026-08-30",
-    "stitky_portalu": [
-      "Možnost občasné práce z domova"
-    ],
-    "atmoskop": "436 hodnocení na Atmoskopu",
-    "zdroj": "portal",
-    "pokusu": 2,
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
-  },
-  {
-    "id": "2001212146",
-    "url": "https://www.jobs.cz/rpd/2001212146/",
-    "pozice": "IT Analytik/čka pro Digital Channels",
-    "firma": "MONETA Money Bank, a.s.",
-    "lokalita": "Praha – Michle",
-    "vypsano": "2026-09-17",
-    "stitky_portalu": [
-      "Možnost občasné práce z domova"
-    ],
-    "atmoskop": "631 hodnocení na Atmoskopu",
-    "zdroj": "portal",
-    "pokusu": 2,
-    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
-  },
-  {
-    "id": "2001288630",
-    "url": "https://www.jobs.cz/rpd/2001288630/",
-    "pozice": "Procesní specialista/Business analytik",
-    "firma": "SATPO management, s.r.o.",
-    "lokalita": "Praha – Smíchov",
-    "vypsano": null,
-    "stitky_portalu": [
-      "Možnost občasné práce z domova"
-    ],
-    "atmoskop": "51 hodnocení na Atmoskopu",
-    "zdroj": "portal",
-    "pokusu": 2,
-    "posledni_chyba": "nenačteno (HTTP 404): prázdná stránka"
-  },
-  {
     "id": "2001381187",
     "url": "https://www.jobs.cz/rpd/2001381187/",
     "pozice": "Data Analyst | Data with Impact",
@@ -489,7 +12,7 @@
     ],
     "atmoskop": "93 hodnocení na Atmoskopu",
     "zdroj": "portal",
-    "pokusu": 1,
+    "pokusu": 2,
     "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
@@ -502,7 +25,7 @@
     "stitky_portalu": [],
     "atmoskop": null,
     "zdroj": "portal",
-    "pokusu": 1,
+    "pokusu": 2,
     "posledni_chyba": "nenačteno (HTTP 404): prázdná stránka"
   },
   {
@@ -517,7 +40,7 @@
     ],
     "atmoskop": "568 hodnocení na Atmoskopu",
     "zdroj": "portal",
-    "pokusu": 1,
+    "pokusu": 2,
     "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
@@ -533,7 +56,7 @@
     ],
     "atmoskop": null,
     "zdroj": "portal",
-    "pokusu": 1,
+    "pokusu": 2,
     "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
@@ -549,7 +72,7 @@
     ],
     "atmoskop": null,
     "zdroj": "portal",
-    "pokusu": 1,
+    "pokusu": 2,
     "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
@@ -565,7 +88,7 @@
     ],
     "atmoskop": null,
     "zdroj": "portal",
-    "pokusu": 1,
+    "pokusu": 2,
     "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
@@ -581,7 +104,7 @@
     ],
     "atmoskop": "98 hodnocení na Atmoskopu",
     "zdroj": "portal",
-    "pokusu": 1,
+    "pokusu": 2,
     "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
@@ -594,7 +117,7 @@
     "stitky_portalu": [],
     "atmoskop": null,
     "zdroj": "portal",
-    "pokusu": 1,
+    "pokusu": 2,
     "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
@@ -609,7 +132,7 @@
     ],
     "atmoskop": "53 hodnocení na Atmoskopu",
     "zdroj": "portal",
-    "pokusu": 1,
+    "pokusu": 2,
     "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
@@ -622,7 +145,7 @@
     "stitky_portalu": [],
     "atmoskop": "631 hodnocení na Atmoskopu",
     "zdroj": "portal",
-    "pokusu": 1,
+    "pokusu": 2,
     "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
@@ -637,7 +160,7 @@
     ],
     "atmoskop": "65 hodnocení na Atmoskopu",
     "zdroj": "portal",
-    "pokusu": 1,
+    "pokusu": 2,
     "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
@@ -653,7 +176,7 @@
     ],
     "atmoskop": "350 hodnocení na Atmoskopu",
     "zdroj": "portal",
-    "pokusu": 1,
+    "pokusu": 2,
     "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
@@ -669,7 +192,7 @@
     ],
     "atmoskop": "99 hodnocení na Atmoskopu",
     "zdroj": "portal",
-    "pokusu": 1,
+    "pokusu": 2,
     "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
@@ -685,7 +208,7 @@
     ],
     "atmoskop": "146 hodnocení na Atmoskopu",
     "zdroj": "portal",
-    "pokusu": 1,
+    "pokusu": 2,
     "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
@@ -701,7 +224,7 @@
     ],
     "atmoskop": "99 hodnocení na Atmoskopu",
     "zdroj": "portal",
-    "pokusu": 1,
+    "pokusu": 2,
     "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
@@ -716,7 +239,7 @@
     ],
     "atmoskop": "1076 hodnocení na Atmoskopu",
     "zdroj": "portal",
-    "pokusu": 1,
+    "pokusu": 2,
     "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
@@ -732,7 +255,7 @@
     ],
     "atmoskop": "71 hodnocení na Atmoskopu",
     "zdroj": "portal",
-    "pokusu": 1,
+    "pokusu": 2,
     "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
@@ -745,7 +268,7 @@
     "stitky_portalu": [],
     "atmoskop": "385 hodnocení na Atmoskopu",
     "zdroj": "portal",
-    "pokusu": 1,
+    "pokusu": 2,
     "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
@@ -761,7 +284,7 @@
     ],
     "atmoskop": "212 hodnocení na Atmoskopu",
     "zdroj": "portal",
-    "pokusu": 1,
+    "pokusu": 2,
     "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
@@ -777,7 +300,7 @@
     ],
     "atmoskop": null,
     "zdroj": "portal",
-    "pokusu": 1,
+    "pokusu": 2,
     "posledni_chyba": "nenačteno (HTTP 404): prázdná stránka"
   },
   {
@@ -793,7 +316,7 @@
     ],
     "atmoskop": "212 hodnocení na Atmoskopu",
     "zdroj": "portal",
-    "pokusu": 1,
+    "pokusu": 2,
     "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
@@ -807,7 +330,9 @@
       "Odpověď do 2 týdnů"
     ],
     "atmoskop": null,
-    "zdroj": "portal"
+    "zdroj": "portal",
+    "pokusu": 1,
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
     "id": "2001247036",
@@ -821,21 +346,9 @@
       "Možnost občasné práce z domova"
     ],
     "atmoskop": "67 hodnocení na Atmoskopu",
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001294807",
-    "url": "https://www.jobs.cz/rpd/2001294807/",
-    "pozice": "DPH daňový konzultant/poradce (A459)",
-    "firma": "Forvis Mazars s.r.o.",
-    "lokalita": "Praha – Holešovice",
-    "vypsano": null,
-    "stitky_portalu": [
-      "Odpověď do 2 týdnů",
-      "Možnost občasné práce z domova"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
+    "zdroj": "portal",
+    "pokusu": 1,
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
     "id": "2000304097",
@@ -849,22 +362,9 @@
       "Možnost občasné práce z domova"
     ],
     "atmoskop": "67 hodnocení na Atmoskopu",
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001430761",
-    "url": "https://www.jobs.cz/rpd/2001430761/",
-    "pozice": "Vedoucí oddělení ekonomických činností",
-    "firma": "Městská část Praha 6",
-    "lokalita": "Praha – Bubeneč",
-    "vypsano": null,
-    "stitky_portalu": [
-      "27 030 – 51 500 Kč",
-      "Odpověď do 2 týdnů",
-      "Odpovězte teď a budete mezi prvními"
-    ],
-    "atmoskop": "23 hodnocení na Atmoskopu",
-    "zdroj": "portal"
+    "zdroj": "portal",
+    "pokusu": 1,
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
     "id": "2001175188",
@@ -878,88 +378,9 @@
       "Možnost občasné práce z domova"
     ],
     "atmoskop": "99 hodnocení na Atmoskopu",
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001444119",
-    "url": "https://www.jobs.cz/rpd/2001444119/",
-    "pozice": "Senior Účetní",
-    "firma": "JAF HOLZ spol. s r.o.",
-    "lokalita": "Vlašim – Domašín",
-    "vypsano": null,
-    "stitky_portalu": [
-      "Odpovězte teď a budete mezi prvními"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001407092",
-    "url": "https://www.jobs.cz/rpd/2001407092/",
-    "pozice": "MANAŽER/MANAŽERKA EKONOMICKÉHO A SPRÁVNÍHO ODDĚLENÍ",
-    "firma": "INTERGRAM",
-    "lokalita": "Praha – Nové Město",
-    "vypsano": null,
-    "stitky_portalu": [],
-    "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001405932",
-    "url": "https://www.jobs.cz/rpd/2001405932/",
-    "pozice": "Treasury Expert",
-    "firma": "SATPO management, s.r.o.",
-    "lokalita": "Praha – Smíchov",
-    "vypsano": null,
-    "stitky_portalu": [],
-    "atmoskop": "51 hodnocení na Atmoskopu",
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001429039",
-    "url": "https://www.jobs.cz/rpd/2001429039/",
-    "pozice": "Vedoucí oddělení Regulace účetnictví veřejného sektoru",
-    "firma": "Ministerstvo financí",
-    "lokalita": "Praha – Libeň",
-    "vypsano": null,
-    "stitky_portalu": [
-      "39 510 – 72 000 Kč",
-      "Odpověď do 2 týdnů",
-      "Možnost občasné práce z domova",
-      "Odpovězte teď a budete mezi prvními"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001428770",
-    "url": "https://www.jobs.cz/rpd/2001428770/",
-    "pozice": "ADMINISTRÁTOR/KA PROJEKTŮ",
-    "firma": "Národní ústav pro autismus, z.ú.",
-    "lokalita": "Praha – Libeň",
-    "vypsano": null,
-    "stitky_portalu": [
-      "35 000 – 45 000 Kč",
-      "Odpověď do 2 týdnů",
-      "Možnost občasné práce z domova"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001404962",
-    "url": "https://www.jobs.cz/rpd/2001404962/",
-    "pozice": "Odborník/Odbornice se zaměřením na ekonomii",
-    "firma": "Ministerstvo financí",
-    "lokalita": "Praha – Malá Strana",
-    "vypsano": null,
-    "stitky_portalu": [
-      "39 510 – 60 000 Kč",
-      "Odpověď do 2 týdnů",
-      "Možnost občasné práce z domova"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
+    "zdroj": "portal",
+    "pokusu": 1,
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
     "id": "2001393518",
@@ -970,79 +391,9 @@
     "vypsano": null,
     "stitky_portalu": [],
     "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001427817",
-    "url": "https://www.jobs.cz/rpd/2001427817/",
-    "pozice": "Specialista controllingu a rozpočtu",
-    "firma": "Zoologická zahrada hl. m. Prahy",
-    "lokalita": "Praha – Troja",
-    "vypsano": "2026-09-22",
-    "stitky_portalu": [
-      "Možnost občasné práce z domova"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001441405",
-    "url": "https://www.jobs.cz/rpd/2001441405/",
-    "pozice": "Finanční manažer",
-    "firma": "KAPRAIN a.s.",
-    "lokalita": "Praha – Libeň",
-    "vypsano": "2026-09-22",
-    "stitky_portalu": [
-      "Odpověď do 2 týdnů",
-      "Možnost občasné práce z domova"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001419016",
-    "url": "https://www.jobs.cz/rpd/2001419016/",
-    "pozice": "Kontrolor/kontrolorka finančních kontrol",
-    "firma": "HLAVNÍ MĚSTO PRAHA",
-    "lokalita": "okres Praha",
-    "vypsano": null,
-    "stitky_portalu": [
-      "31 000 – 51 000 Kč",
-      "Odpověď do 2 týdnů",
-      "Možnost občasné práce z domova",
-      "Odpovězte teď a budete mezi prvními"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001426910",
-    "url": "https://www.jobs.cz/rpd/2001426910/",
-    "pozice": "Senior klientského účetnictví SAP tým (A471)",
-    "firma": "Forvis Mazars s.r.o.",
-    "lokalita": "Praha – Holešovice",
-    "vypsano": "2026-09-22",
-    "stitky_portalu": [
-      "Odpověď do 2 týdnů",
-      "Možnost občasné práce z domova"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001440591",
-    "url": "https://www.jobs.cz/rpd/2001440591/",
-    "pozice": "Senior účetní/hlavní účetní (A472)",
-    "firma": "Forvis Mazars s.r.o.",
-    "lokalita": "Mladá Boleslav",
-    "vypsano": "2026-09-22",
-    "stitky_portalu": [
-      "Odpověď do 2 týdnů",
-      "Možnost občasné práce z domova",
-      "Odpovězte teď a budete mezi prvními"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
+    "zdroj": "portal",
+    "pokusu": 1,
+    "posledni_chyba": "nenačteno (HTTP 404): prázdná stránka"
   },
   {
     "id": "2001364173",
@@ -1056,7 +407,9 @@
       "Možnost občasné práce z domova"
     ],
     "atmoskop": "822 hodnocení na Atmoskopu",
-    "zdroj": "portal"
+    "zdroj": "portal",
+    "pokusu": 1,
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
     "id": "2001426404",
@@ -1069,31 +422,9 @@
       "Možnost občasné práce z domova"
     ],
     "atmoskop": "58 hodnocení na Atmoskopu",
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001193191",
-    "url": "https://www.jobs.cz/rpd/2001193191/",
-    "pozice": "Účetní (m/ž)",
-    "firma": "B. Braun",
-    "lokalita": "Praha – Chodov",
-    "vypsano": "2026-09-22",
-    "stitky_portalu": [],
-    "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001401641",
-    "url": "https://www.jobs.cz/rpd/2001401641/",
-    "pozice": "Senior účetní",
-    "firma": "CITIC Europe Holdings a.s.",
-    "lokalita": "Praha – Nové Město",
-    "vypsano": "2026-09-21",
-    "stitky_portalu": [
-      "Možnost občasné práce z domova"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
+    "zdroj": "portal",
+    "pokusu": 1,
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
     "id": "2001438557",
@@ -1106,20 +437,9 @@
       "Odpověď do 2 týdnů"
     ],
     "atmoskop": "1076 hodnocení na Atmoskopu",
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001231089",
-    "url": "https://www.jobs.cz/rpd/2001231089/",
-    "pozice": "NÁBOR POKRAČUJE - ROZÚČTOVATEL/KA TEPLA A VODY a/nebo ZÁSTUPCE VEDOUCÍ ROZÚČTOVÁNÍ",
-    "firma": "PROFITHERM CZ s.r.o.",
-    "lokalita": "Praha – Hostivař",
-    "vypsano": "2026-09-20",
-    "stitky_portalu": [
-      "Možnost občasné práce z domova"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
+    "zdroj": "portal",
+    "pokusu": 1,
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
     "id": "2001398658",
@@ -1132,18 +452,9 @@
       "Odpověď do 2 týdnů"
     ],
     "atmoskop": "65 hodnocení na Atmoskopu",
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001421144",
-    "url": "https://www.jobs.cz/rpd/2001421144/",
-    "pozice": "Analytik/čka personální bezpečnosti",
-    "firma": "Národní bezpečnostní úřad",
-    "lokalita": "Praha – Košíře",
-    "vypsano": "2026-09-18",
-    "stitky_portalu": [],
-    "atmoskop": null,
-    "zdroj": "portal"
+    "zdroj": "portal",
+    "pokusu": 1,
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
     "id": "2001348703",
@@ -1156,34 +467,9 @@
       "Odpověď do 2 týdnů"
     ],
     "atmoskop": "65 hodnocení na Atmoskopu",
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001420893",
-    "url": "https://www.jobs.cz/rpd/2001420893/",
-    "pozice": "Expert/Expertka - realizace strategií řízení portfolií a dluhová statistika",
-    "firma": "Ministerstvo financí",
-    "lokalita": "Praha – Malá Strana",
-    "vypsano": "2026-09-18",
-    "stitky_portalu": [
-      "35 000 – 60 000 Kč",
-      "Odpověď do 2 týdnů",
-      "Možnost občasné práce z domova",
-      "Odpovězte teď a budete mezi prvními"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001409367",
-    "url": "https://www.jobs.cz/rpd/2001409367/",
-    "pozice": "Treasury manažer/ka",
-    "firma": "KBP Back Office s.r.o.",
-    "lokalita": "Praha – Nusle",
-    "vypsano": "2026-09-18",
-    "stitky_portalu": [],
-    "atmoskop": null,
-    "zdroj": "portal"
+    "zdroj": "portal",
+    "pokusu": 1,
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
     "id": "2000710840",
@@ -1198,22 +484,9 @@
       "Možnost občasné práce z domova"
     ],
     "atmoskop": "212 hodnocení na Atmoskopu",
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001429429",
-    "url": "https://www.jobs.cz/rpd/2001429429/",
-    "pozice": "⋙📊 Senior účetní | Home office | 63 000 Kč⋘",
-    "firma": "mBlue Czech, s.r.o.",
-    "lokalita": "Hlavní město Praha",
-    "vypsano": "2026-09-16",
-    "stitky_portalu": [
-      "60 000 – 65 000 Kč",
-      "Odpověď do 2 týdnů",
-      "Možnost občasné práce z domova"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
+    "zdroj": "portal",
+    "pokusu": 1,
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
     "id": "2001428570",
@@ -1227,29 +500,9 @@
       "Možnost občasné práce z domova"
     ],
     "atmoskop": "99 hodnocení na Atmoskopu",
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001427619",
-    "url": "https://www.jobs.cz/rpd/2001427619/",
-    "pozice": "Referent-rozpočtář pro MČ Praha",
-    "firma": "KOREKT PRAHA",
-    "lokalita": "Hlavní město Praha",
-    "vypsano": "2026-09-15",
-    "stitky_portalu": [],
-    "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001427277",
-    "url": "https://www.jobs.cz/rpd/2001427277/",
-    "pozice": "Majetková účetní / Účetní dlouhodobého majetku",
-    "firma": "AGEL a.s.",
-    "lokalita": "Praha",
-    "vypsano": "2026-09-15",
-    "stitky_portalu": [],
-    "atmoskop": null,
-    "zdroj": "portal"
+    "zdroj": "portal",
+    "pokusu": 1,
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
     "id": "2000710861",
@@ -1264,7 +517,9 @@
       "Možnost občasné práce z domova"
     ],
     "atmoskop": "212 hodnocení na Atmoskopu",
-    "zdroj": "portal"
+    "zdroj": "portal",
+    "pokusu": 1,
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
     "id": "2001424527",
@@ -1277,21 +532,9 @@
       "Odpověď do 2 týdnů"
     ],
     "atmoskop": "1076 hodnocení na Atmoskopu",
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001367424",
-    "url": "https://www.jobs.cz/rpd/2001367424/",
-    "pozice": "Asistent auditora – Praha – Karlín",
-    "firma": "PŘEDVÝBĚR.CZ a.s.",
-    "lokalita": "Praha – Karlín",
-    "vypsano": "2026-09-14",
-    "stitky_portalu": [
-      "Odpověď do 2 týdnů",
-      "Možnost občasné práce z domova"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
+    "zdroj": "portal",
+    "pokusu": 1,
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
     "id": "2001178246",
@@ -1305,35 +548,9 @@
       "Možnost občasné práce z domova"
     ],
     "atmoskop": "67 hodnocení na Atmoskopu",
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001399372",
-    "url": "https://www.jobs.cz/rpd/2001399372/",
-    "pozice": "Projektový manažer",
-    "firma": "Resilient a.s.",
-    "lokalita": "Praha – Modřany",
-    "vypsano": "2026-09-12",
-    "stitky_portalu": [
-      "100 000 – 120 000 Kč"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001285863",
-    "url": "https://www.jobs.cz/rpd/2001285863/",
-    "pozice": "⋙📊 Senior účetní | Home office | 63 000 Kč⋘",
-    "firma": "mBlue Czech, s.r.o.",
-    "lokalita": "Hlavní město Praha",
-    "vypsano": "2026-09-10",
-    "stitky_portalu": [
-      "60 000 – 65 000 Kč",
-      "Odpověď do 2 týdnů",
-      "Možnost občasné práce z domova"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
+    "zdroj": "portal",
+    "pokusu": 1,
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
     "id": "2001213569",
@@ -1347,60 +564,9 @@
       "Možnost občasné práce z domova"
     ],
     "atmoskop": "99 hodnocení na Atmoskopu",
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001414734",
-    "url": "https://www.jobs.cz/rpd/2001414734/",
-    "pozice": "Referent-rozpočtář pro MČ Praha",
-    "firma": "KOREKT PRAHA",
-    "lokalita": "Hlavní město Praha",
-    "vypsano": "2026-09-09",
-    "stitky_portalu": [
-      "Odpovězte teď a budete mezi prvními"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001415689",
-    "url": "https://www.jobs.cz/rpd/2001415689/",
-    "pozice": "Specialista Asset managementu",
-    "firma": "NET4GAS, s.r.o.",
-    "lokalita": "Praha – Nusle",
-    "vypsano": "2026-09-09",
-    "stitky_portalu": [
-      "Odpověď do 2 týdnů"
-    ],
-    "atmoskop": "79 hodnocení na Atmoskopu",
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001396419",
-    "url": "https://www.jobs.cz/rpd/2001396419/",
-    "pozice": "Finanční manažer/ka",
-    "firma": "CONTEG, spol. s r.o.",
-    "lokalita": "Praha – Nusle",
-    "vypsano": null,
-    "stitky_portalu": [
-      "80 000 – 100 000 Kč"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
-  },
-  {
-    "id": "2001350657",
-    "url": "https://www.jobs.cz/rpd/2001350657/",
-    "pozice": "Asistent auditora",
-    "firma": "PŘEDVÝBĚR.CZ a.s.",
-    "lokalita": "Praha – Nové Město",
-    "vypsano": "2026-09-07",
-    "stitky_portalu": [
-      "45 000 – 55 000 Kč",
-      "Odpověď do 2 týdnů"
-    ],
-    "atmoskop": null,
-    "zdroj": "portal"
+    "zdroj": "portal",
+    "pokusu": 1,
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
     "id": "2001410838",
@@ -1413,7 +579,9 @@
       "Možnost občasné práce z domova"
     ],
     "atmoskop": null,
-    "zdroj": "portal"
+    "zdroj": "portal",
+    "pokusu": 1,
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
     "id": "2001357841",
@@ -1427,7 +595,9 @@
       "Možnost občasné práce z domova"
     ],
     "atmoskop": null,
-    "zdroj": "portal"
+    "zdroj": "portal",
+    "pokusu": 1,
+    "posledni_chyba": "nenačteno (HTTP 403): prázdná stránka"
   },
   {
     "id": "2001356235",
