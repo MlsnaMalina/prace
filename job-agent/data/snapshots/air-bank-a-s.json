@@ -2,8 +2,8 @@
   "firma": "Air Bank a.s.",
   "karierni_url": "https://kariera.airbank.cz/",
   "ats_platforma": "vlastní",
-  "porizeno": "2026-09-30T11:23:10.351Z",
-  "pocet": 18,
+  "porizeno": "2026-10-01T11:49:49.143Z",
+  "pocet": 14,
   "inzeraty": [
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/ai-engineer---llm-rag",
@@ -18,20 +18,12 @@
       "nazev": "HLAVNÍ MĚSTO PRAHA IT a vývoj Backend vývojář/ka senior Hybrid Plný úvazek"
     },
     {
-      "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/banker-bankerka-na-pobocce-v-praze",
-      "nazev": "HLAVNÍ MĚSTO PRAHA Pobočky Bankéř/ka na pobočce v Praze Na pobočce Plný úvazek 40 až 50 000 Kč"
-    },
-    {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/banker-ka-do-jihlavy",
       "nazev": "KRAJ VYSOČINA Pobočky Bankéř/ka na pobočce v Jihlavě Na pobočce Plný úvazek 40 až 50 000 Kč"
     },
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/banker-ka-mobilniho-pobockoveho-tymu",
       "nazev": "HLAVNÍ MĚSTO PRAHA Kontaktní centrum Pobočky Bankéř/ka mobilního pobočkového týmu Hybrid Plný úvazek 45 až 55 000 Kč"
-    },
-    {
-      "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/banker-ka-na-pobocce-v-brne-jostova",
-      "nazev": "JIHOMORAVSKÝ KRAJ Pobočky Bankéř/ka na pobočce v Brně (Joštova) Na pobočce Plný úvazek 40 až 50 000 Kč"
     },
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/cloud-aws-site-reliability-engineer-ka",
@@ -48,14 +40,6 @@
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/produktovy-manazer-ka-ucty-a-platby",
       "nazev": "HLAVNÍ MĚSTO PRAHA Produktový management Produktový manažer/ka - účty a platby Hybrid Plný úvazek"
-    },
-    {
-      "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/senior-banker-ka-do-prahy-2",
-      "nazev": "HLAVNÍ MĚSTO PRAHA Pobočky Senior bankéř/ka na pobočce v Praze Na pobočce Plný úvazek 50 až 60 000 Kč"
-    },
-    {
-      "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/senior-bi-analytik-analyticka",
-      "nazev": "HLAVNÍ MĚSTO PRAHA JIHOMORAVSKÝ KRAJ Analýza a data Senior BI analytik / analytička Hybrid Plný úvazek 65 až 80 000 Kč Roční bonus 10 %"
     },
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/seniorni-ai-vyvojar-ka-s-vedenim-tymu",

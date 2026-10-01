@@ -2,20 +2,12 @@
   "firma": "Notino, s.r.o.",
   "karierni_url": "https://career.notino.cz/",
   "ats_platforma": "Alma Career (notino.jobs.cz) + vlastní",
-  "porizeno": "2026-09-30T11:25:08.330Z",
+  "porizeno": "2026-10-01T11:51:43.652Z",
   "pocet": 6,
   "inzeraty": [
     {
-      "url": "https://career.notino.cz/job/498399-business-analyst-portfolio-analytics-strategy-praha-8-pobrezni-667",
-      "nazev": "Nová pozice Commerce Business Analyst - Portfolio Analytics & Strategy Brno, Praha 8 , CZ"
-    },
-    {
-      "url": "https://career.notino.cz/job/498444-beauty-consultant-pracownik-tymczasowy-wroclavia",
-      "nazev": "Nová pozice Prodejny Beauty Consultant - Pracownik tymczasowy - Wroclavia Wrocław , PL"
-    },
-    {
-      "url": "https://career.notino.cz/job/498462-process-improvement-leader-logistika-rajhrad-stara-posta-1025",
-      "nazev": "Nová pozice Speciální služby Process Improvement Leader – LOGISTIKA Rajhrad , CZ"
+      "url": "https://career.notino.cz/job/495606-senior-business-unit-manager-brno-londynske-namesti-881",
+      "nazev": "Nová pozice Commerce Senior Business Unit Manager Brno , CZ"
     },
     {
       "url": "https://career.notino.cz/job/498480-private-brand-manager-praha-8-pobrezni-667",
@@ -28,6 +20,14 @@
     {
       "url": "https://career.notino.cz/job/498525-vendor-marketing-specialist-mediorsenior-brno-londynske-namesti-881",
       "nazev": "Nová pozice Commerce Vendor Marketing Specialist (medior/senior) Brno , CZ"
+    },
+    {
+      "url": "https://career.notino.cz/job/498597-executive-assistant-to-co-ceo-brno-londynske-namesti-881",
+      "nazev": "Nová pozice Commerce Executive Assistant to Co-CEO Brno , CZ"
+    },
+    {
+      "url": "https://career.notino.cz/job/498603-software-development-team-leader-mobile-customer-brno-londynske-namesti-881",
+      "nazev": "Nová pozice IT Software Development Team Leader - Mobile Customer Brno , CZ"
     }
   ]
 }
