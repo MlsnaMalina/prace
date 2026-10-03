@@ -2,8 +2,8 @@
   "firma": "Air Bank a.s.",
   "karierni_url": "https://kariera.airbank.cz/",
   "ats_platforma": "vlastní",
-  "porizeno": "2026-10-02T11:22:48.300Z",
-  "pocet": 14,
+  "porizeno": "2026-10-03T10:38:32.866Z",
+  "pocet": 13,
   "inzeraty": [
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/ai-engineer---llm-rag",
@@ -32,10 +32,6 @@
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/integracni-architekt-ka-2",
       "nazev": "HLAVNÍ MĚSTO PRAHA IT a vývoj Integrační architekt/ka Hybrid Plný úvazek"
-    },
-    {
-      "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/java-vyvojar-ka",
-      "nazev": "HLAVNÍ MĚSTO PRAHA JIHOMORAVSKÝ KRAJ IT a vývoj Java vývojář/ka Hybrid Plný úvazek 90 až 110 000 Kč"
     },
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/produktovy-manazer-ka-ucty-a-platby",

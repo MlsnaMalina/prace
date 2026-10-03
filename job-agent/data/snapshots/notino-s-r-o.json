@@ -2,32 +2,32 @@
   "firma": "Notino, s.r.o.",
   "karierni_url": "https://career.notino.cz/",
   "ats_platforma": "Alma Career (notino.jobs.cz) + vlastní",
-  "porizeno": "2026-10-02T11:24:44.256Z",
+  "porizeno": "2026-10-03T10:40:32.708Z",
   "pocet": 6,
   "inzeraty": [
     {
-      "url": "https://career.notino.cz/job/494559-deputy-store-manager-eurovea-bratislava-pribinova-8",
-      "nazev": "Nová pozice Prodejny Deputy Store Manager - Eurovea Bratislava , SK"
+      "url": "https://career.notino.cz/job/492506-head-of-regional-retail-bratislava-pribinova-8",
+      "nazev": "Nová pozice Retail Head of Regional Retail Brno, Praha 8 , CZ Bratislava , SK"
     },
     {
-      "url": "https://career.notino.cz/job/495315-store-trainer-varna-varna-ulitsa-akademik-andrei-saharov-2",
-      "nazev": "Nová pozice Prodejny Store Trainer - Varna Varna , BG"
+      "url": "https://career.notino.cz/job/494559-deputy-store-manager-eurovea-bratislava-pribinova-8",
+      "nazev": "Nová pozice Prodejny Deputy Store Manager - Eurovea Bratislava , SK"
     },
     {
       "url": "https://career.notino.cz/job/496996-administrative-assistant-budapest-esztergomi-ut-31-39",
       "nazev": "Nová pozice Notino Partner Administrative Assistant Budapest , HU"
     },
     {
-      "url": "https://career.notino.cz/job/498597-executive-assistant-to-co-ceo-brno-londynske-namesti-881",
-      "nazev": "Nová pozice Commerce Executive Assistant to Co-CEO Brno , CZ"
-    },
-    {
-      "url": "https://career.notino.cz/job/498603-software-development-team-leader-mobile-customer-brno-londynske-namesti-881",
-      "nazev": "Nová pozice IT Software Development Team Leader - Mobile Customer Brno , CZ"
+      "url": "https://career.notino.cz/job/497857-recepcni-pro-notino-brno-londynske-namesti-881",
+      "nazev": "Nová pozice Facility Recepční pro Notino Brno , CZ"
     },
     {
       "url": "https://career.notino.cz/job/498673-pomoshhnik-v-magazin-za-parfiumeriia-i-kozmetika-sofia-boulevard-cherni-vrah-100",
       "nazev": "Nová pozice Prodejny Помощник в магазин за парфюмерия и козметика Sofia , BG"
+    },
+    {
+      "url": "https://career.notino.cz/job/498745-team-assistant-brno-londynske-namesti-881",
+      "nazev": "Nová pozice Team Assistant Brno , CZ"
     }
   ]
 }
