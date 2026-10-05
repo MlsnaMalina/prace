@@ -2,7 +2,7 @@
   "firma": "Notino, s.r.o.",
   "karierni_url": "https://career.notino.cz/",
   "ats_platforma": "Alma Career (notino.jobs.cz) + vlastní",
-  "porizeno": "2026-10-04T11:20:37.343Z",
+  "porizeno": "2026-10-05T12:42:43.540Z",
   "pocet": 6,
   "inzeraty": [
     {
@@ -10,12 +10,8 @@
       "nazev": "Nová pozice Retail Head of Regional Retail Brno, Praha 8 , CZ Bratislava , SK"
     },
     {
-      "url": "https://career.notino.cz/job/494559-deputy-store-manager-eurovea-bratislava-pribinova-8",
-      "nazev": "Nová pozice Prodejny Deputy Store Manager - Eurovea Bratislava , SK"
-    },
-    {
-      "url": "https://career.notino.cz/job/496996-administrative-assistant-budapest-esztergomi-ut-31-39",
-      "nazev": "Nová pozice Notino Partner Administrative Assistant Budapest , HU"
+      "url": "https://career.notino.cz/job/495120-key-account-manager-strategic-buyer-brno-londynske-namesti-881",
+      "nazev": "Nová pozice Commerce Key Account Manager/ Strategic Buyer Brno , CZ"
     },
     {
       "url": "https://career.notino.cz/job/497857-recepcni-pro-notino-brno-londynske-namesti-881",
@@ -28,6 +24,10 @@
     {
       "url": "https://career.notino.cz/job/498745-team-assistant-brno-londynske-namesti-881",
       "nazev": "Nová pozice Team Assistant Brno , CZ"
+    },
+    {
+      "url": "https://career.notino.cz/job/498794-web-support-mammutarena-mall",
+      "nazev": "Nová pozice Prodejny Web Support - Mammut/Arena Mall Budapest, Budapest , HU"
     }
   ]
 }
