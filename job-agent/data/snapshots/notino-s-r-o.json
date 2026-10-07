@@ -2,24 +2,20 @@
   "firma": "Notino, s.r.o.",
   "karierni_url": "https://career.notino.cz/",
   "ats_platforma": "Alma Career (notino.jobs.cz) + vlastní",
-  "porizeno": "2026-10-06T12:16:51.173Z",
+  "porizeno": "2026-10-07T12:03:35.981Z",
   "pocet": 6,
   "inzeraty": [
     {
-      "url": "https://career.notino.cz/job/492506-head-of-regional-retail-bratislava-pribinova-8",
-      "nazev": "Nová pozice Retail Head of Regional Retail Brno, Praha 8 , CZ Bratislava , SK"
+      "url": "https://career.notino.cz/job/494944-customer-care-representative-with-french-i-seasonal-job-i-remote-praha-8-pobrezni-667",
+      "nazev": "Nová pozice Customer Care Customer Care Representative with French I Seasonal job I REMOTE Brno, Praha 8 , CZ"
     },
     {
-      "url": "https://career.notino.cz/job/495045-konsultant-ka-ds-obslugi-klienta-jezyk-wegierski-i-praca-sezonowa-i-remote-warszawa-prosta-51",
-      "nazev": "Nová pozice Customer Care Konsultant/-ka ds. Obsługi Klienta (język węgierski) I praca sezonowa I REMOTE Warszawa , PL"
+      "url": "https://career.notino.cz/job/495120-key-account-manager-strategic-buyer-brno-londynske-namesti-881",
+      "nazev": "Nová pozice Commerce Key Account Manager/ Strategic Buyer Brno , CZ"
     },
     {
-      "url": "https://career.notino.cz/job/498745-team-assistant-brno-londynske-namesti-881",
-      "nazev": "Nová pozice Team Assistant Brno , CZ"
-    },
-    {
-      "url": "https://career.notino.cz/job/498794-web-support-mammutarena-mall",
-      "nazev": "Nová pozice Prodejny Web Support - Mammut/Arena Mall Budapest, Budapest , HU"
+      "url": "https://career.notino.cz/job/498570-ap-team-leader-brno-londynske-namesti-881",
+      "nazev": "Nová pozice Finance AP Team Leader Brno , CZ"
     },
     {
       "url": "https://career.notino.cz/job/498859-beauty-consultant-plnyzkraceny-uvazek-ceska-brno-ceska-1218",
@@ -28,6 +24,10 @@
     {
       "url": "https://career.notino.cz/job/498868-customer-care-representative-with-bulgarian-brno-londynske-namesti-881",
       "nazev": "Nová pozice Customer Care Customer Care Representative with Bulgarian Brno , CZ"
+    },
+    {
+      "url": "https://career.notino.cz/job/498934-learning-and-development-specialist-brno-londynske-namesti-881",
+      "nazev": "Nová pozice Learning and Development Specialist Brno , CZ"
     }
   ]
 }
