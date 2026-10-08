@@ -2,8 +2,8 @@
   "firma": "Air Bank a.s.",
   "karierni_url": "https://kariera.airbank.cz/",
   "ats_platforma": "vlastní",
-  "porizeno": "2026-10-07T12:01:39.041Z",
-  "pocet": 18,
+  "porizeno": "2026-10-08T12:15:54.264Z",
+  "pocet": 20,
   "inzeraty": [
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/ai-engineer---llm-rag",
@@ -56,6 +56,14 @@
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/produktovy-manazer-ka-ucty-a-platby",
       "nazev": "HLAVNÍ MĚSTO PRAHA Produktový management Produktový manažer/ka - účty a platby Hybrid Plný úvazek"
+    },
+    {
+      "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/senior-banker-ka-do-brna-vankovka-a-jostova",
+      "nazev": "JIHOMORAVSKÝ KRAJ Pobočky Senior bankéř/ka do Brna (Vaňkovka a Joštova) Na pobočce Plný úvazek 50 až 60 000 Kč"
+    },
+    {
+      "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/senior-banker-ka-do-prahy-3",
+      "nazev": "HLAVNÍ MĚSTO PRAHA Pobočky Senior bankéř/ka do Prahy Na pobočce Plný úvazek 50 až 60 000 Kč"
     },
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/seniorni-ai-vyvojar-ka-s-vedenim-tymu",
