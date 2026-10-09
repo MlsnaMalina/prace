@@ -2,8 +2,8 @@
   "firma": "Air Bank a.s.",
   "karierni_url": "https://kariera.airbank.cz/",
   "ats_platforma": "vlastní",
-  "porizeno": "2026-10-08T12:15:54.264Z",
-  "pocet": 20,
+  "porizeno": "2026-10-09T12:07:23.044Z",
+  "pocet": 23,
   "inzeraty": [
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/ai-engineer---llm-rag",
@@ -34,8 +34,16 @@
       "nazev": "KRAJ VYSOČINA Pobočky Bankéř/ka na pobočce v Jihlavě Na pobočce Plný úvazek 40 až 50 000 Kč"
     },
     {
+      "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/banker-ka-na-pobocce-v-kladne-2",
+      "nazev": "STŘEDOČESKÝ KRAJ Pobočky Bankéř/ka na pobočce v Kladně Na pobočce Plný úvazek 40 až 50 000 Kč"
+    },
+    {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/banker-ka-na-pobocce-v-praze-metropole-zlicin",
       "nazev": "HLAVNÍ MĚSTO PRAHA Pobočky Bankéř/ka na pobočce v Praze Na pobočce Plný úvazek 40 až 50 000 Kč"
+    },
+    {
+      "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/banker-ka-na-pobocce-ve-frydku-mistku",
+      "nazev": "MORAVSKOSLEZSKÝ KRAJ Pobočky Bankéř/ka na pobočce ve Frýdku-Místku Na pobočce Plný úvazek 40 až 50 000 Kč"
     },
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/banker-ka-na-polovicni-uvazek-na-pobocce-v-praze-centrum-cerny-most",
@@ -80,6 +88,10 @@
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/specialista-tka-klientskeho-centra",
       "nazev": "JIHOMORAVSKÝ KRAJ Kontaktní centrum Specialista/tka příchozí linky Hybrid Plný úvazek 36 až 45 000 Kč"
+    },
+    {
+      "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/team-leader-aml",
+      "nazev": "JIHOMORAVSKÝ KRAJ Risk Team Leader AML – každodenní operativa a vedení týmu Hybrid Plný úvazek"
     },
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/vyvojar-ka-mobilniho-webview-senior",

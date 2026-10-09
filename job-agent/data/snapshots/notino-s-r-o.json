@@ -2,20 +2,12 @@
   "firma": "Notino, s.r.o.",
   "karierni_url": "https://career.notino.cz/",
   "ats_platforma": "Alma Career (notino.jobs.cz) + vlastní",
-  "porizeno": "2026-10-08T12:17:43.714Z",
+  "porizeno": "2026-10-09T12:09:22.285Z",
   "pocet": 6,
   "inzeraty": [
     {
-      "url": "https://career.notino.cz/job/495120-key-account-manager-strategic-buyer-brno-londynske-namesti-881",
-      "nazev": "Nová pozice Commerce Key Account Manager/ Strategic Buyer Brno , CZ"
-    },
-    {
       "url": "https://career.notino.cz/job/497330-brand-data-analyst-brno-londynske-namesti-881",
       "nazev": "Nová pozice Customer Experience Brand Data Analyst Brno , CZ"
-    },
-    {
-      "url": "https://career.notino.cz/job/498570-ap-team-leader-brno-londynske-namesti-881",
-      "nazev": "Nová pozice Finance AP Team Leader Brno , CZ"
     },
     {
       "url": "https://career.notino.cz/job/498745-team-assistant-brno-londynske-namesti-881",
@@ -28,6 +20,14 @@
     {
       "url": "https://career.notino.cz/job/499079-skolitelka-do-skladu-s-vietnamstinou-rajhrad-stara-posta-1025",
       "nazev": "Nová pozice Distribuční centra Školitel/ka do skladu s vietnamštinou Rajhrad , CZ"
+    },
+    {
+      "url": "https://career.notino.cz/job/499085-senior-talent-acquisitions-specialist-brno-londynske-namesti-881",
+      "nazev": "Nová pozice HR Senior Talent Acquisitions Specialist Brno , CZ"
+    },
+    {
+      "url": "https://career.notino.cz/job/499103-transport-claims-specialist-rajhrad-stara-posta-1025",
+      "nazev": "Nová pozice Doprava Transport Claims Specialist Rajhrad , CZ"
     }
   ]
 }
