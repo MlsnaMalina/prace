@@ -2,19 +2,19 @@
   "firma": "Microsoft s.r.o.",
   "karierni_url": "https://careers.microsoft.com/v2/global/en/locations/prague.html",
   "ats_platforma": "vlastní",
-  "porizeno": "2026-10-09T12:08:59.806Z",
+  "porizeno": "2026-10-10T11:25:28.335Z",
   "pocet": 3,
   "inzeraty": [
-    {
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556992610?hl=en",
-      "nazev": "See details"
-    },
     {
       "url": "https://apply.careers.microsoft.com/careers/job/1970393557021513?hl=en",
       "nazev": "See details"
     },
     {
       "url": "https://apply.careers.microsoft.com/careers/job/1970393557024978?hl=en",
+      "nazev": "See details"
+    },
+    {
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393557036215?hl=en",
       "nazev": "See details"
     }
   ]
