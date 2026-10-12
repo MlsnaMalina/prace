@@ -2,12 +2,16 @@
   "firma": "Kaufland Česká republika v.o.s.",
   "karierni_url": "https://kariera.kaufland.cz/",
   "ats_platforma": "SAP SuccessFactors",
-  "porizeno": "2026-10-11T11:38:44.385Z",
-  "pocet": 1,
+  "porizeno": "2026-10-12T13:35:39.953Z",
+  "pocet": 2,
   "inzeraty": [
     {
       "url": "https://kariera.kaufland.cz/jobs/trainee-management-prodejny-nakup-scm-praha-404474",
-      "nazev": "Trainee - Management Prodejny / Nákup / SCM"
+      "nazev": "Více informací zde"
+    },
+    {
+      "url": "https://kariera.kaufland.cz/jobs/trainee-program-z-m-logistika-scm-praha-6-409901",
+      "nazev": "Trainee program (ž/m) - Logistika - SCM"
     }
   ]
 }
