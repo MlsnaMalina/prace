@@ -2,8 +2,8 @@
   "firma": "Air Bank a.s.",
   "karierni_url": "https://kariera.airbank.cz/",
   "ats_platforma": "vlastní",
-  "porizeno": "2026-10-12T13:34:30.936Z",
-  "pocet": 23,
+  "porizeno": "2026-10-13T12:58:23.338Z",
+  "pocet": 20,
   "inzeraty": [
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/ai-engineer---llm-rag",
@@ -30,10 +30,6 @@
       "nazev": "JIHOMORAVSKÝ KRAJ Pobočky Bankéř/ka na pobočce v Brně Na pobočce Plný úvazek 40 až 50 000 Kč"
     },
     {
-      "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/banker-ka-na-pobocce-v-jihlave",
-      "nazev": "KRAJ VYSOČINA Pobočky Bankéř/ka na pobočce v Jihlavě Na pobočce Plný úvazek 40 až 50 000 Kč"
-    },
-    {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/banker-ka-na-pobocce-v-kladne-2",
       "nazev": "STŘEDOČESKÝ KRAJ Pobočky Bankéř/ka na pobočce v Kladně Na pobočce Plný úvazek 40 až 50 000 Kč"
     },
@@ -46,10 +42,6 @@
       "nazev": "MORAVSKOSLEZSKÝ KRAJ Pobočky Bankéř/ka na pobočce ve Frýdku-Místku Na pobočce Plný úvazek 40 až 50 000 Kč"
     },
     {
-      "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/banker-ka-na-polovicni-uvazek-na-pobocce-v-praze-centrum-cerny-most",
-      "nazev": "HLAVNÍ MĚSTO PRAHA Pobočky Bankéř/ka na poloviční úvazek na pobočce v Praze Na pobočce 0,5 úvazek 20 až 25 000 Kč"
-    },
-    {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/cloud-aws-site-reliability-engineer-ka",
       "nazev": "HLAVNÍ MĚSTO PRAHA JIHOMORAVSKÝ KRAJ IT a vývoj Cloud AWS & Site Reliability Engineer/ka Hybrid Plný úvazek 95 až 110 000 Kč"
     },
@@ -60,10 +52,6 @@
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/it-helpdesk-specialista-tka",
       "nazev": "JIHOMORAVSKÝ KRAJ IT a vývoj IT Helpdesk specialista/tka Hybrid Plný úvazek 47 000 Kč"
-    },
-    {
-      "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/produktovy-manazer-ka-ucty-a-platby",
-      "nazev": "HLAVNÍ MĚSTO PRAHA Produktový management Produktový manažer/ka - účty a platby Hybrid Plný úvazek"
     },
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/senior-banker-ka-do-brna-vankovka-a-jostova",
