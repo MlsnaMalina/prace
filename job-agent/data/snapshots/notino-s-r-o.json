@@ -2,9 +2,13 @@
   "firma": "Notino, s.r.o.",
   "karierni_url": "https://career.notino.cz/",
   "ats_platforma": "Alma Career (notino.jobs.cz) + vlastní",
-  "porizeno": "2026-10-13T13:00:18.932Z",
+  "porizeno": "2026-10-14T10:40:13.285Z",
   "pocet": 6,
   "inzeraty": [
+    {
+      "url": "https://career.notino.cz/job/494961-customer-care-representative-s-italstinou-i-sezonni-brigada-i-remote-praha-8-pobrezni-667",
+      "nazev": "Nová pozice Customer Care Customer Care Representative s italštinou I Sezónní brigáda I REMOTE Brno, Praha 8 , CZ"
+    },
     {
       "url": "https://career.notino.cz/job/494966-customer-care-representative-with-italian-i-seasonal-job-i-remote-praha-8-pobrezni-667",
       "nazev": "Nová pozice Customer Care Customer Care Representative with Italian I Seasonal job I REMOTE Brno, Praha 8 , CZ"
@@ -14,20 +18,16 @@
       "nazev": "Nová pozice Customer Care Customer Care Representative s maďarštinou I Sezónní brigáda I REMOTE Brno , CZ"
     },
     {
-      "url": "https://career.notino.cz/job/496437-business-development-manager-brno-londynske-namesti-881",
-      "nazev": "Nová pozice Commerce Business Development Manager Brno , CZ"
-    },
-    {
-      "url": "https://career.notino.cz/job/496859-internal-communications-specialist-brno-londynske-namesti-881",
-      "nazev": "Nová pozice Customer Experience Internal Communications Specialist Brno , CZ"
-    },
-    {
       "url": "https://career.notino.cz/job/499351-crm-vendor-specialist-ii-brno-londynske-namesti-881",
       "nazev": "Nová pozice Customer Experience CRM Vendor Specialist II Brno , CZ"
     },
     {
       "url": "https://career.notino.cz/job/499418-accounting-manager-brno-londynske-namesti-881",
       "nazev": "Nová pozice Finance Accounting Manager Brno , CZ"
+    },
+    {
+      "url": "https://career.notino.cz/job/499489-beauty-consultant-zkraceny-uvazek-20htydne-campus-brno-bohunice-netroufalky-770",
+      "nazev": "Nová pozice Prodejny Beauty Consultant (zkrácený úvazek 20h/týdně) - Campus Brno-Bohunice , CZ"
     }
   ]
 }
