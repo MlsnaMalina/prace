@@ -2,8 +2,8 @@
   "firma": "Air Bank a.s.",
   "karierni_url": "https://kariera.airbank.cz/",
   "ats_platforma": "vlastní",
-  "porizeno": "2026-10-14T10:38:15.637Z",
-  "pocet": 20,
+  "porizeno": "2026-10-15T10:19:23.338Z",
+  "pocet": 21,
   "inzeraty": [
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/ai-engineer---llm-rag",
@@ -48,6 +48,10 @@
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/cloud-devops-specialista-tka",
       "nazev": "HLAVNÍ MĚSTO PRAHA IT a vývoj Cloud DevOps specialista/tka Hybrid Plný úvazek 85 až 95 000 Kč"
+    },
+    {
+      "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/integracni-architekt-ka-2",
+      "nazev": "HLAVNÍ MĚSTO PRAHA IT a vývoj Integrační architekt/ka Hybrid Plný úvazek"
     },
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/it-helpdesk-specialista-tka",
