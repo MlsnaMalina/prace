@@ -2,8 +2,8 @@
   "firma": "Air Bank a.s.",
   "karierni_url": "https://kariera.airbank.cz/",
   "ats_platforma": "vlastní",
-  "porizeno": "2026-10-15T10:19:23.338Z",
-  "pocet": 21,
+  "porizeno": "2026-10-16T10:07:50.280Z",
+  "pocet": 22,
   "inzeraty": [
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/ai-engineer---llm-rag",
@@ -31,7 +31,7 @@
     },
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/banker-ka-na-pobocce-v-kladne-2",
-      "nazev": "STŘEDOČESKÝ KRAJ Pobočky Bankéř/ka na pobočce v Kladně Na pobočce Plný úvazek 40 až 50 000 Kč"
+      "nazev": "STŘEDOČESKÝ KRAJ Pobočky Bankéř/ka na poloviční úvazek na pobočce v Kladně Na pobočce 0,5 úvazek 20 až 25 000 Kč"
     },
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/banker-ka-na-pobocce-v-praze-metropole-zlicin",
@@ -56,6 +56,10 @@
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/it-helpdesk-specialista-tka",
       "nazev": "JIHOMORAVSKÝ KRAJ IT a vývoj IT Helpdesk specialista/tka Hybrid Plný úvazek 47 000 Kč"
+    },
+    {
+      "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/pravnik-pravnicka-v-tymu-pravniho-vymahani",
+      "nazev": "JIHOMORAVSKÝ KRAJ Právo a compliance Právník / právnička v týmu právního vymáhání Hybrid Plný úvazek Roční bonus 10 %"
     },
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/senior-banker-ka-do-brna-vankovka-a-jostova",
