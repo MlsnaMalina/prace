@@ -2,12 +2,16 @@
   "firma": "TRADE CENTRE PRAHA a.s.",
   "karierni_url": "https://www.tcp-as.cz/volna-mista/",
   "ats_platforma": "vlastní",
-  "porizeno": "2026-10-21T10:39:38.973Z",
-  "pocet": 3,
+  "porizeno": "2026-10-22T10:42:52.093Z",
+  "pocet": 4,
   "inzeraty": [
     {
       "url": "https://www.tcp-as.cz/kariera/dispecer-spravy-nabrezi-a-viaduktu-karlin-vedouci-smeny/",
       "nazev": "Dispečer správy nábřeží a Viaduktu Karlín &#8211; Vedoucí směny"
+    },
+    {
+      "url": "https://www.tcp-as.cz/kariera/manazer-ka-rozvojovych-projektu/",
+      "nazev": "Manažer/ka rozvojových projektů"
     },
     {
       "url": "https://www.tcp-as.cz/kariera/pracovnik-ce-udrzby-sprava-objektu-hl-m-prahy/",
