@@ -2,8 +2,8 @@
   "firma": "Air Bank a.s.",
   "karierni_url": "https://kariera.airbank.cz/",
   "ats_platforma": "vlastní",
-  "porizeno": "2026-10-22T10:40:00.373Z",
-  "pocet": 21,
+  "porizeno": "2026-10-23T10:31:44.465Z",
+  "pocet": 18,
   "inzeraty": [
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/ai-engineer---llm-rag",
@@ -30,16 +30,8 @@
       "nazev": "JIHOMORAVSKÝ KRAJ Pobočky Bankéř/ka na pobočce v Brně Na pobočce Plný úvazek 40 až 50 000 Kč"
     },
     {
-      "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/banker-ka-na-pobocce-v-kladne-2",
-      "nazev": "STŘEDOČESKÝ KRAJ Pobočky Bankéř/ka na poloviční úvazek na pobočce v Kladně Na pobočce 0,5 úvazek 20 až 25 000 Kč"
-    },
-    {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/banker-ka-na-pobocce-v-praze-metropole-zlicin",
       "nazev": "HLAVNÍ MĚSTO PRAHA Pobočky Bankéř/ka na pobočce v Praze Na pobočce Plný úvazek 40 až 50 000 Kč"
-    },
-    {
-      "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/banker-ka-na-pobocce-ve-frydku-mistku",
-      "nazev": "MORAVSKOSLEZSKÝ KRAJ Pobočky Bankéř/ka na pobočce ve Frýdku-Místku Na pobočce Plný úvazek 40 až 50 000 Kč"
     },
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/cloud-aws-site-reliability-engineer-ka",
@@ -59,7 +51,7 @@
     },
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/senior-banker-ka-do-brna-vankovka-a-jostova",
-      "nazev": "JIHOMORAVSKÝ KRAJ Pobočky Senior bankéř/ka do Brna (Vaňkovka a Joštova) Na pobočce Plný úvazek 50 až 60 000 Kč"
+      "nazev": "JIHOMORAVSKÝ KRAJ Pobočky Senior bankéř/ka do Brna Na pobočce Plný úvazek 50 až 60 000 Kč"
     },
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/senior-banker-ka-do-prahy-3",
@@ -76,10 +68,6 @@
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/specialista-ka-automatizovaneho-testovani",
       "nazev": "HLAVNÍ MĚSTO PRAHA JIHOMORAVSKÝ KRAJ IT a vývoj Specialista/ka automatizovaného testování Hybrid Plný úvazek"
-    },
-    {
-      "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/specialista-tka-klientskeho-centra",
-      "nazev": "JIHOMORAVSKÝ KRAJ Kontaktní centrum Specialista/tka příchozí linky Hybrid Plný úvazek 36 až 45 000 Kč"
     },
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/team-leader-aml",

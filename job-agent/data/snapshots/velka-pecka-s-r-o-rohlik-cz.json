@@ -2,7 +2,7 @@
   "firma": "Velká Pecka s.r.o. (Rohlik.cz)",
   "karierni_url": "https://career.rohlik.group/group/jobs",
   "ats_platforma": "Alma Career",
-  "porizeno": "2026-10-22T10:42:58.295Z",
+  "porizeno": "2026-10-23T10:34:42.268Z",
   "pocet": 20,
   "inzeraty": [
     {
@@ -35,7 +35,7 @@
     },
     {
       "url": "https://career.rohlik.group/group/jobs/8acce5b3-f15c-4a3c-b1c9-7215dfbed82a",
-      "nazev": "IT Robot Learning Engineer Prague, Czech Republic"
+      "nazev": "IT Robot Learning Engineer Berlin, Germany"
     },
     {
       "url": "https://career.rohlik.group/group/jobs/92a8033e-4f64-4811-89b5-abea1af5cf8f",
@@ -44,6 +44,10 @@
     {
       "url": "https://career.rohlik.group/group/jobs/9b29de4a-77ee-42c1-93f7-b3e9b9fc7bc4",
       "nazev": "Operations & Supply Chain Operational Excellence Manager (Last Mile) Prague, Czech Republic"
+    },
+    {
+      "url": "https://career.rohlik.group/group/jobs/9b95f6e0-79ce-4061-b2b3-dbb565c5e290",
+      "nazev": "Product Management Associate Product Owner (Last Mile) Prague, Czech Republic"
     },
     {
       "url": "https://career.rohlik.group/group/jobs/af47857b-635f-4d7c-8ec9-711ec72a7420",
@@ -74,16 +78,12 @@
       "nazev": "Finance Senior Finance/Accounting Automation Specialist Prague, Czech Republic"
     },
     {
-      "url": "https://career.rohlik.group/group/jobs/d2becf0c-16a7-48cf-9e4c-379ca213336c",
-      "nazev": "Customer Care Specialista/ka zákaznické péče s němčinou Prague, Czech Republic"
-    },
-    {
       "url": "https://career.rohlik.group/group/jobs/e362feaa-3136-4321-8954-4c6771324d1f",
       "nazev": "Product Management Product Owner - Customer Experience Prague, Czech Republic"
     },
     {
       "url": "https://career.rohlik.group/group/jobs/f18a4fec-52a2-4ffa-9a39-f50762394fa4",
-      "nazev": "Veloq Sales Director Europe London"
+      "nazev": "Veloq Sales Director Europe, Veloq London"
     }
   ]
 }
