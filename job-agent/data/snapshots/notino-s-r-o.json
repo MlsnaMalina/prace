@@ -2,24 +2,16 @@
   "firma": "Notino, s.r.o.",
   "karierni_url": "https://career.notino.cz/",
   "ats_platforma": "Alma Career (notino.jobs.cz) + vlastní",
-  "porizeno": "2026-10-26T11:35:53.341Z",
+  "porizeno": "2026-10-27T11:02:26.364Z",
   "pocet": 6,
   "inzeraty": [
     {
-      "url": "https://career.notino.cz/job/499983-customer-care-representative-with-portuguese-brno-londynske-namesti-881",
-      "nazev": "Nová pozice Customer Care Customer Care Representative with Portuguese Brno , CZ"
-    },
-    {
-      "url": "https://career.notino.cz/job/499984-referentka-zakaznicke-podpory-s-ukrajinstinou-brno-londynske-namesti-881",
-      "nazev": "Nová pozice Customer Care Referent/ka zákaznické podpory s ukrajinštinou Brno , CZ"
+      "url": "https://career.notino.cz/job/494148-business-analyst-marketing-analytics-praha-8-pobrezni-667",
+      "nazev": "Nová pozice Commerce Business Analyst - Marketing Analytics Brno, Praha 8 , CZ"
     },
     {
       "url": "https://career.notino.cz/job/499996-commercial-buyer-brno-londynske-namesti-881",
       "nazev": "Nová pozice Commerce Commercial Buyer Brno , CZ"
-    },
-    {
-      "url": "https://career.notino.cz/job/499997-legal-counsel-brno-londynske-namesti-881",
-      "nazev": "Nová pozice Legal Legal Counsel Brno , CZ"
     },
     {
       "url": "https://career.notino.cz/job/500083-koordinatorka-zakazek-ve-skladovem-provozu-rajhrad-stara-posta-1025",
@@ -28,6 +20,14 @@
     {
       "url": "https://career.notino.cz/job/500129-deputy-store-manager-mammut-budapest-lovohaz-utca-2-6",
       "nazev": "Nová pozice Prodejny Deputy Store Manager - Mammut Budapest , HU"
+    },
+    {
+      "url": "https://career.notino.cz/job/500241-head-of-software-development-praha-8-pobrezni-667",
+      "nazev": "Nová pozice IT Head of Software Development Brno, Praha 8 , CZ"
+    },
+    {
+      "url": "https://career.notino.cz/job/500262-complaints-team-leader-brno-londynske-namesti-881",
+      "nazev": "Nová pozice Finance Complaints Team Leader Brno , CZ"
     }
   ]
 }
