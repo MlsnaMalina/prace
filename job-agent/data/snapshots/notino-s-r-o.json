@@ -2,7 +2,7 @@
   "firma": "Notino, s.r.o.",
   "karierni_url": "https://career.notino.cz/",
   "ats_platforma": "Alma Career (notino.jobs.cz) + vlastní",
-  "porizeno": "2026-10-27T11:02:26.364Z",
+  "porizeno": "2026-10-28T11:41:29.412Z",
   "pocet": 6,
   "inzeraty": [
     {
@@ -10,16 +10,12 @@
       "nazev": "Nová pozice Commerce Business Analyst - Marketing Analytics Brno, Praha 8 , CZ"
     },
     {
-      "url": "https://career.notino.cz/job/499996-commercial-buyer-brno-londynske-namesti-881",
-      "nazev": "Nová pozice Commerce Commercial Buyer Brno , CZ"
-    },
-    {
-      "url": "https://career.notino.cz/job/500083-koordinatorka-zakazek-ve-skladovem-provozu-rajhrad-stara-posta-1025",
-      "nazev": "Nová pozice Distribuční centra Koordinátor/ka zakázek ve skladovém provozu Rajhrad , CZ"
-    },
-    {
       "url": "https://career.notino.cz/job/500129-deputy-store-manager-mammut-budapest-lovohaz-utca-2-6",
       "nazev": "Nová pozice Prodejny Deputy Store Manager - Mammut Budapest , HU"
+    },
+    {
+      "url": "https://career.notino.cz/job/500177-key-account-manager-lvmh-brno-londynske-namesti-881",
+      "nazev": "Nová pozice Commerce Key Account Manager LVMH Brno , CZ"
     },
     {
       "url": "https://career.notino.cz/job/500241-head-of-software-development-praha-8-pobrezni-667",
@@ -28,6 +24,10 @@
     {
       "url": "https://career.notino.cz/job/500262-complaints-team-leader-brno-londynske-namesti-881",
       "nazev": "Nová pozice Finance Complaints Team Leader Brno , CZ"
+    },
+    {
+      "url": "https://career.notino.cz/job/500311-country-team-leader-brno-londynske-namesti-881",
+      "nazev": "Nová pozice Commerce Country Team Leader Brno , CZ"
     }
   ]
 }
