@@ -2,7 +2,7 @@
   "firma": "Notino, s.r.o.",
   "karierni_url": "https://career.notino.cz/",
   "ats_platforma": "Alma Career (notino.jobs.cz) + vlastní",
-  "porizeno": "2026-10-30T11:41:27.849Z",
+  "porizeno": "2026-10-31T11:17:13.397Z",
   "pocet": 6,
   "inzeraty": [
     {
@@ -10,16 +10,8 @@
       "nazev": "Nová pozice Commerce Business Analyst - Marketing Analytics Brno, Praha 8 , CZ"
     },
     {
-      "url": "https://career.notino.cz/job/500129-deputy-store-manager-mammut-budapest-lovohaz-utca-2-6",
-      "nazev": "Prodejny Deputy Store Manager - Mammut Budapest , HU"
-    },
-    {
       "url": "https://career.notino.cz/job/500177-key-account-manager-brno-londynske-namesti-881",
       "nazev": "Nová pozice Commerce Key Account Manager Brno , CZ"
-    },
-    {
-      "url": "https://career.notino.cz/job/500262-complaints-team-leader-brno-londynske-namesti-881",
-      "nazev": "Nová pozice Finance Complaints Team Leader Brno , CZ"
     },
     {
       "url": "https://career.notino.cz/job/500311-country-team-leader-brno-londynske-namesti-881",
@@ -28,6 +20,14 @@
     {
       "url": "https://career.notino.cz/job/500391-senior-fullstack-software-developer-pace-team-brno-londynske-namesti-881",
       "nazev": "Nová pozice IT Senior Fullstack Software Developer - Pace Team Brno , CZ"
+    },
+    {
+      "url": "https://career.notino.cz/job/500506-junior-fpa-specialist-brno-londynske-namesti-881",
+      "nazev": "Nová pozice Finance Junior FP&A Specialist Brno , CZ"
+    },
+    {
+      "url": "https://career.notino.cz/job/500539-beauty-consultant-full-time-ljubljana-aleja",
+      "nazev": "Nová pozice Prodejny Beauty Consultant full time - Ljubljana (Aleja)"
     }
   ]
 }
