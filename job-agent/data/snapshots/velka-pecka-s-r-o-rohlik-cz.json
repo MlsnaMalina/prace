@@ -2,7 +2,7 @@
   "firma": "Velká Pecka s.r.o. (Rohlik.cz)",
   "karierni_url": "https://career.rohlik.group/group/jobs",
   "ats_platforma": "Alma Career",
-  "porizeno": "2026-11-06T13:18:36.856Z",
+  "porizeno": "2026-11-07T12:00:32.901Z",
   "pocet": 20,
   "inzeraty": [
     {
@@ -38,20 +38,20 @@
       "nazev": "IT Head of Applied Science München, Germany de"
     },
     {
-      "url": "https://career.rohlik.group/de/jobs/4d8008fb-baa3-4b2c-a87e-34e7f0527d1d",
-      "nazev": "Operations & Supply Chain Area Manager Operations (m/w/d) Bischofsheim bei Frankfurt, Germany de"
-    },
-    {
       "url": "https://career.rohlik.group/de/jobs/5606545e-e835-47f0-8a45-a4fc2a93df62",
       "nazev": "Operations & Supply Chain Einsatzplaner Lager und Fulfillment (m/w/d) Garching bei München, Germany de"
     },
     {
-      "url": "https://career.rohlik.group/de/jobs/5a592e45-24b1-489f-820b-c77d2b39b9a8",
-      "nazev": "Operations & Supply Chain Change Manager (m/f/d) Schönefeld bei Berlin, Germany de"
+      "url": "https://career.rohlik.group/de/jobs/898a02e8-1349-47a6-9503-b036a997d30a",
+      "nazev": "Operations & Supply Chain Change Manager (m/w/d) Schönefeld bei Berlin, Germany de"
     },
     {
       "url": "https://career.rohlik.group/de/jobs/92017a10-65b9-42e9-a54f-e96364ac6a6d",
       "nazev": "Operations & Supply Chain Area Manager - Lift (m/w/d) Bischofsheim bei Frankfurt, Germany de"
+    },
+    {
+      "url": "https://career.rohlik.group/de/jobs/bb6839ad-4229-48bb-967b-175491460815",
+      "nazev": "Operations & Supply Chain Area Manager (m/w/d) Bischofsheim bei Frankfurt, Germany de"
     },
     {
       "url": "https://career.rohlik.group/group/jobs/14529045-051e-4207-a9e4-8bed84b49a1b",
@@ -60,10 +60,6 @@
     {
       "url": "https://career.rohlik.group/group/jobs/1c60d8bd-21b6-440e-bb93-d6d3f59c5858",
       "nazev": "Finance Head of Labour Procurement Prague, Czech Republic cz"
-    },
-    {
-      "url": "https://career.rohlik.group/group/jobs/54ea4de7-1436-4ef2-8246-5e7a513de229",
-      "nazev": "Operations & Supply Chain Head of Warehouse Projects Prague, Czech Republic cz"
     },
     {
       "url": "https://career.rohlik.group/group/jobs/b0be404a-910c-4b09-86d2-2e99d4786464",
@@ -84,6 +80,10 @@
     {
       "url": "https://career.rohlik.group/hu/jobs/68849e69-45c7-4044-b020-ff05a18f9bf4",
       "nazev": "Customer Care Customer Care Specialist HU Budapest HQ hu"
+    },
+    {
+      "url": "https://career.rohlik.group/hu/jobs/7b955ab2-4aec-4ad3-972d-f9af18265bd6",
+      "nazev": "Operations & Supply Chain Dispatcher Budapest FC hu"
     }
   ]
 }

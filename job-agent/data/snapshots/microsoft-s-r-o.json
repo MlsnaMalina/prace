@@ -2,19 +2,19 @@
   "firma": "Microsoft s.r.o.",
   "karierni_url": "https://careers.microsoft.com/v2/global/en/locations/prague.html",
   "ats_platforma": "SAP SuccessFactors",
-  "porizeno": "2026-11-06T13:16:51.903Z",
+  "porizeno": "2026-11-07T11:58:46.282Z",
   "pocet": 3,
   "inzeraty": [
-    {
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393557042290?hl=en",
-      "nazev": "See details"
-    },
     {
       "url": "https://apply.careers.microsoft.com/careers/job/1970393557045262?hl=en",
       "nazev": "See details"
     },
     {
       "url": "https://apply.careers.microsoft.com/careers/job/1970393557053169?hl=en",
+      "nazev": "See details"
+    },
+    {
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393557055076?hl=en",
       "nazev": "See details"
     }
   ]
