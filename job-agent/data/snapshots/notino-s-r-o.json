@@ -2,13 +2,9 @@
   "firma": "Notino, s.r.o.",
   "karierni_url": "https://career.notino.cz/",
   "ats_platforma": "Alma Career (notino.jobs.cz) + vlastní",
-  "porizeno": "2026-11-08T12:15:01.795Z",
+  "porizeno": "2026-11-09T14:23:55.021Z",
   "pocet": 6,
   "inzeraty": [
-    {
-      "url": "https://career.notino.cz/job/500955-country-marketing-specialist-bucuresti-bulevardul-dimitrie-pompeiu-4-6",
-      "nazev": "Nová pozice Notino Partner Country Marketing Specialist București , RO"
-    },
     {
       "url": "https://career.notino.cz/job/500974-b2b-sales-representative-sofia-sofia-sitnyakovo-boulevard-48",
       "nazev": "Nová pozice Notino Partner B2B Sales Representative Sofia Sofia , BG"
@@ -28,6 +24,10 @@
     {
       "url": "https://career.notino.cz/job/500988-b2b-sales-representative-in-budapest-budapest-esztergomi-ut-31-39",
       "nazev": "Nová pozice Notino Partner B2B Sales Representative in Budapest Budapest , HU"
+    },
+    {
+      "url": "https://career.notino.cz/job/501064-regional-trainer-retail-bg-si-hr-ro",
+      "nazev": "Nová pozice Retail Regional Trainer (Retail) - BG, SI, HR, RO"
     }
   ]
 }
