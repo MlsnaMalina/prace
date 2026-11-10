@@ -2,8 +2,8 @@
   "firma": "Air Bank a.s.",
   "karierni_url": "https://kariera.airbank.cz/",
   "ats_platforma": "vlastní",
-  "porizeno": "2026-11-09T14:21:59.427Z",
-  "pocet": 14,
+  "porizeno": "2026-11-10T13:48:08.787Z",
+  "pocet": 15,
   "inzeraty": [
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/ai-engineer-internich-nastroju",
@@ -56,6 +56,10 @@
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/seniorni-ai-vyvojar-ka-s-vedenim-tymu",
       "nazev": "HLAVNÍ MĚSTO PRAHA IT a vývoj Seniorní AI vývojář/ka s vedením týmu Hybrid Plný úvazek"
+    },
+    {
+      "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/systemovy-specialista-tka---linux-virtualizace-a-automatizace",
+      "nazev": "JIHOMORAVSKÝ KRAJ IT a vývoj Systémový specialista/tka – Linux, virtualizace a automatizace Hybrid Plný úvazek 55 až 70 000 Kč Roční bonus 10 %"
     },
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/team-leader-aml",
