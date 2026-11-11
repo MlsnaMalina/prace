@@ -2,8 +2,8 @@
   "firma": "Air Bank a.s.",
   "karierni_url": "https://kariera.airbank.cz/",
   "ats_platforma": "vlastní",
-  "porizeno": "2026-11-10T13:48:08.787Z",
-  "pocet": 15,
+  "porizeno": "2026-11-11T12:58:38.340Z",
+  "pocet": 16,
   "inzeraty": [
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/ai-engineer-internich-nastroju",
@@ -11,7 +11,7 @@
     },
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/backend-vyvojar-ka-senior",
-      "nazev": "HLAVNÍ MĚSTO PRAHA IT a vývoj Backend vývojář/ka senior Hybrid Plný úvazek"
+      "nazev": "HLAVNÍ MĚSTO PRAHA IT a vývoj Backend vývojář/ka senior Hybrid Plný úvazek Hlavní pracovní poměr"
     },
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/banker-ka-do-jihlavy",
@@ -31,11 +31,11 @@
     },
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/cloud-aws-site-reliability-engineer-ka",
-      "nazev": "HLAVNÍ MĚSTO PRAHA JIHOMORAVSKÝ KRAJ IT a vývoj Cloud AWS & Site Reliability Engineer/ka Hybrid Plný úvazek 95 až 110 000 Kč"
+      "nazev": "HLAVNÍ MĚSTO PRAHA JIHOMORAVSKÝ KRAJ IT a vývoj Cloud AWS & Site Reliability Engineer/ka Hybrid Plný úvazek Hlavní pracovní poměr 95 až 110 000 Kč"
     },
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/integracni-architekt-ka-2",
-      "nazev": "HLAVNÍ MĚSTO PRAHA IT a vývoj Integrační architekt/ka Hybrid Plný úvazek"
+      "nazev": "HLAVNÍ MĚSTO PRAHA IT a vývoj Integrační architekt/ka Hybrid Plný úvazek Hlavní pracovní poměr"
     },
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/it-helpdesk-specialista-tka",
@@ -58,8 +58,12 @@
       "nazev": "HLAVNÍ MĚSTO PRAHA IT a vývoj Seniorní AI vývojář/ka s vedením týmu Hybrid Plný úvazek"
     },
     {
+      "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/specialista-automatizace-a-robotizace-ai-procesy",
+      "nazev": "JIHOMORAVSKÝ KRAJ Analýza a data Specialista automatizace a robotizace (AI & procesy) Hybrid Plný úvazek 45 až 55 000 Kč Roční bonus 10 %"
+    },
+    {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/systemovy-specialista-tka---linux-virtualizace-a-automatizace",
-      "nazev": "JIHOMORAVSKÝ KRAJ IT a vývoj Systémový specialista/tka – Linux, virtualizace a automatizace Hybrid Plný úvazek 55 až 70 000 Kč Roční bonus 10 %"
+      "nazev": "JIHOMORAVSKÝ KRAJ IT a vývoj Systémový specialista/tka – Linux, virtualizace a automatizace Hybrid Hlavní pracovní poměr 55 až 70 000 Kč Roční bonus 10 %"
     },
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/team-leader-aml",
