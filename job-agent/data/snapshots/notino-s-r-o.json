@@ -2,13 +2,9 @@
   "firma": "Notino, s.r.o.",
   "karierni_url": "https://career.notino.cz/",
   "ats_platforma": "Alma Career (notino.jobs.cz) + vlastní",
-  "porizeno": "2026-11-12T14:01:52.464Z",
+  "porizeno": "2026-11-13T13:29:15.850Z",
   "pocet": 6,
   "inzeraty": [
-    {
-      "url": "https://career.notino.cz/job/495151-senior-product-manager-pricing-promo-brno-stred-londynske-namesti-10363",
-      "nazev": "Nová pozice Customer Experience Senior Product Manager - Pricing & Promo Brno-střed , CZ"
-    },
     {
       "url": "https://career.notino.cz/job/498745-team-assistant-brno-londynske-namesti-881-1",
       "nazev": "Nová pozice Team Assistant Brno , CZ"
@@ -22,12 +18,16 @@
       "nazev": "Nová pozice Retail Senior L&D Program Specialist Brno , CZ"
     },
     {
-      "url": "https://career.notino.cz/job/501152-head-of-regional-retail-for-cz-sk-at-hu-brno-londynske-namesti-881",
-      "nazev": "Nová pozice Retail Head of Regional Retail for CZ, SK, AT, HU Brno , CZ"
+      "url": "https://career.notino.cz/job/501333-senior-backend-developer-legal-compliance-team-brno-londynske-namesti-881",
+      "nazev": "Nová pozice IT Senior Backend Developer - Legal Compliance Team Brno , CZ"
     },
     {
-      "url": "https://career.notino.cz/job/501282-notino-beauty-consultant-promenada-bucuresti-calea-floreasca-246b",
-      "nazev": "Nová pozice Retail NOTINO - Beauty Consultant - Promenada București , RO"
+      "url": "https://career.notino.cz/job/501416-senior-backend-developer-navigation-team",
+      "nazev": "Nová pozice IT Senior Backend Developer - Navigation Team Brno , CZ"
+    },
+    {
+      "url": "https://career.notino.cz/job/501426-vendor-marketing-specialist-brno-londynske-namesti-881",
+      "nazev": "Nová pozice Commerce Vendor Marketing Specialist Brno , CZ"
     }
   ]
 }

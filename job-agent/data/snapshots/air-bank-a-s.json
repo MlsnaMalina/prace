@@ -2,8 +2,8 @@
   "firma": "Air Bank a.s.",
   "karierni_url": "https://kariera.airbank.cz/",
   "ats_platforma": "vlastní",
-  "porizeno": "2026-11-12T14:00:05.731Z",
-  "pocet": 16,
+  "porizeno": "2026-11-13T13:27:17.320Z",
+  "pocet": 15,
   "inzeraty": [
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/ai-engineer-internich-nastroju",
@@ -14,16 +14,8 @@
       "nazev": "HLAVNÍ MĚSTO PRAHA IT a vývoj Backend vývojář/ka senior Hybrid Plný úvazek Hlavní pracovní poměr"
     },
     {
-      "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/banker-ka-do-jihlavy",
-      "nazev": "KRAJ VYSOČINA Pobočky Bankéř/ka na pobočce v Jihlavě Na pobočce Plný úvazek 40 až 50 000 Kč"
-    },
-    {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/banker-ka-mobilniho-pobockoveho-tymu",
       "nazev": "HLAVNÍ MĚSTO PRAHA Kontaktní centrum Pobočky Bankéř/ka mobilního pobočkového týmu Hybrid Plný úvazek 45 až 55 000 Kč"
-    },
-    {
-      "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/banker-ka-na-pobocce-v-brne-vankovka-2",
-      "nazev": "JIHOMORAVSKÝ KRAJ Pobočky Bankéř/ka na pobočce v Brně Na pobočce Plný úvazek 40 až 50 000 Kč"
     },
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/banker-ka-na-pobocce-v-praze-metropole-zlicin",
@@ -32,6 +24,10 @@
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/cloud-aws-site-reliability-engineer-ka",
       "nazev": "HLAVNÍ MĚSTO PRAHA JIHOMORAVSKÝ KRAJ IT a vývoj Cloud AWS & Site Reliability Engineer/ka Hybrid Plný úvazek Hlavní pracovní poměr 95 až 110 000 Kč"
+    },
+    {
+      "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/hypotecni-expert-ka-do-air-bank",
+      "nazev": "HLAVNÍ MĚSTO PRAHA Hypoteční centrum Hypoteční expert/ka Hybrid Hlavní pracovní poměr 48 až 55 000 Kč"
     },
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/integracni-architekt-ka-2",
@@ -46,10 +42,6 @@
       "nazev": "JIHOMORAVSKÝ KRAJ Právo a compliance Právník / právnička v týmu právního vymáhání Hybrid Plný úvazek Roční bonus 10 %"
     },
     {
-      "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/senior-banker-ka-do-brna-vankovka-a-jostova",
-      "nazev": "JIHOMORAVSKÝ KRAJ Pobočky Senior bankéř/ka do Brna Na pobočce Plný úvazek 50 až 60 000 Kč"
-    },
-    {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/senior-banker-ka-do-prahy-3",
       "nazev": "HLAVNÍ MĚSTO PRAHA Pobočky Senior bankéř/ka do Prahy Na pobočce Plný úvazek 50 až 60 000 Kč"
     },
@@ -60,6 +52,10 @@
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/specialista-automatizace-a-robotizace-ai-procesy",
       "nazev": "JIHOMORAVSKÝ KRAJ Analýza a data Specialista automatizace a robotizace (AI & procesy) Hybrid Plný úvazek 45 až 55 000 Kč Roční bonus 10 %"
+    },
+    {
+      "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/specialista-ka-ocenovani-nemovitosti",
+      "nazev": "JIHOMORAVSKÝ KRAJ Risk Specialista/tka oceňování nemovitostí Hybrid Hlavní pracovní poměr Plný i zkrácený úvazek 40 000 až 55 000 Kč"
     },
     {
       "url": "https://kariera.airbank.cz/pracujte-u-nas/nabidka/systemovy-specialista-tka---linux-virtualizace-a-automatizace",
